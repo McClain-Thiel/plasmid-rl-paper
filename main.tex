@@ -182,6 +182,21 @@ fine-tunes it using supervised fine-tuning (SFT), and then applies
 reinforcement learning (RL) to optimize for specific attributes in the
 output.
 
+\begin{figure*}[!t]
+\vskip 0.2in
+\begin{center}
+\includegraphics[width=\textwidth]{plasmid_llm_diagram.png}
+\caption{Overview of the Plasmid-RL training pipeline. Starting from the
+pretrained PlasmidGPT base model, we apply supervised fine-tuning on
+curated plasmid sequences, followed by reinforcement learning with Group
+Relative Policy Optimization (GRPO) using a biologically-motivated reward
+function that evaluates functional annotations, length constraints, and
+repeat content.}
+\label{fig:methods_overview}
+\end{center}
+\vskip -0.2in
+\end{figure*}
+
 \subsection{Supervised Fine-Tuning}
 
 Supervised fine-tuning (SFT) was performed on a curated corpus of

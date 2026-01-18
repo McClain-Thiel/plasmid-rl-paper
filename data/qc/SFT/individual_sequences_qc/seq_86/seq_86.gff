@@ -1,0 +1,14 @@
+##gff-version  3
+# Sequence Data: seqnum=1;seqlen=10314;seqhdr="seq_86"
+# Model Data: version=Prodigal.v2.6.3;run_type=Metagenomic;model="41|Shigella_dysenteriae_Sd197|B|51.2|11|1";gc_cont=51.20;transl_table=11;uses_sd=1
+seq_86	Prodigal_v2.6.3	CDS	17	205	5.3	+	0	ID=1_1;partial=00;start_type=GTG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.603;conf=77.14;score=5.29;cscore=6.58;sscore=-1.29;rscore=1.74;uscore=0.64;tscore=-3.67;
+seq_86	Prodigal_v2.6.3	CDS	1734	2594	64.5	+	0	ID=1_2;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.492;conf=100.00;score=63.88;cscore=49.22;sscore=14.67;rscore=10.46;uscore=1.54;tscore=3.32;
+seq_86	Prodigal_v2.6.3	CDS	3783	3974	15.3	-	0	ID=1_3;partial=00;start_type=GTG;rbs_motif=GGAGG;rbs_spacer=5-10bp;gc_cont=0.526;conf=97.11;score=15.28;cscore=9.16;sscore=6.12;rscore=9.19;uscore=0.55;tscore=-3.61;
+seq_86	Prodigal_v2.6.3	CDS	4078	4341	9.5	-	0	ID=1_4;partial=00;start_type=GTG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.523;conf=91.63;score=10.41;cscore=9.36;sscore=1.05;rscore=2.34;uscore=0.49;tscore=-2.73;
+seq_86	Prodigal_v2.6.3	CDS	4371	4727	17.7	-	0	ID=1_5;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.616;conf=98.56;score=18.37;cscore=10.67;sscore=7.71;rscore=2.34;uscore=1.38;tscore=3.32;
+seq_86	Prodigal_v2.6.3	CDS	4783	5874	125.1	-	0	ID=1_6;partial=00;start_type=GTG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.563;conf=100.00;score=124.47;cscore=127.68;sscore=-3.21;rscore=2.34;uscore=-2.16;tscore=-2.73;
+seq_86	Prodigal_v2.6.3	CDS	6041	6280	10.0	+	0	ID=1_7;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.617;conf=90.95;score=10.04;cscore=1.72;sscore=8.32;rscore=9.91;uscore=-4.74;tscore=3.15;
+seq_86	Prodigal_v2.6.3	CDS	6339	6557	4.9	+	0	ID=1_8;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.543;conf=75.36;score=4.86;cscore=-12.09;sscore=16.95;rscore=12.74;uscore=1.84;tscore=2.87;
+seq_86	Prodigal_v2.6.3	CDS	7539	8354	36.3	-	0	ID=1_9;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.435;conf=99.97;score=35.67;cscore=29.94;sscore=5.72;rscore=2.34;uscore=0.72;tscore=3.32;
+seq_86	Prodigal_v2.6.3	CDS	9494	9685	15.3	-	0	ID=1_10;partial=00;start_type=GTG;rbs_motif=GGAGG;rbs_spacer=5-10bp;gc_cont=0.526;conf=97.11;score=15.28;cscore=9.16;sscore=6.12;rscore=9.19;uscore=0.55;tscore=-3.61;
+seq_86	Prodigal_v2.6.3	CDS	9789	10052	9.5	-	0	ID=1_11;partial=00;start_type=GTG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.523;conf=89.78;score=9.45;cscore=9.36;sscore=0.10;rscore=2.34;uscore=0.49;tscore=-2.73;

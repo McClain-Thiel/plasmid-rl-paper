@@ -1,0 +1,70 @@
+# LaTeX build artifacts
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.synctex.gz(busy)
+*.bbl
+*.blg
+*.bcf
+*.run.xml
+*.nav
+*.snm
+*.vrb
+
+# LaTeX temporary files
+*.dvi
+*.ps
+
+# PDF output (uncomment if you don't want to track the compiled PDF)
+# main.pdf
+
+# BibTeX
+*.bib.bak
+*.bib.sav
+
+# Build directories
+build/
+output/
+
+# Editor/IDE files
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.*.swp
+
+# Python (if you add analysis scripts)
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+*.so
+.env
+.venv
+env/
+venv/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Data files that are too large (examples - adjust as needed)
+# data/*.csv
+# data/*.h5
+# data/*.pkl
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db

@@ -1,0 +1,5 @@
+DEFINITION  seqnum=1;seqlen=1424;seqhdr="seq_74";version=Prodigal.v2.6.3;run_type=Metagenomic;model="34|Prochlorococcus_marinus_MIT_9313|B|50.7|11|0";gc_cont=50.70;transl_table=11;uses_sd=0
+FEATURES             Location/Qualifiers
+     CDS             730..1185
+                     /note="ID=1_1;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.590;conf=86.36;score=8.03;cscore=5.10;sscore=2.93;rscore=0.00;uscore=-1.67;tscore=4.60;"
+//

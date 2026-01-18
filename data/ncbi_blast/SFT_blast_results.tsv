@@ -1,0 +1,451 @@
+query_id	query_length	subject_id	subject_title	subject_length	align_length	identities	pct_identity	query_coverage	subject_coverage	evalue	bitscore
+SFT_seq_0	8380	gi|332650943|gb|JF327847.1|	gi|332650943|gb|JF327847.1| Expression vector LIC-pDEST-LC2, complete sequence	6349	4569	4565	99.91	54.52	71.96	0.0	8412.61
+SFT_seq_0	8380	gi|332650943|gb|JF327847.1|	gi|332650943|gb|JF327847.1| Expression vector LIC-pDEST-LC2, complete sequence	6349	45	45	100.0	0.54	0.71	3.85784e-10	84.2195
+SFT_seq_0	8380	gi|332650941|gb|JF327846.1|	gi|332650941|gb|JF327846.1| Expression vector LIC-pDEST-LC1, complete sequence	6366	4572	4567	99.89	54.56	71.82	0.0	8412.61
+SFT_seq_0	8380	gi|332650941|gb|JF327846.1|	gi|332650941|gb|JF327846.1| Expression vector LIC-pDEST-LC1, complete sequence	6366	45	45	100.0	0.54	0.71	3.85784e-10	84.2195
+SFT_seq_0	8380	gi|1781339263|gb|MK910749.1|	gi|1781339263|gb|MK910749.1| Expression vector pDEST17-AceKMs, complete sequence	5842	4502	4498	99.91	53.72	77.06	0.0	8288.88
+SFT_seq_0	8380	gi|1781339263|gb|MK910749.1|	gi|1781339263|gb|MK910749.1| Expression vector pDEST17-AceKMs, complete sequence	5842	63	63	100.0	0.75	1.08	3.80364e-20	117.459
+SFT_seq_0	8380	gi|1781339263|gb|MK910749.1|	gi|1781339263|gb|MK910749.1| Expression vector pDEST17-AceKMs, complete sequence	5842	73	67	91.78	0.87	1.25	4.95525e-14	97.1461
+SFT_seq_0	8380	gi|1781339275|gb|MK910753.1|	gi|1781339275|gb|MK910753.1| Expression vector pCJH5_pDEST17-EcG3PD, complete sequence	5734	4502	4498	99.91	53.72	78.51	0.0	8288.88
+SFT_seq_0	8380	gi|1781339275|gb|MK910753.1|	gi|1781339275|gb|MK910753.1| Expression vector pCJH5_pDEST17-EcG3PD, complete sequence	5734	63	63	100.0	0.75	1.1	3.80364e-20	117.459
+SFT_seq_0	8380	gi|1781339275|gb|MK910753.1|	gi|1781339275|gb|MK910753.1| Expression vector pCJH5_pDEST17-EcG3PD, complete sequence	5734	73	67	91.78	0.87	1.27	4.95525e-14	97.1461
+SFT_seq_0	8380	gi|3168962|emb|AJ006407.1|	gi|3168962|emb|AJ006407.1| Bacillus intermedius plasmid pET3xa-barn36, gene encoding barnase	4753	4448	4447	99.98	53.08	93.58	0.0	8209.48
+SFT_seq_0	8380	gi|3168962|emb|AJ006407.1|	gi|3168962|emb|AJ006407.1| Bacillus intermedius plasmid pET3xa-barn36, gene encoding barnase	4753	122	122	100.0	1.46	2.57	6.05731e-53	226.412
+SFT_seq_0	8380	gi|3168962|emb|AJ006407.1|	gi|3168962|emb|AJ006407.1| Bacillus intermedius plasmid pET3xa-barn36, gene encoding barnase	4753	46	46	100.0	0.55	0.97	1.07262e-10	86.0662
+SFT_seq_1	7194	gi|1272206680|gb|KY349820.1|	gi|1272206680|gb|KY349820.1| Synthetic construct verrucomicrobium spinosum tyrosinase (Tyr) and ampi	3723	2603	2599	99.85	36.18	69.92	0.0	4783.94
+SFT_seq_1	7194	gi|1272206680|gb|KY349820.1|	gi|1272206680|gb|KY349820.1| Synthetic construct verrucomicrobium spinosum tyrosinase (Tyr) and ampi	3723	903	903	100.0	12.55	24.25	0.0	1668.64
+SFT_seq_1	7194	gi|1272206680|gb|KY349820.1|	gi|1272206680|gb|KY349820.1| Synthetic construct verrucomicrobium spinosum tyrosinase (Tyr) and ampi	3723	439	439	100.0	6.1	11.79	0.0	811.799
+SFT_seq_1	7194	gi|169730553|gb|EU418501.1|	gi|169730553|gb|EU418501.1| Cloning vector pDSBA-TEV DsbA mutant/His-tag/TEV protease mutant fusion 	4132	2603	2599	99.85	36.18	63.0	0.0	4783.94
+SFT_seq_1	7194	gi|169730553|gb|EU418501.1|	gi|169730553|gb|EU418501.1| Cloning vector pDSBA-TEV DsbA mutant/His-tag/TEV protease mutant fusion 	4132	903	903	100.0	12.55	21.85	0.0	1668.64
+SFT_seq_1	7194	gi|169730553|gb|EU418501.1|	gi|169730553|gb|EU418501.1| Cloning vector pDSBA-TEV DsbA mutant/His-tag/TEV protease mutant fusion 	4132	439	439	100.0	6.1	10.62	0.0	811.799
+SFT_seq_1	7194	gi|1812619136|gb|MN161744.1|	gi|1812619136|gb|MN161744.1| Cloning vector pEA206, complete sequence	7861	2603	2599	99.85	36.18	33.11	0.0	4783.94
+SFT_seq_1	7194	gi|1812619136|gb|MN161744.1|	gi|1812619136|gb|MN161744.1| Cloning vector pEA206, complete sequence	7861	903	903	100.0	12.55	11.49	0.0	1668.64
+SFT_seq_1	7194	gi|1812619136|gb|MN161744.1|	gi|1812619136|gb|MN161744.1| Cloning vector pEA206, complete sequence	7861	439	439	100.0	6.1	5.58	0.0	811.799
+SFT_seq_1	7194	gi|1338126328|dbj|LC363502.1|	gi|1338126328|dbj|LC363502.1| Cloning vector pRSET-TriEX DNA, complete sequence	2924	2603	2599	99.85	36.18	89.02	0.0	4783.94
+SFT_seq_1	7194	gi|1338126328|dbj|LC363502.1|	gi|1338126328|dbj|LC363502.1| Cloning vector pRSET-TriEX DNA, complete sequence	2924	903	903	100.0	12.55	30.88	0.0	1668.64
+SFT_seq_1	7194	gi|1338126328|dbj|LC363502.1|	gi|1338126328|dbj|LC363502.1| Cloning vector pRSET-TriEX DNA, complete sequence	2924	439	439	100.0	6.1	15.01	0.0	811.799
+SFT_seq_1	7194	gi|287943|emb|X54209.1|	gi|287943|emb|X54209.1| Cloning vector pRSET6d (pBluescript KS plus derivative)	2828	2613	2605	99.69	36.32	92.4	0.0	4778.4
+SFT_seq_1	7194	gi|287943|emb|X54209.1|	gi|287943|emb|X54209.1| Cloning vector pRSET6d (pBluescript KS plus derivative)	2828	903	902	99.89	12.55	31.93	0.0	1663.1
+SFT_seq_1	7194	gi|287943|emb|X54209.1|	gi|287943|emb|X54209.1| Cloning vector pRSET6d (pBluescript KS plus derivative)	2828	439	439	100.0	6.1	15.52	0.0	811.799
+SFT_seq_2	6507	gi|2860240406|gb|CP174135.1|	gi|2860240406|gb|CP174135.1| Cronobacter malonaticus strain NWU01 plasmid unnamed3, complete sequenc	5284	4556	4534	99.52	70.02	86.22	0.0	8277.8
+SFT_seq_2	6507	gi|2860240406|gb|CP174135.1|	gi|2860240406|gb|CP174135.1| Cronobacter malonaticus strain NWU01 plasmid unnamed3, complete sequenc	5284	426	425	99.77	6.55	8.06	0.0	780.406
+SFT_seq_2	6507	gi|2860240406|gb|CP174135.1|	gi|2860240406|gb|CP174135.1| Cronobacter malonaticus strain NWU01 plasmid unnamed3, complete sequenc	5284	252	252	100.0	3.87	4.77	2.54292e-125	466.476
+SFT_seq_2	6507	gi|2860240406|gb|CP174135.1|	gi|2860240406|gb|CP174135.1| Cronobacter malonaticus strain NWU01 plasmid unnamed3, complete sequenc	5284	59	56	94.92	0.91	1.12	1.78818e-12	91.6061
+SFT_seq_2	6507	gi|2860240406|gb|CP174135.1|	gi|2860240406|gb|CP174135.1| Cronobacter malonaticus strain NWU01 plasmid unnamed3, complete sequenc	5284	59	56	94.92	0.91	1.12	1.78818e-12	91.6061
+SFT_seq_2	6507	gi|2860240406|gb|CP174135.1|	gi|2860240406|gb|CP174135.1| Cronobacter malonaticus strain NWU01 plasmid unnamed3, complete sequenc	5284	59	56	94.92	0.91	1.12	1.78818e-12	91.6061
+SFT_seq_2	6507	gi|339896627|gb|JN201968.1|	gi|339896627|gb|JN201968.1| Cloning vector pRR02, complete sequence	6352	4032	4023	99.78	61.96	63.48	0.0	7393.26
+SFT_seq_2	6507	gi|339896627|gb|JN201968.1|	gi|339896627|gb|JN201968.1| Cloning vector pRR02, complete sequence	6352	918	918	100.0	14.11	14.45	0.0	1696.34
+SFT_seq_2	6507	gi|339896627|gb|JN201968.1|	gi|339896627|gb|JN201968.1| Cloning vector pRR02, complete sequence	6352	252	252	100.0	3.87	3.97	2.54292e-125	466.476
+SFT_seq_2	6507	gi|339896627|gb|JN201968.1|	gi|339896627|gb|JN201968.1| Cloning vector pRR02, complete sequence	6352	59	56	94.92	0.91	0.93	1.78818e-12	91.6061
+SFT_seq_2	6507	gi|339896627|gb|JN201968.1|	gi|339896627|gb|JN201968.1| Cloning vector pRR02, complete sequence	6352	59	56	94.92	0.91	0.93	1.78818e-12	91.6061
+SFT_seq_2	6507	gi|339896627|gb|JN201968.1|	gi|339896627|gb|JN201968.1| Cloning vector pRR02, complete sequence	6352	59	56	94.92	0.91	0.93	1.78818e-12	91.6061
+SFT_seq_2	6507	gi|339896623|gb|JN201967.1|	gi|339896623|gb|JN201967.1| Cloning vector pRR03, complete sequence	6196	4032	4023	99.78	61.96	65.07	0.0	7393.26
+SFT_seq_2	6507	gi|339896623|gb|JN201967.1|	gi|339896623|gb|JN201967.1| Cloning vector pRR03, complete sequence	6196	918	918	100.0	14.11	14.82	0.0	1696.34
+SFT_seq_2	6507	gi|339896623|gb|JN201967.1|	gi|339896623|gb|JN201967.1| Cloning vector pRR03, complete sequence	6196	252	252	100.0	3.87	4.07	2.54292e-125	466.476
+SFT_seq_2	6507	gi|339896623|gb|JN201967.1|	gi|339896623|gb|JN201967.1| Cloning vector pRR03, complete sequence	6196	59	56	94.92	0.91	0.95	1.78818e-12	91.6061
+SFT_seq_2	6507	gi|339896623|gb|JN201967.1|	gi|339896623|gb|JN201967.1| Cloning vector pRR03, complete sequence	6196	59	56	94.92	0.91	0.95	1.78818e-12	91.6061
+SFT_seq_2	6507	gi|339896623|gb|JN201967.1|	gi|339896623|gb|JN201967.1| Cloning vector pRR03, complete sequence	6196	59	56	94.92	0.91	0.95	1.78818e-12	91.6061
+SFT_seq_2	6507	gi|339896631|gb|JN201969.1|	gi|339896631|gb|JN201969.1| Cloning vector pRR04, complete sequence	6571	4032	4023	99.78	61.96	61.36	0.0	7393.26
+SFT_seq_2	6507	gi|339896631|gb|JN201969.1|	gi|339896631|gb|JN201969.1| Cloning vector pRR04, complete sequence	6571	918	918	100.0	14.11	13.97	0.0	1696.34
+SFT_seq_2	6507	gi|339896631|gb|JN201969.1|	gi|339896631|gb|JN201969.1| Cloning vector pRR04, complete sequence	6571	252	252	100.0	3.87	3.84	2.54292e-125	466.476
+SFT_seq_2	6507	gi|339896631|gb|JN201969.1|	gi|339896631|gb|JN201969.1| Cloning vector pRR04, complete sequence	6571	59	56	94.92	0.91	0.9	1.78818e-12	91.6061
+SFT_seq_2	6507	gi|339896631|gb|JN201969.1|	gi|339896631|gb|JN201969.1| Cloning vector pRR04, complete sequence	6571	59	56	94.92	0.91	0.9	1.78818e-12	91.6061
+SFT_seq_2	6507	gi|339896631|gb|JN201969.1|	gi|339896631|gb|JN201969.1| Cloning vector pRR04, complete sequence	6571	59	56	94.92	0.91	0.9	1.78818e-12	91.6061
+SFT_seq_2	6507	gi|339896635|gb|JN201970.1|	gi|339896635|gb|JN201970.1| Cloning vector pRR05, complete sequence	6430	4032	4023	99.78	61.96	62.71	0.0	7393.26
+SFT_seq_2	6507	gi|339896635|gb|JN201970.1|	gi|339896635|gb|JN201970.1| Cloning vector pRR05, complete sequence	6430	918	918	100.0	14.11	14.28	0.0	1696.34
+SFT_seq_2	6507	gi|339896635|gb|JN201970.1|	gi|339896635|gb|JN201970.1| Cloning vector pRR05, complete sequence	6430	252	252	100.0	3.87	3.92	2.54292e-125	466.476
+SFT_seq_2	6507	gi|339896635|gb|JN201970.1|	gi|339896635|gb|JN201970.1| Cloning vector pRR05, complete sequence	6430	59	56	94.92	0.91	0.92	1.78818e-12	91.6061
+SFT_seq_2	6507	gi|339896635|gb|JN201970.1|	gi|339896635|gb|JN201970.1| Cloning vector pRR05, complete sequence	6430	59	56	94.92	0.91	0.92	1.78818e-12	91.6061
+SFT_seq_2	6507	gi|339896635|gb|JN201970.1|	gi|339896635|gb|JN201970.1| Cloning vector pRR05, complete sequence	6430	59	56	94.92	0.91	0.92	1.78818e-12	91.6061
+SFT_seq_3	8333	gi|1885765006|gb|MN626475.1|	gi|1885765006|gb|MN626475.1| Cloning vector pRK102, complete sequence	11740	2657	2644	99.51	31.89	22.63	0.0	4822.72
+SFT_seq_3	8333	gi|1885765006|gb|MN626475.1|	gi|1885765006|gb|MN626475.1| Cloning vector pRK102, complete sequence	11740	78	78	100.0	0.94	0.66	1.73497e-28	145.159
+SFT_seq_3	8333	gi|1885765006|gb|MN626475.1|	gi|1885765006|gb|MN626475.1| Cloning vector pRK102, complete sequence	11740	72	72	100.0	0.86	0.61	3.75554e-25	134.079
+SFT_seq_3	8333	gi|1885765006|gb|MN626475.1|	gi|1885765006|gb|MN626475.1| Cloning vector pRK102, complete sequence	11740	46	46	100.0	0.55	0.39	1.06658e-10	86.0662
+SFT_seq_3	8333	gi|1885764988|gb|MN626473.1|	gi|1885764988|gb|MN626473.1| Cloning vector pRK100, complete sequence	11862	2657	2644	99.51	31.89	22.4	0.0	4822.72
+SFT_seq_3	8333	gi|1885764988|gb|MN626473.1|	gi|1885764988|gb|MN626473.1| Cloning vector pRK100, complete sequence	11862	78	78	100.0	0.94	0.66	1.73497e-28	145.159
+SFT_seq_3	8333	gi|1885764988|gb|MN626473.1|	gi|1885764988|gb|MN626473.1| Cloning vector pRK100, complete sequence	11862	72	72	100.0	0.86	0.61	3.75554e-25	134.079
+SFT_seq_3	8333	gi|1885764988|gb|MN626473.1|	gi|1885764988|gb|MN626473.1| Cloning vector pRK100, complete sequence	11862	46	46	100.0	0.55	0.39	1.06658e-10	86.0662
+SFT_seq_3	8333	gi|1992372257|gb|MW476676.1|	gi|1992372257|gb|MW476676.1| Cloning vector pSEVAb627, complete sequence	4434	2616	2602	99.46	31.39	59.0	0.0	4741.47
+SFT_seq_3	8333	gi|1992372257|gb|MW476676.1|	gi|1992372257|gb|MW476676.1| Cloning vector pSEVAb627, complete sequence	4434	78	78	100.0	0.94	1.76	1.73497e-28	145.159
+SFT_seq_3	8333	gi|1992372257|gb|MW476676.1|	gi|1992372257|gb|MW476676.1| Cloning vector pSEVAb627, complete sequence	4434	72	72	100.0	0.86	1.62	3.75554e-25	134.079
+SFT_seq_3	8333	gi|1992372257|gb|MW476676.1|	gi|1992372257|gb|MW476676.1| Cloning vector pSEVAb627, complete sequence	4434	46	46	100.0	0.55	1.04	1.06658e-10	86.0662
+SFT_seq_3	8333	gi|1992372225|gb|MW476669.1|	gi|1992372225|gb|MW476669.1| Cloning vector pSEVAb227, complete sequence	4556	2616	2602	99.46	31.39	57.42	0.0	4741.47
+SFT_seq_3	8333	gi|1992372225|gb|MW476669.1|	gi|1992372225|gb|MW476669.1| Cloning vector pSEVAb227, complete sequence	4556	78	78	100.0	0.94	1.71	1.73497e-28	145.159
+SFT_seq_3	8333	gi|1992372225|gb|MW476669.1|	gi|1992372225|gb|MW476669.1| Cloning vector pSEVAb227, complete sequence	4556	72	72	100.0	0.86	1.58	3.75554e-25	134.079
+SFT_seq_3	8333	gi|1992372225|gb|MW476669.1|	gi|1992372225|gb|MW476669.1| Cloning vector pSEVAb227, complete sequence	4556	46	46	100.0	0.55	1.01	1.06658e-10	86.0662
+SFT_seq_3	8333	gi|1992372207|gb|MW476665.1|	gi|1992372207|gb|MW476665.1| Cloning vector pSEVAb127, complete sequence	4657	2616	2602	99.46	31.39	56.17	0.0	4741.47
+SFT_seq_3	8333	gi|1992372207|gb|MW476665.1|	gi|1992372207|gb|MW476665.1| Cloning vector pSEVAb127, complete sequence	4657	962	760	79.0	11.54	20.66	0.0	652.988
+SFT_seq_3	8333	gi|1992372207|gb|MW476665.1|	gi|1992372207|gb|MW476665.1| Cloning vector pSEVAb127, complete sequence	4657	78	78	100.0	0.94	1.67	1.73497e-28	145.159
+SFT_seq_3	8333	gi|1992372207|gb|MW476665.1|	gi|1992372207|gb|MW476665.1| Cloning vector pSEVAb127, complete sequence	4657	72	72	100.0	0.86	1.55	3.75554e-25	134.079
+SFT_seq_3	8333	gi|1992372207|gb|MW476665.1|	gi|1992372207|gb|MW476665.1| Cloning vector pSEVAb127, complete sequence	4657	46	46	100.0	0.55	0.99	1.06658e-10	86.0662
+SFT_seq_4	6770	gi|1034281678|gb|KU974159.1|	gi|1034281678|gb|KU974159.1| Expression vector pTEV19, complete sequence	6610	5214	5207	99.87	77.02	78.88	0.0	9590.77
+SFT_seq_4	6770	gi|1034281672|gb|KU974157.1|	gi|1034281672|gb|KU974157.1| Expression vector pTEV17, complete sequence	6610	5214	5207	99.87	77.02	78.88	0.0	9590.77
+SFT_seq_4	6770	gi|27573253|gb|AF525442.1|	gi|27573253|gb|AF525442.1| Expression vector pETAT-2, complete sequence	5451	5208	5203	99.9	76.93	95.54	0.0	9587.08
+SFT_seq_4	6770	gi|164470790|gb|EU337982.1|	gi|164470790|gb|EU337982.1| Expression vector pKLD66, complete sequence	6608	5208	5203	99.9	76.93	78.81	0.0	9587.08
+SFT_seq_4	6770	gi|164470793|gb|EU337983.1|	gi|164470793|gb|EU337983.1| Expression vector pKLD116, complete sequence	6626	5208	5203	99.9	76.93	78.6	0.0	9587.08
+SFT_seq_5	13719	gi|817548398|gb|KR069097.1|	gi|817548398|gb|KR069097.1| Expression vector pET28_nusA_tjp1aN, complete sequence	7316	5200	5200	100.0	37.9	71.08	0.0	9603.7
+SFT_seq_5	13719	gi|817548398|gb|KR069097.1|	gi|817548398|gb|KR069097.1| Expression vector pET28_nusA_tjp1aN, complete sequence	7316	1754	1754	100.0	12.79	23.97	0.0	3240.14
+SFT_seq_5	13719	gi|817548398|gb|KR069097.1|	gi|817548398|gb|KR069097.1| Expression vector pET28_nusA_tjp1aN, complete sequence	7316	321	321	100.0	2.34	4.39	2.36417e-163	593.895
+SFT_seq_5	13719	gi|817548398|gb|KR069097.1|	gi|817548398|gb|KR069097.1| Expression vector pET28_nusA_tjp1aN, complete sequence	7316	292	292	100.0	2.13	3.99	3.12384e-147	540.342
+SFT_seq_5	13719	gi|817548398|gb|KR069097.1|	gi|817548398|gb|KR069097.1| Expression vector pET28_nusA_tjp1aN, complete sequence	7316	136	136	100.0	0.99	1.86	1.63912e-60	252.265
+SFT_seq_5	13719	gi|817548398|gb|KR069097.1|	gi|817548398|gb|KR069097.1| Expression vector pET28_nusA_tjp1aN, complete sequence	7316	85	85	100.0	0.62	1.16	3.67583e-32	158.086
+SFT_seq_5	13719	gi|817548398|gb|KR069097.1|	gi|817548398|gb|KR069097.1| Expression vector pET28_nusA_tjp1aN, complete sequence	7316	40	40	100.0	0.29	0.55	3.80818e-07	74.9863
+SFT_seq_5	13719	gi|817548392|gb|KR069095.1|	gi|817548392|gb|KR069095.1| Expression vector pET28_nusA_tjp1aC, complete sequence	7172	5200	5200	100.0	37.9	72.5	0.0	9603.7
+SFT_seq_5	13719	gi|817548392|gb|KR069095.1|	gi|817548392|gb|KR069095.1| Expression vector pET28_nusA_tjp1aC, complete sequence	7172	1754	1754	100.0	12.79	24.46	0.0	3240.14
+SFT_seq_5	13719	gi|817548392|gb|KR069095.1|	gi|817548392|gb|KR069095.1| Expression vector pET28_nusA_tjp1aC, complete sequence	7172	321	321	100.0	2.34	4.48	2.36417e-163	593.895
+SFT_seq_5	13719	gi|817548392|gb|KR069095.1|	gi|817548392|gb|KR069095.1| Expression vector pET28_nusA_tjp1aC, complete sequence	7172	292	292	100.0	2.13	4.07	3.12384e-147	540.342
+SFT_seq_5	13719	gi|817548392|gb|KR069095.1|	gi|817548392|gb|KR069095.1| Expression vector pET28_nusA_tjp1aC, complete sequence	7172	136	136	100.0	0.99	1.9	1.63912e-60	252.265
+SFT_seq_5	13719	gi|817548392|gb|KR069095.1|	gi|817548392|gb|KR069095.1| Expression vector pET28_nusA_tjp1aC, complete sequence	7172	85	85	100.0	0.62	1.19	3.67583e-32	158.086
+SFT_seq_5	13719	gi|817548392|gb|KR069095.1|	gi|817548392|gb|KR069095.1| Expression vector pET28_nusA_tjp1aC, complete sequence	7172	40	40	100.0	0.29	0.56	3.80818e-07	74.9863
+SFT_seq_5	13719	gi|1678415828|gb|MK720606.1|	gi|1678415828|gb|MK720606.1| Expression vector pNC-ET28, complete sequence	5979	5200	5200	100.0	37.9	86.97	0.0	9603.7
+SFT_seq_5	13719	gi|1678415828|gb|MK720606.1|	gi|1678415828|gb|MK720606.1| Expression vector pNC-ET28, complete sequence	5979	1754	1754	100.0	12.79	29.34	0.0	3240.14
+SFT_seq_5	13719	gi|1678415828|gb|MK720606.1|	gi|1678415828|gb|MK720606.1| Expression vector pNC-ET28, complete sequence	5979	321	321	100.0	2.34	5.37	2.36417e-163	593.895
+SFT_seq_5	13719	gi|1678415828|gb|MK720606.1|	gi|1678415828|gb|MK720606.1| Expression vector pNC-ET28, complete sequence	5979	292	292	100.0	2.13	4.88	3.12384e-147	540.342
+SFT_seq_5	13719	gi|1678415828|gb|MK720606.1|	gi|1678415828|gb|MK720606.1| Expression vector pNC-ET28, complete sequence	5979	136	136	100.0	0.99	2.27	1.63912e-60	252.265
+SFT_seq_5	13719	gi|1678415828|gb|MK720606.1|	gi|1678415828|gb|MK720606.1| Expression vector pNC-ET28, complete sequence	5979	85	85	100.0	0.62	1.42	3.67583e-32	158.086
+SFT_seq_5	13719	gi|1678415828|gb|MK720606.1|	gi|1678415828|gb|MK720606.1| Expression vector pNC-ET28, complete sequence	5979	40	40	100.0	0.29	0.67	3.80818e-07	74.9863
+SFT_seq_5	13719	gi|1272206674|gb|KY349818.1|	gi|1272206674|gb|KY349818.1| Synthetic construct Fp-131 (Fp-131) and kanamycin resistance (KanR2) ge	5915	5200	5200	100.0	37.9	87.91	0.0	9603.7
+SFT_seq_5	13719	gi|1272206674|gb|KY349818.1|	gi|1272206674|gb|KY349818.1| Synthetic construct Fp-131 (Fp-131) and kanamycin resistance (KanR2) ge	5915	1754	1754	100.0	12.79	29.65	0.0	3240.14
+SFT_seq_5	13719	gi|1272206674|gb|KY349818.1|	gi|1272206674|gb|KY349818.1| Synthetic construct Fp-131 (Fp-131) and kanamycin resistance (KanR2) ge	5915	321	321	100.0	2.34	5.43	2.36417e-163	593.895
+SFT_seq_5	13719	gi|1272206674|gb|KY349818.1|	gi|1272206674|gb|KY349818.1| Synthetic construct Fp-131 (Fp-131) and kanamycin resistance (KanR2) ge	5915	292	292	100.0	2.13	4.94	3.12384e-147	540.342
+SFT_seq_5	13719	gi|1272206674|gb|KY349818.1|	gi|1272206674|gb|KY349818.1| Synthetic construct Fp-131 (Fp-131) and kanamycin resistance (KanR2) ge	5915	136	136	100.0	0.99	2.3	1.63912e-60	252.265
+SFT_seq_5	13719	gi|1272206674|gb|KY349818.1|	gi|1272206674|gb|KY349818.1| Synthetic construct Fp-131 (Fp-131) and kanamycin resistance (KanR2) ge	5915	85	85	100.0	0.62	1.44	3.67583e-32	158.086
+SFT_seq_5	13719	gi|1272206674|gb|KY349818.1|	gi|1272206674|gb|KY349818.1| Synthetic construct Fp-131 (Fp-131) and kanamycin resistance (KanR2) ge	5915	42	42	100.0	0.31	0.71	2.9439e-08	78.6796
+SFT_seq_5	13719	gi|1272206677|gb|KY349819.1|	gi|1272206677|gb|KY349819.1| Synthetic construct Trx-Fp-131 (Trx-Fp-131) and kanamycin resistance (K	6269	5200	5200	100.0	37.9	82.95	0.0	9603.7
+SFT_seq_5	13719	gi|1272206677|gb|KY349819.1|	gi|1272206677|gb|KY349819.1| Synthetic construct Trx-Fp-131 (Trx-Fp-131) and kanamycin resistance (K	6269	1754	1754	100.0	12.79	27.98	0.0	3240.14
+SFT_seq_5	13719	gi|1272206677|gb|KY349819.1|	gi|1272206677|gb|KY349819.1| Synthetic construct Trx-Fp-131 (Trx-Fp-131) and kanamycin resistance (K	6269	321	321	100.0	2.34	5.12	2.36417e-163	593.895
+SFT_seq_5	13719	gi|1272206677|gb|KY349819.1|	gi|1272206677|gb|KY349819.1| Synthetic construct Trx-Fp-131 (Trx-Fp-131) and kanamycin resistance (K	6269	292	292	100.0	2.13	4.66	3.12384e-147	540.342
+SFT_seq_5	13719	gi|1272206677|gb|KY349819.1|	gi|1272206677|gb|KY349819.1| Synthetic construct Trx-Fp-131 (Trx-Fp-131) and kanamycin resistance (K	6269	136	136	100.0	0.99	2.17	1.63912e-60	252.265
+SFT_seq_5	13719	gi|1272206677|gb|KY349819.1|	gi|1272206677|gb|KY349819.1| Synthetic construct Trx-Fp-131 (Trx-Fp-131) and kanamycin resistance (K	6269	85	85	100.0	0.62	1.36	3.67583e-32	158.086
+SFT_seq_5	13719	gi|1272206677|gb|KY349819.1|	gi|1272206677|gb|KY349819.1| Synthetic construct Trx-Fp-131 (Trx-Fp-131) and kanamycin resistance (K	6269	42	42	100.0	0.31	0.67	2.9439e-08	78.6796
+SFT_seq_6	9404	gi|197223731|gb|EU689033.1|	gi|197223731|gb|EU689033.1| Tagging vector pFA6a-hphMX6-P41nmt1-3FLAG, complete sequence	5626	4055	4047	99.8	43.12	72.08	0.0	7443.12
+SFT_seq_6	9404	gi|197223731|gb|EU689033.1|	gi|197223731|gb|EU689033.1| Tagging vector pFA6a-hphMX6-P41nmt1-3FLAG, complete sequence	5626	765	762	99.61	8.13	13.6	0.0	1397.19
+SFT_seq_6	9404	gi|197223731|gb|EU689033.1|	gi|197223731|gb|EU689033.1| Tagging vector pFA6a-hphMX6-P41nmt1-3FLAG, complete sequence	5626	765	762	99.61	8.13	13.6	0.0	1397.19
+SFT_seq_6	9404	gi|187372941|gb|EU493338.1|	gi|187372941|gb|EU493338.1| Tagging vector pFA6a-5FLAG-hphMX6, complete sequence	4531	4055	4047	99.8	43.12	89.49	0.0	7443.12
+SFT_seq_6	9404	gi|187372941|gb|EU493338.1|	gi|187372941|gb|EU493338.1| Tagging vector pFA6a-5FLAG-hphMX6, complete sequence	4531	765	762	99.61	8.13	16.88	0.0	1397.19
+SFT_seq_6	9404	gi|187372941|gb|EU493338.1|	gi|187372941|gb|EU493338.1| Tagging vector pFA6a-5FLAG-hphMX6, complete sequence	4531	765	762	99.61	8.13	16.88	0.0	1397.19
+SFT_seq_6	9404	gi|197223735|gb|EU689034.1|	gi|197223735|gb|EU689034.1| Tagging vector pFA6a-hphMX6-P81nmt1-3FLAG, complete sequence	5623	4055	4047	99.8	43.12	72.11	0.0	7443.12
+SFT_seq_6	9404	gi|197223735|gb|EU689034.1|	gi|197223735|gb|EU689034.1| Tagging vector pFA6a-hphMX6-P81nmt1-3FLAG, complete sequence	5623	765	762	99.61	8.13	13.6	0.0	1397.19
+SFT_seq_6	9404	gi|197223735|gb|EU689034.1|	gi|197223735|gb|EU689034.1| Tagging vector pFA6a-hphMX6-P81nmt1-3FLAG, complete sequence	5623	765	762	99.61	8.13	13.6	0.0	1397.19
+SFT_seq_6	9404	gi|197223759|gb|EU689040.1|	gi|197223759|gb|EU689040.1| Tagging vector pFA6a-hphMX6-Purg1-3FLAG, complete sequence	5156	4055	4047	99.8	43.12	78.65	0.0	7443.12
+SFT_seq_6	9404	gi|197223759|gb|EU689040.1|	gi|197223759|gb|EU689040.1| Tagging vector pFA6a-hphMX6-Purg1-3FLAG, complete sequence	5156	765	762	99.61	8.13	14.84	0.0	1397.19
+SFT_seq_6	9404	gi|197223759|gb|EU689040.1|	gi|197223759|gb|EU689040.1| Tagging vector pFA6a-hphMX6-Purg1-3FLAG, complete sequence	5156	765	762	99.61	8.13	14.84	0.0	1397.19
+SFT_seq_6	9404	gi|197223727|gb|EU689032.1|	gi|197223727|gb|EU689032.1| Tagging vector pFA6a-hphMX6-P3nmt1-3FLAG, complete sequence	5630	4055	4047	99.8	43.12	72.02	0.0	7443.12
+SFT_seq_6	9404	gi|197223727|gb|EU689032.1|	gi|197223727|gb|EU689032.1| Tagging vector pFA6a-hphMX6-P3nmt1-3FLAG, complete sequence	5630	765	762	99.61	8.13	13.59	0.0	1397.19
+SFT_seq_6	9404	gi|197223727|gb|EU689032.1|	gi|197223727|gb|EU689032.1| Tagging vector pFA6a-hphMX6-P3nmt1-3FLAG, complete sequence	5630	765	762	99.61	8.13	13.59	0.0	1397.19
+SFT_seq_7	6683	gi|2025686597|gb|MW388777.1|	gi|2025686597|gb|MW388777.1| Cloning vector pTU3-A-RebFHOD_VioCDE_KanR, complete sequence	14756	2047	2045	99.9	30.63	13.87	0.0	3768.29
+SFT_seq_7	6683	gi|2025686597|gb|MW388777.1|	gi|2025686597|gb|MW388777.1| Cloning vector pTU3-A-RebFHOD_VioCDE_KanR, complete sequence	14756	306	306	100.0	4.58	2.07	2.50356e-155	566.195
+SFT_seq_7	6683	gi|2025686597|gb|MW388777.1|	gi|2025686597|gb|MW388777.1| Cloning vector pTU3-A-RebFHOD_VioCDE_KanR, complete sequence	14756	168	168	100.0	2.51	1.14	1.29519e-78	311.357
+SFT_seq_7	6683	gi|2025686597|gb|MW388777.1|	gi|2025686597|gb|MW388777.1| Cloning vector pTU3-A-RebFHOD_VioCDE_KanR, complete sequence	14756	132	132	100.0	1.98	0.89	1.33237e-58	244.878
+SFT_seq_7	6683	gi|2025686597|gb|MW388777.1|	gi|2025686597|gb|MW388777.1| Cloning vector pTU3-A-RebFHOD_VioCDE_KanR, complete sequence	14756	130	130	100.0	1.95	0.88	1.72353e-57	241.185
+SFT_seq_7	6683	gi|2025686597|gb|MW388777.1|	gi|2025686597|gb|MW388777.1| Cloning vector pTU3-A-RebFHOD_VioCDE_KanR, complete sequence	14756	130	130	100.0	1.95	0.88	1.72353e-57	241.185
+SFT_seq_7	6683	gi|2025686597|gb|MW388777.1|	gi|2025686597|gb|MW388777.1| Cloning vector pTU3-A-RebFHOD_VioCDE_KanR, complete sequence	14756	130	130	100.0	1.95	0.88	1.72353e-57	241.185
+SFT_seq_7	6683	gi|2025686597|gb|MW388777.1|	gi|2025686597|gb|MW388777.1| Cloning vector pTU3-A-RebFHOD_VioCDE_KanR, complete sequence	14756	144	140	97.22	2.15	0.98	1.72353e-57	241.185
+SFT_seq_7	6683	gi|2025686597|gb|MW388777.1|	gi|2025686597|gb|MW388777.1| Cloning vector pTU3-A-RebFHOD_VioCDE_KanR, complete sequence	14756	130	130	100.0	1.95	0.88	1.72353e-57	241.185
+SFT_seq_7	6683	gi|2025686597|gb|MW388777.1|	gi|2025686597|gb|MW388777.1| Cloning vector pTU3-A-RebFHOD_VioCDE_KanR, complete sequence	14756	130	130	100.0	1.95	0.88	1.72353e-57	241.185
+SFT_seq_7	6683	gi|2025686597|gb|MW388777.1|	gi|2025686597|gb|MW388777.1| Cloning vector pTU3-A-RebFHOD_VioCDE_KanR, complete sequence	14756	130	130	100.0	1.95	0.88	1.72353e-57	241.185
+SFT_seq_7	6683	gi|2025686597|gb|MW388777.1|	gi|2025686597|gb|MW388777.1| Cloning vector pTU3-A-RebFHOD_VioCDE_KanR, complete sequence	14756	130	130	100.0	1.95	0.88	1.72353e-57	241.185
+SFT_seq_7	6683	gi|2025686597|gb|MW388777.1|	gi|2025686597|gb|MW388777.1| Cloning vector pTU3-A-RebFHOD_VioCDE_KanR, complete sequence	14756	129	129	100.0	1.93	0.87	6.19891e-57	239.338
+SFT_seq_7	6683	gi|2025686597|gb|MW388777.1|	gi|2025686597|gb|MW388777.1| Cloning vector pTU3-A-RebFHOD_VioCDE_KanR, complete sequence	14756	129	129	100.0	1.93	0.87	6.19891e-57	239.338
+SFT_seq_7	6683	gi|2025686597|gb|MW388777.1|	gi|2025686597|gb|MW388777.1| Cloning vector pTU3-A-RebFHOD_VioCDE_KanR, complete sequence	14756	129	129	100.0	1.93	0.87	6.19891e-57	239.338
+SFT_seq_7	6683	gi|2025686597|gb|MW388777.1|	gi|2025686597|gb|MW388777.1| Cloning vector pTU3-A-RebFHOD_VioCDE_KanR, complete sequence	14756	129	129	100.0	1.93	0.87	6.19891e-57	239.338
+SFT_seq_7	6683	gi|2025686597|gb|MW388777.1|	gi|2025686597|gb|MW388777.1| Cloning vector pTU3-A-RebFHOD_VioCDE_KanR, complete sequence	14756	129	129	100.0	1.93	0.87	6.19891e-57	239.338
+SFT_seq_7	6683	gi|2025686597|gb|MW388777.1|	gi|2025686597|gb|MW388777.1| Cloning vector pTU3-A-RebFHOD_VioCDE_KanR, complete sequence	14756	129	129	100.0	1.93	0.87	6.19891e-57	239.338
+SFT_seq_7	6683	gi|2025686597|gb|MW388777.1|	gi|2025686597|gb|MW388777.1| Cloning vector pTU3-A-RebFHOD_VioCDE_KanR, complete sequence	14756	129	129	100.0	1.93	0.87	6.19891e-57	239.338
+SFT_seq_7	6683	gi|2025686597|gb|MW388777.1|	gi|2025686597|gb|MW388777.1| Cloning vector pTU3-A-RebFHOD_VioCDE_KanR, complete sequence	14756	129	129	100.0	1.93	0.87	6.19891e-57	239.338
+SFT_seq_7	6683	gi|2997345713|gb|PV704593.1|	gi|2997345713|gb|PV704593.1| Synthetic construct clone pSS9_RNA, complete sequence	2584	2042	2041	99.95	30.56	79.02	0.0	3764.59
+SFT_seq_7	6683	gi|2997345713|gb|PV704593.1|	gi|2997345713|gb|PV704593.1| Synthetic construct clone pSS9_RNA, complete sequence	2584	306	306	100.0	4.58	11.84	2.50356e-155	566.195
+SFT_seq_7	6683	gi|2997345713|gb|PV704593.1|	gi|2997345713|gb|PV704593.1| Synthetic construct clone pSS9_RNA, complete sequence	2584	168	168	100.0	2.51	6.5	1.29519e-78	311.357
+SFT_seq_7	6683	gi|2997345713|gb|PV704593.1|	gi|2997345713|gb|PV704593.1| Synthetic construct clone pSS9_RNA, complete sequence	2584	111	111	100.0	1.66	4.3	6.28724e-47	206.098
+SFT_seq_7	6683	gi|2997345713|gb|PV704593.1|	gi|2997345713|gb|PV704593.1| Synthetic construct clone pSS9_RNA, complete sequence	2584	75	75	100.0	1.12	2.9	6.4677e-27	139.619
+SFT_seq_7	6683	gi|2997345713|gb|PV704593.1|	gi|2997345713|gb|PV704593.1| Synthetic construct clone pSS9_RNA, complete sequence	2584	74	74	100.0	1.11	2.86	2.3262e-26	137.772
+SFT_seq_7	6683	gi|2997345701|gb|PV704590.1|	gi|2997345701|gb|PV704590.1| Synthetic construct clone pWGA128, complete sequence	2584	2042	2039	99.85	30.56	79.02	0.0	3753.51
+SFT_seq_7	6683	gi|2997345701|gb|PV704590.1|	gi|2997345701|gb|PV704590.1| Synthetic construct clone pWGA128, complete sequence	2584	306	306	100.0	4.58	11.84	2.50356e-155	566.195
+SFT_seq_7	6683	gi|2997345701|gb|PV704590.1|	gi|2997345701|gb|PV704590.1| Synthetic construct clone pWGA128, complete sequence	2584	168	168	100.0	2.51	6.5	1.29519e-78	311.357
+SFT_seq_7	6683	gi|2997345701|gb|PV704590.1|	gi|2997345701|gb|PV704590.1| Synthetic construct clone pWGA128, complete sequence	2584	111	111	100.0	1.66	4.3	6.28724e-47	206.098
+SFT_seq_7	6683	gi|2997345701|gb|PV704590.1|	gi|2997345701|gb|PV704590.1| Synthetic construct clone pWGA128, complete sequence	2584	75	75	100.0	1.12	2.9	6.4677e-27	139.619
+SFT_seq_7	6683	gi|2997345701|gb|PV704590.1|	gi|2997345701|gb|PV704590.1| Synthetic construct clone pWGA128, complete sequence	2584	74	74	100.0	1.11	2.86	2.3262e-26	137.772
+SFT_seq_7	6683	gi|2997345716|gb|PV704594.1|	gi|2997345716|gb|PV704594.1| Synthetic construct clone pWGA129, complete sequence	2584	2042	2039	99.85	30.56	79.02	0.0	3753.51
+SFT_seq_7	6683	gi|2997345716|gb|PV704594.1|	gi|2997345716|gb|PV704594.1| Synthetic construct clone pWGA129, complete sequence	2584	306	306	100.0	4.58	11.84	2.50356e-155	566.195
+SFT_seq_7	6683	gi|2997345716|gb|PV704594.1|	gi|2997345716|gb|PV704594.1| Synthetic construct clone pWGA129, complete sequence	2584	168	168	100.0	2.51	6.5	1.29519e-78	311.357
+SFT_seq_7	6683	gi|2997345716|gb|PV704594.1|	gi|2997345716|gb|PV704594.1| Synthetic construct clone pWGA129, complete sequence	2584	111	111	100.0	1.66	4.3	6.28724e-47	206.098
+SFT_seq_7	6683	gi|2997345716|gb|PV704594.1|	gi|2997345716|gb|PV704594.1| Synthetic construct clone pWGA129, complete sequence	2584	75	75	100.0	1.12	2.9	6.4677e-27	139.619
+SFT_seq_7	6683	gi|2997345716|gb|PV704594.1|	gi|2997345716|gb|PV704594.1| Synthetic construct clone pWGA129, complete sequence	2584	74	74	100.0	1.11	2.86	2.3262e-26	137.772
+SFT_seq_7	6683	gi|2997345704|gb|PV704591.1|	gi|2997345704|gb|PV704591.1| Synthetic construct clone pWGA130, complete sequence	2584	2042	2039	99.85	30.56	79.02	0.0	3753.51
+SFT_seq_7	6683	gi|2997345704|gb|PV704591.1|	gi|2997345704|gb|PV704591.1| Synthetic construct clone pWGA130, complete sequence	2584	306	306	100.0	4.58	11.84	2.50356e-155	566.195
+SFT_seq_7	6683	gi|2997345704|gb|PV704591.1|	gi|2997345704|gb|PV704591.1| Synthetic construct clone pWGA130, complete sequence	2584	168	168	100.0	2.51	6.5	1.29519e-78	311.357
+SFT_seq_7	6683	gi|2997345704|gb|PV704591.1|	gi|2997345704|gb|PV704591.1| Synthetic construct clone pWGA130, complete sequence	2584	111	111	100.0	1.66	4.3	6.28724e-47	206.098
+SFT_seq_7	6683	gi|2997345704|gb|PV704591.1|	gi|2997345704|gb|PV704591.1| Synthetic construct clone pWGA130, complete sequence	2584	75	75	100.0	1.12	2.9	6.4677e-27	139.619
+SFT_seq_7	6683	gi|2997345704|gb|PV704591.1|	gi|2997345704|gb|PV704591.1| Synthetic construct clone pWGA130, complete sequence	2584	74	74	100.0	1.11	2.86	2.3262e-26	137.772
+SFT_seq_9	5559	gi|159149197|gb|EU223248.1|	gi|159149197|gb|EU223248.1| Transposition Vector MightyMu_ACT, complete sequence	5521	2862	2860	99.93	51.48	51.84	0.0	5273.31
+SFT_seq_9	5559	gi|159149197|gb|EU223248.1|	gi|159149197|gb|EU223248.1| Transposition Vector MightyMu_ACT, complete sequence	5521	202	202	100.0	3.63	3.66	1.35316e-97	374.144
+SFT_seq_9	5559	gi|159149197|gb|EU223248.1|	gi|159149197|gb|EU223248.1| Transposition Vector MightyMu_ACT, complete sequence	5521	183	183	100.0	3.29	3.31	4.93617e-87	339.057
+SFT_seq_9	5559	gi|159149197|gb|EU223248.1|	gi|159149197|gb|EU223248.1| Transposition Vector MightyMu_ACT, complete sequence	5521	36	36	100.0	0.65	0.65	2.57181e-05	67.5997
+SFT_seq_9	5559	gi|159149197|gb|EU223248.1|	gi|159149197|gb|EU223248.1| Transposition Vector MightyMu_ACT, complete sequence	5521	30	30	100.0	0.54	0.54	0.05567	56.5198
+SFT_seq_9	5559	gi|159149199|gb|EU223249.1|	gi|159149199|gb|EU223249.1| Transposition Vector MightyMu_GUSB, complete sequence	7773	2862	2860	99.93	51.48	36.82	0.0	5273.31
+SFT_seq_9	5559	gi|159149199|gb|EU223249.1|	gi|159149199|gb|EU223249.1| Transposition Vector MightyMu_GUSB, complete sequence	7773	202	202	100.0	3.63	2.6	1.35316e-97	374.144
+SFT_seq_9	5559	gi|159149199|gb|EU223249.1|	gi|159149199|gb|EU223249.1| Transposition Vector MightyMu_GUSB, complete sequence	7773	183	183	100.0	3.29	2.35	4.93617e-87	339.057
+SFT_seq_9	5559	gi|159149199|gb|EU223249.1|	gi|159149199|gb|EU223249.1| Transposition Vector MightyMu_GUSB, complete sequence	7773	36	36	100.0	0.65	0.46	2.57181e-05	67.5997
+SFT_seq_9	5559	gi|159149199|gb|EU223249.1|	gi|159149199|gb|EU223249.1| Transposition Vector MightyMu_GUSB, complete sequence	7773	30	30	100.0	0.54	0.39	0.05567	56.5198
+SFT_seq_9	5559	gi|2926893622|gb|PV099650.1|	gi|2926893622|gb|PV099650.1| Cloning vector pdFLPtag-SA-SD-1-GFSTF, complete sequence	7992	2853	2853	100.0	51.32	35.7	0.0	5269.61
+SFT_seq_9	5559	gi|2926893622|gb|PV099650.1|	gi|2926893622|gb|PV099650.1| Cloning vector pdFLPtag-SA-SD-1-GFSTF, complete sequence	7992	202	202	100.0	3.63	2.53	1.35316e-97	374.144
+SFT_seq_9	5559	gi|2926893622|gb|PV099650.1|	gi|2926893622|gb|PV099650.1| Cloning vector pdFLPtag-SA-SD-1-GFSTF, complete sequence	7992	183	183	100.0	3.29	2.29	4.93617e-87	339.057
+SFT_seq_9	5559	gi|2926893622|gb|PV099650.1|	gi|2926893622|gb|PV099650.1| Cloning vector pdFLPtag-SA-SD-1-GFSTF, complete sequence	7992	36	36	100.0	0.65	0.45	2.57181e-05	67.5997
+SFT_seq_9	5559	gi|2926893622|gb|PV099650.1|	gi|2926893622|gb|PV099650.1| Cloning vector pdFLPtag-SA-SD-1-GFSTF, complete sequence	7992	30	30	100.0	0.54	0.38	0.05567	56.5198
+SFT_seq_9	5559	gi|2926893631|gb|PV099653.1|	gi|2926893631|gb|PV099653.1| Cloning vector pdFLPtag-SA-SD-1-smGFP-HA, complete sequence	8145	2853	2853	100.0	51.32	35.03	0.0	5269.61
+SFT_seq_9	5559	gi|2926893631|gb|PV099653.1|	gi|2926893631|gb|PV099653.1| Cloning vector pdFLPtag-SA-SD-1-smGFP-HA, complete sequence	8145	202	202	100.0	3.63	2.48	1.35316e-97	374.144
+SFT_seq_9	5559	gi|2926893631|gb|PV099653.1|	gi|2926893631|gb|PV099653.1| Cloning vector pdFLPtag-SA-SD-1-smGFP-HA, complete sequence	8145	183	183	100.0	3.29	2.25	4.93617e-87	339.057
+SFT_seq_9	5559	gi|2926893631|gb|PV099653.1|	gi|2926893631|gb|PV099653.1| Cloning vector pdFLPtag-SA-SD-1-smGFP-HA, complete sequence	8145	36	36	100.0	0.65	0.44	2.57181e-05	67.5997
+SFT_seq_9	5559	gi|2926893631|gb|PV099653.1|	gi|2926893631|gb|PV099653.1| Cloning vector pdFLPtag-SA-SD-1-smGFP-HA, complete sequence	8145	30	30	100.0	0.54	0.37	0.05567	56.5198
+SFT_seq_9	5559	gi|2926893637|gb|PV098399.1|	gi|2926893637|gb|PV098399.1| Cloning vector pdFLPtag-SA-SD-0-GFSTF, complete sequence	7992	2853	2853	100.0	51.32	35.7	0.0	5269.61
+SFT_seq_9	5559	gi|2926893637|gb|PV098399.1|	gi|2926893637|gb|PV098399.1| Cloning vector pdFLPtag-SA-SD-0-GFSTF, complete sequence	7992	202	202	100.0	3.63	2.53	1.35316e-97	374.144
+SFT_seq_9	5559	gi|2926893637|gb|PV098399.1|	gi|2926893637|gb|PV098399.1| Cloning vector pdFLPtag-SA-SD-0-GFSTF, complete sequence	7992	183	183	100.0	3.29	2.29	4.93617e-87	339.057
+SFT_seq_9	5559	gi|2926893637|gb|PV098399.1|	gi|2926893637|gb|PV098399.1| Cloning vector pdFLPtag-SA-SD-0-GFSTF, complete sequence	7992	36	36	100.0	0.65	0.45	2.57181e-05	67.5997
+SFT_seq_9	5559	gi|2926893637|gb|PV098399.1|	gi|2926893637|gb|PV098399.1| Cloning vector pdFLPtag-SA-SD-0-GFSTF, complete sequence	7992	30	30	100.0	0.54	0.38	0.05567	56.5198
+SFT_seq_11	4805	gi|190361701|gb|EU729724.1|	gi|190361701|gb|EU729724.1| Cloning vector pSMARTGC HK, complete sequence	1797	1682	1682	100.0	35.01	93.6	0.0	3107.19
+SFT_seq_11	4805	gi|190361701|gb|EU729724.1|	gi|190361701|gb|EU729724.1| Cloning vector pSMARTGC HK, complete sequence	1797	814	808	99.26	16.94	45.3	0.0	1471.05
+SFT_seq_11	4805	gi|190361701|gb|EU729724.1|	gi|190361701|gb|EU729724.1| Cloning vector pSMARTGC HK, complete sequence	1797	37	36	97.3	0.77	2.06	0.00103311	62.0597
+SFT_seq_11	4805	gi|190361701|gb|EU729724.1|	gi|190361701|gb|EU729724.1| Cloning vector pSMARTGC HK, complete sequence	1797	37	36	97.3	0.77	2.06	0.00103311	62.0597
+SFT_seq_11	4805	gi|22476919|gb|AF532107.1|	gi|22476919|gb|AF532107.1| Cloning vector pSMART-HCKan, complete sequence	1788	1686	1683	99.82	35.09	94.3	0.0	3094.26
+SFT_seq_11	4805	gi|22476919|gb|AF532107.1|	gi|22476919|gb|AF532107.1| Cloning vector pSMART-HCKan, complete sequence	1788	817	811	99.27	17.0	45.69	0.0	1476.59
+SFT_seq_11	4805	gi|22476919|gb|AF532107.1|	gi|22476919|gb|AF532107.1| Cloning vector pSMART-HCKan, complete sequence	1788	37	36	97.3	0.77	2.07	0.00103311	62.0597
+SFT_seq_11	4805	gi|22476919|gb|AF532107.1|	gi|22476919|gb|AF532107.1| Cloning vector pSMART-HCKan, complete sequence	1788	37	36	97.3	0.77	2.07	0.00103311	62.0597
+SFT_seq_11	4805	gi|22476921|gb|AF532108.1|	gi|22476921|gb|AF532108.1| Cloning vector pEZSeq-Kan, complete sequence	2008	1647	1647	100.0	34.28	82.02	0.0	3042.55
+SFT_seq_11	4805	gi|22476921|gb|AF532108.1|	gi|22476921|gb|AF532108.1| Cloning vector pEZSeq-Kan, complete sequence	2008	814	808	99.26	16.94	40.54	0.0	1471.05
+SFT_seq_11	4805	gi|22476921|gb|AF532108.1|	gi|22476921|gb|AF532108.1| Cloning vector pEZSeq-Kan, complete sequence	2008	37	36	97.3	0.77	1.84	0.00103311	62.0597
+SFT_seq_11	4805	gi|22476921|gb|AF532108.1|	gi|22476921|gb|AF532108.1| Cloning vector pEZSeq-Kan, complete sequence	2008	37	36	97.3	0.77	1.84	0.00103311	62.0597
+SFT_seq_11	4805	gi|1567187657|gb|MH662440.1|	gi|1567187657|gb|MH662440.1| Cloning vector L1611, complete sequence	2538	1598	1589	99.44	33.26	62.96	0.0	2898.51
+SFT_seq_11	4805	gi|1567187657|gb|MH662440.1|	gi|1567187657|gb|MH662440.1| Cloning vector L1611, complete sequence	2538	817	809	99.02	17.0	32.19	0.0	1465.51
+SFT_seq_11	4805	gi|1567187657|gb|MH662440.1|	gi|1567187657|gb|MH662440.1| Cloning vector L1611, complete sequence	2538	71	70	98.59	1.48	2.8	1.29912e-22	124.846
+SFT_seq_11	4805	gi|1567187657|gb|MH662440.1|	gi|1567187657|gb|MH662440.1| Cloning vector L1611, complete sequence	2538	37	36	97.3	0.77	1.46	0.00103311	62.0597
+SFT_seq_11	4805	gi|1567187657|gb|MH662440.1|	gi|1567187657|gb|MH662440.1| Cloning vector L1611, complete sequence	2538	37	36	97.3	0.77	1.46	0.00103311	62.0597
+SFT_seq_11	4805	gi|1871525912|gb|MT346027.1|	gi|1871525912|gb|MT346027.1| Cloning vector pY71-sfGFP, complete sequence	2477	1048	1047	99.9	21.81	42.31	0.0	1929.02
+SFT_seq_11	4805	gi|1871525912|gb|MT346027.1|	gi|1871525912|gb|MT346027.1| Cloning vector pY71-sfGFP, complete sequence	2477	814	808	99.26	16.94	32.86	0.0	1471.05
+SFT_seq_11	4805	gi|1871525912|gb|MT346027.1|	gi|1871525912|gb|MT346027.1| Cloning vector pY71-sfGFP, complete sequence	2477	589	584	99.15	12.26	23.78	0.0	1059.25
+SFT_seq_13	6618	gi|1894831403|gb|CP051263.1|	gi|1894831403|gb|CP051263.1| Escherichia coli CFT073 chromosome, complete genome	5242376	1286	1286	100.0	19.43	0.02	0.0	2375.91
+SFT_seq_13	6618	gi|1894831403|gb|CP051263.1|	gi|1894831403|gb|CP051263.1| Escherichia coli CFT073 chromosome, complete genome	5242376	1162	1127	96.99	17.56	0.02	0.0	1953.03
+SFT_seq_13	6618	gi|1894831403|gb|CP051263.1|	gi|1894831403|gb|CP051263.1| Escherichia coli CFT073 chromosome, complete genome	5242376	208	204	98.08	3.14	0.0	3.49101e-94	363.064
+SFT_seq_13	6618	gi|1894831403|gb|CP051263.1|	gi|1894831403|gb|CP051263.1| Escherichia coli CFT073 chromosome, complete genome	5242376	177	177	100.0	2.67	0.0	1.27348e-83	327.977
+SFT_seq_13	6618	gi|1894831403|gb|CP051263.1|	gi|1894831403|gb|CP051263.1| Escherichia coli CFT073 chromosome, complete genome	5242376	140	139	99.29	2.12	0.0	2.19215e-61	254.111
+SFT_seq_13	6618	gi|1894831403|gb|CP051263.1|	gi|1894831403|gb|CP051263.1| Escherichia coli CFT073 chromosome, complete genome	5242376	111	108	97.3	1.68	0.0	6.26993e-42	189.479
+SFT_seq_13	6618	gi|1894831403|gb|CP051263.1|	gi|1894831403|gb|CP051263.1| Escherichia coli CFT073 chromosome, complete genome	5242376	75	75	100.0	1.13	0.0	6.40442e-27	139.619
+SFT_seq_13	6618	gi|1894831403|gb|CP051263.1|	gi|1894831403|gb|CP051263.1| Escherichia coli CFT073 chromosome, complete genome	5242376	74	74	100.0	1.12	0.0	2.30344e-26	137.772
+SFT_seq_13	6618	gi|1894831403|gb|CP051263.1|	gi|1894831403|gb|CP051263.1| Escherichia coli CFT073 chromosome, complete genome	5242376	65	64	98.46	0.98	0.0	1.07929e-19	115.613
+SFT_seq_13	6618	gi|1894831403|gb|CP051263.1|	gi|1894831403|gb|CP051263.1| Escherichia coli CFT073 chromosome, complete genome	5242376	62	62	100.0	0.94	0.0	1.07929e-19	115.613
+SFT_seq_13	6618	gi|1894831403|gb|CP051263.1|	gi|1894831403|gb|CP051263.1| Escherichia coli CFT073 chromosome, complete genome	5242376	64	63	98.44	0.97	0.0	1.39616e-18	111.919
+SFT_seq_13	6618	gi|1894831403|gb|CP051263.1|	gi|1894831403|gb|CP051263.1| Escherichia coli CFT073 chromosome, complete genome	5242376	61	60	98.36	0.92	0.0	1.80604e-17	108.226
+SFT_seq_13	6618	gi|1894831403|gb|CP051263.1|	gi|1894831403|gb|CP051263.1| Escherichia coli CFT073 chromosome, complete genome	5242376	44	44	100.0	0.66	0.0	1.09467e-09	82.3729
+SFT_seq_13	6618	gi|2728411473|gb|PP744469.1|	gi|2728411473|gb|PP744469.1| Cloning vector pTARA-MutaT7GDE3, complete sequence	8979	1285	1285	100.0	19.42	14.31	0.0	2374.07
+SFT_seq_13	6618	gi|2728411473|gb|PP744469.1|	gi|2728411473|gb|PP744469.1| Cloning vector pTARA-MutaT7GDE3, complete sequence	8979	349	348	99.71	5.27	3.89	1.44016e-177	640.061
+SFT_seq_13	6618	gi|2728411473|gb|PP744469.1|	gi|2728411473|gb|PP744469.1| Cloning vector pTARA-MutaT7GDE3, complete sequence	8979	342	342	100.0	5.17	3.81	2.40989e-175	632.674
+SFT_seq_13	6618	gi|2728411473|gb|PP744469.1|	gi|2728411473|gb|PP744469.1| Cloning vector pTARA-MutaT7GDE3, complete sequence	8979	369	309	83.74	5.58	4.11	3.54075e-84	329.824
+SFT_seq_13	6618	gi|2728411473|gb|PP744469.1|	gi|2728411473|gb|PP744469.1| Cloning vector pTARA-MutaT7GDE3, complete sequence	8979	369	309	83.74	5.58	4.11	3.54075e-84	329.824
+SFT_seq_13	6618	gi|2728411473|gb|PP744469.1|	gi|2728411473|gb|PP744469.1| Cloning vector pTARA-MutaT7GDE3, complete sequence	8979	369	308	83.47	5.58	4.11	1.64735e-82	324.284
+SFT_seq_13	6618	gi|2728411473|gb|PP744469.1|	gi|2728411473|gb|PP744469.1| Cloning vector pTARA-MutaT7GDE3, complete sequence	8979	150	149	99.33	2.27	1.67	6.05202e-67	272.578
+SFT_seq_13	6618	gi|2728411473|gb|PP744469.1|	gi|2728411473|gb|PP744469.1| Cloning vector pTARA-MutaT7GDE3, complete sequence	8979	129	129	100.0	1.95	1.44	6.13826e-57	239.338
+SFT_seq_13	6618	gi|2728411473|gb|PP744469.1|	gi|2728411473|gb|PP744469.1| Cloning vector pTARA-MutaT7GDE3, complete sequence	8979	80	80	100.0	1.21	0.89	1.06413e-29	148.852
+SFT_seq_13	6618	gi|2728411473|gb|PP744469.1|	gi|2728411473|gb|PP744469.1| Cloning vector pTARA-MutaT7GDE3, complete sequence	8979	43	43	100.0	0.65	0.48	3.93715e-09	80.5262
+SFT_seq_13	6618	gi|1335032049|gb|MG674482.1|	gi|1335032049|gb|MG674482.1| Cloning vector pBAD-kan-BlaP-VEB-7, complete sequence	6445	1285	1285	100.0	19.42	19.94	0.0	2374.07
+SFT_seq_13	6618	gi|1335032049|gb|MG674482.1|	gi|1335032049|gb|MG674482.1| Cloning vector pBAD-kan-BlaP-VEB-7, complete sequence	6445	1081	1081	100.0	16.33	16.77	0.0	1997.35
+SFT_seq_13	6618	gi|1335032049|gb|MG674482.1|	gi|1335032049|gb|MG674482.1| Cloning vector pBAD-kan-BlaP-VEB-7, complete sequence	6445	828	825	99.64	12.51	12.85	0.0	1511.68
+SFT_seq_13	6618	gi|1335032049|gb|MG674482.1|	gi|1335032049|gb|MG674482.1| Cloning vector pBAD-kan-BlaP-VEB-7, complete sequence	6445	533	531	99.62	8.05	8.27	0.0	974.305
+SFT_seq_13	6618	gi|1335032049|gb|MG674482.1|	gi|1335032049|gb|MG674482.1| Cloning vector pBAD-kan-BlaP-VEB-7, complete sequence	6445	232	232	100.0	3.51	3.6	3.3936e-114	429.543
+SFT_seq_13	6618	gi|1335032049|gb|MG674482.1|	gi|1335032049|gb|MG674482.1| Cloning vector pBAD-kan-BlaP-VEB-7, complete sequence	6445	129	129	100.0	1.95	2.0	6.13826e-57	239.338
+SFT_seq_13	6618	gi|1335032049|gb|MG674482.1|	gi|1335032049|gb|MG674482.1| Cloning vector pBAD-kan-BlaP-VEB-7, complete sequence	6445	80	80	100.0	1.21	1.24	1.06413e-29	148.852
+SFT_seq_13	6618	gi|1335032049|gb|MG674482.1|	gi|1335032049|gb|MG674482.1| Cloning vector pBAD-kan-BlaP-VEB-7, complete sequence	6445	43	43	100.0	0.65	0.67	3.93715e-09	80.5262
+SFT_seq_13	6618	gi|1693088673|gb|MK637406.1|	gi|1693088673|gb|MK637406.1| Cloning vector pMBLcas9-mcr-1, complete sequence	11496	1285	1285	100.0	19.42	11.18	0.0	2374.07
+SFT_seq_13	6618	gi|1693088673|gb|MK637406.1|	gi|1693088673|gb|MK637406.1| Cloning vector pMBLcas9-mcr-1, complete sequence	11496	349	348	99.71	5.27	3.04	1.44016e-177	640.061
+SFT_seq_13	6618	gi|1693088673|gb|MK637406.1|	gi|1693088673|gb|MK637406.1| Cloning vector pMBLcas9-mcr-1, complete sequence	11496	342	342	100.0	5.17	2.97	2.40989e-175	632.674
+SFT_seq_13	6618	gi|1693088673|gb|MK637406.1|	gi|1693088673|gb|MK637406.1| Cloning vector pMBLcas9-mcr-1, complete sequence	11496	606	475	78.38	9.16	5.27	4.54796e-88	342.75
+SFT_seq_13	6618	gi|1693088673|gb|MK637406.1|	gi|1693088673|gb|MK637406.1| Cloning vector pMBLcas9-mcr-1, complete sequence	11496	606	473	78.05	9.16	5.27	9.84461e-85	331.671
+SFT_seq_13	6618	gi|1693088673|gb|MK637406.1|	gi|1693088673|gb|MK637406.1| Cloning vector pMBLcas9-mcr-1, complete sequence	11496	369	309	83.74	5.58	3.21	3.54075e-84	329.824
+SFT_seq_13	6618	gi|1693088673|gb|MK637406.1|	gi|1693088673|gb|MK637406.1| Cloning vector pMBLcas9-mcr-1, complete sequence	11496	150	149	99.33	2.27	1.3	6.05202e-67	272.578
+SFT_seq_13	6618	gi|1693088673|gb|MK637406.1|	gi|1693088673|gb|MK637406.1| Cloning vector pMBLcas9-mcr-1, complete sequence	11496	80	80	100.0	1.21	0.7	1.06413e-29	148.852
+SFT_seq_13	6618	gi|1693088673|gb|MK637406.1|	gi|1693088673|gb|MK637406.1| Cloning vector pMBLcas9-mcr-1, complete sequence	11496	74	74	100.0	1.12	0.64	2.30344e-26	137.772
+SFT_seq_13	6618	gi|1693088673|gb|MK637406.1|	gi|1693088673|gb|MK637406.1| Cloning vector pMBLcas9-mcr-1, complete sequence	11496	73	73	100.0	1.1	0.64	8.28464e-26	135.926
+SFT_seq_13	6618	gi|1693088673|gb|MK637406.1|	gi|1693088673|gb|MK637406.1| Cloning vector pMBLcas9-mcr-1, complete sequence	11496	63	63	100.0	0.95	0.55	3.00084e-20	117.459
+SFT_seq_13	6618	gi|1693088673|gb|MK637406.1|	gi|1693088673|gb|MK637406.1| Cloning vector pMBLcas9-mcr-1, complete sequence	11496	43	43	100.0	0.65	0.37	3.93715e-09	80.5262
+SFT_seq_13	6618	gi|1335032109|gb|MG674497.1|	gi|1335032109|gb|MG674497.1| Cloning vector pBAD-kan-BlaP-PER-4, complete sequence	6463	1285	1285	100.0	19.42	19.88	0.0	2374.07
+SFT_seq_13	6618	gi|1335032109|gb|MG674497.1|	gi|1335032109|gb|MG674497.1| Cloning vector pBAD-kan-BlaP-PER-4, complete sequence	6463	1081	1081	100.0	16.33	16.73	0.0	1997.35
+SFT_seq_13	6618	gi|1335032109|gb|MG674497.1|	gi|1335032109|gb|MG674497.1| Cloning vector pBAD-kan-BlaP-PER-4, complete sequence	6463	828	825	99.64	12.51	12.81	0.0	1511.68
+SFT_seq_13	6618	gi|1335032109|gb|MG674497.1|	gi|1335032109|gb|MG674497.1| Cloning vector pBAD-kan-BlaP-PER-4, complete sequence	6463	533	531	99.62	8.05	8.25	0.0	974.305
+SFT_seq_13	6618	gi|1335032109|gb|MG674497.1|	gi|1335032109|gb|MG674497.1| Cloning vector pBAD-kan-BlaP-PER-4, complete sequence	6463	232	232	100.0	3.51	3.59	3.3936e-114	429.543
+SFT_seq_13	6618	gi|1335032109|gb|MG674497.1|	gi|1335032109|gb|MG674497.1| Cloning vector pBAD-kan-BlaP-PER-4, complete sequence	6463	129	129	100.0	1.95	2.0	6.13826e-57	239.338
+SFT_seq_13	6618	gi|1335032109|gb|MG674497.1|	gi|1335032109|gb|MG674497.1| Cloning vector pBAD-kan-BlaP-PER-4, complete sequence	6463	80	80	100.0	1.21	1.24	1.06413e-29	148.852
+SFT_seq_13	6618	gi|1335032109|gb|MG674497.1|	gi|1335032109|gb|MG674497.1| Cloning vector pBAD-kan-BlaP-PER-4, complete sequence	6463	43	43	100.0	0.65	0.67	3.93715e-09	80.5262
+SFT_seq_14	5823	gi|309400221|gb|HQ343237.1|	gi|309400221|gb|HQ343237.1| Synthetic construct clone pSB4284, complete sequence	7152	2909	2907	99.93	49.96	40.67	0.0	5360.1
+SFT_seq_14	5823	gi|309400221|gb|HQ343237.1|	gi|309400221|gb|HQ343237.1| Synthetic construct clone pSB4284, complete sequence	7152	1098	1096	99.82	18.86	15.35	0.0	2017.66
+SFT_seq_14	5823	gi|309400225|gb|HQ343239.1|	gi|309400225|gb|HQ343239.1| Synthetic construct clone pSB4316, complete sequence	7044	2909	2907	99.93	49.96	41.3	0.0	5360.1
+SFT_seq_14	5823	gi|309400225|gb|HQ343239.1|	gi|309400225|gb|HQ343239.1| Synthetic construct clone pSB4316, complete sequence	7044	1098	1096	99.82	18.86	15.59	0.0	2017.66
+SFT_seq_14	5823	gi|309400223|gb|HQ343238.1|	gi|309400223|gb|HQ343238.1| Synthetic construct clone pSB4288, complete sequence	7326	2909	2907	99.93	49.96	39.71	0.0	5360.1
+SFT_seq_14	5823	gi|309400223|gb|HQ343238.1|	gi|309400223|gb|HQ343238.1| Synthetic construct clone pSB4288, complete sequence	7326	1098	1096	99.82	18.86	14.99	0.0	2017.66
+SFT_seq_14	5823	gi|309400219|gb|HQ343236.1|	gi|309400219|gb|HQ343236.1| Synthetic construct clone pSB4281, complete sequence	7086	2909	2907	99.93	49.96	41.05	0.0	5360.1
+SFT_seq_14	5823	gi|309400219|gb|HQ343236.1|	gi|309400219|gb|HQ343236.1| Synthetic construct clone pSB4281, complete sequence	7086	1098	1096	99.82	18.86	15.5	0.0	2017.66
+SFT_seq_14	5823	gi|309400215|gb|HQ343235.1|	gi|309400215|gb|HQ343235.1| Expression vector pSB3941, complete sequence	6786	2909	2907	99.93	49.96	42.87	0.0	5360.1
+SFT_seq_14	5823	gi|309400215|gb|HQ343235.1|	gi|309400215|gb|HQ343235.1| Expression vector pSB3941, complete sequence	6786	1098	1096	99.82	18.86	16.18	0.0	2017.66
+SFT_seq_15	2296	gi|384875620|gb|JQ394801.1|	gi|384875620|gb|JQ394801.1| Cloning vector pFM46, complete sequence	3669	923	902	97.72	40.2	25.16	0.0	1578.16
+SFT_seq_15	2296	gi|657193839|gb|KJ686613.1|	gi|657193839|gb|KJ686613.1| Synthetic construct clone pT7Z-Ars, complete sequence	5591	889	875	98.43	38.72	15.9	0.0	1554.15
+SFT_seq_15	2296	gi|657193839|gb|KJ686613.1|	gi|657193839|gb|KJ686613.1| Synthetic construct clone pT7Z-Ars, complete sequence	5591	129	129	100.0	5.62	2.31	2.10698e-57	239.338
+SFT_seq_15	2296	gi|657193839|gb|KJ686613.1|	gi|657193839|gb|KJ686613.1| Synthetic construct clone pT7Z-Ars, complete sequence	5591	78	78	100.0	3.4	1.4	4.72502e-29	145.159
+SFT_seq_15	2296	gi|657193839|gb|KJ686613.1|	gi|657193839|gb|KJ686613.1| Synthetic construct clone pT7Z-Ars, complete sequence	5591	37	36	97.3	1.61	0.66	0.000489514	62.0597
+SFT_seq_15	2296	gi|657193827|gb|KJ686610.1|	gi|657193827|gb|KJ686610.1| Synthetic construct clone pD1K-Ars, complete sequence	5073	889	875	98.43	38.72	17.52	0.0	1554.15
+SFT_seq_15	2296	gi|657193827|gb|KJ686610.1|	gi|657193827|gb|KJ686610.1| Synthetic construct clone pD1K-Ars, complete sequence	5073	129	129	100.0	5.62	2.54	2.10698e-57	239.338
+SFT_seq_15	2296	gi|657193827|gb|KJ686610.1|	gi|657193827|gb|KJ686610.1| Synthetic construct clone pD1K-Ars, complete sequence	5073	78	78	100.0	3.4	1.54	4.72502e-29	145.159
+SFT_seq_15	2296	gi|657193827|gb|KJ686610.1|	gi|657193827|gb|KJ686610.1| Synthetic construct clone pD1K-Ars, complete sequence	5073	40	38	95.0	1.74	0.79	0.000489514	62.0597
+SFT_seq_15	2296	gi|1877821626|gb|MN617157.1|	gi|1877821626|gb|MN617157.1| Cloning vector pLH405, complete sequence	4730	880	866	98.41	38.33	18.6	0.0	1539.38
+SFT_seq_15	2296	gi|1877821626|gb|MN617157.1|	gi|1877821626|gb|MN617157.1| Cloning vector pLH405, complete sequence	4730	130	130	100.0	5.66	2.75	5.85818e-58	241.185
+SFT_seq_15	2296	gi|657193843|gb|KJ686614.1|	gi|657193843|gb|KJ686614.1| Synthetic construct clone pT7Z-Mer, complete sequence	5577	889	872	98.09	38.72	15.94	0.0	1537.53
+SFT_seq_15	2296	gi|657193843|gb|KJ686614.1|	gi|657193843|gb|KJ686614.1| Synthetic construct clone pT7Z-Mer, complete sequence	5577	129	129	100.0	5.62	2.31	2.10698e-57	239.338
+SFT_seq_15	2296	gi|657193843|gb|KJ686614.1|	gi|657193843|gb|KJ686614.1| Synthetic construct clone pT7Z-Mer, complete sequence	5577	78	78	100.0	3.4	1.4	4.72502e-29	145.159
+SFT_seq_15	2296	gi|657193843|gb|KJ686614.1|	gi|657193843|gb|KJ686614.1| Synthetic construct clone pT7Z-Mer, complete sequence	5577	37	36	97.3	1.61	0.66	0.000489514	62.0597
+SFT_seq_16	3837	gi|1227111455|gb|KX682229.1|	gi|1227111455|gb|KX682229.1| Synthetic construct clone pEYRCT1C, complete sequence	4321	1206	1205	99.92	31.43	27.91	0.0	2222.64
+SFT_seq_16	3837	gi|1227111452|gb|KX682228.1|	gi|1227111452|gb|KX682228.1| Synthetic construct clone pEYRCD1C, complete sequence	4322	1206	1205	99.92	31.43	27.9	0.0	2222.64
+SFT_seq_16	3837	gi|1227111401|gb|KX682206.1|	gi|1227111401|gb|KX682206.1| Synthetic construct clone pEY35C, complete sequence	3940	1206	1205	99.92	31.43	30.61	0.0	2222.64
+SFT_seq_16	3837	gi|1227111449|gb|KX682227.1|	gi|1227111449|gb|KX682227.1| Synthetic construct clone pEYRCC1C, complete sequence	4323	1206	1205	99.92	31.43	27.9	0.0	2222.64
+SFT_seq_16	3837	gi|2475332901|dbj|LC703879.1|	gi|2475332901|dbj|LC703879.1| Vector pAC-HIEI DNA, complete sequence	7852	1203	1202	99.92	31.35	15.32	0.0	2217.1
+SFT_seq_16	3837	gi|2475332901|dbj|LC703879.1|	gi|2475332901|dbj|LC703879.1| Vector pAC-HIEI DNA, complete sequence	7852	29	29	100.0	0.76	0.37	0.137763	54.6731
+SFT_seq_17	2319	gi|384875620|gb|JQ394801.1|	gi|384875620|gb|JQ394801.1| Cloning vector pFM46, complete sequence	3669	923	902	97.72	39.8	25.16	0.0	1578.16
+SFT_seq_17	2319	gi|657193839|gb|KJ686613.1|	gi|657193839|gb|KJ686613.1| Synthetic construct clone pT7Z-Ars, complete sequence	5591	889	875	98.43	38.34	15.9	0.0	1554.15
+SFT_seq_17	2319	gi|657193839|gb|KJ686613.1|	gi|657193839|gb|KJ686613.1| Synthetic construct clone pT7Z-Ars, complete sequence	5591	129	129	100.0	5.56	2.31	2.12844e-57	239.338
+SFT_seq_17	2319	gi|657193839|gb|KJ686613.1|	gi|657193839|gb|KJ686613.1| Synthetic construct clone pT7Z-Ars, complete sequence	5591	78	78	100.0	3.36	1.4	4.77315e-29	145.159
+SFT_seq_17	2319	gi|657193839|gb|KJ686613.1|	gi|657193839|gb|KJ686613.1| Synthetic construct clone pT7Z-Ars, complete sequence	5591	32	32	100.0	1.38	0.57	0.00177854	60.2131
+SFT_seq_17	2319	gi|657193827|gb|KJ686610.1|	gi|657193827|gb|KJ686610.1| Synthetic construct clone pD1K-Ars, complete sequence	5073	889	875	98.43	38.34	17.52	0.0	1554.15
+SFT_seq_17	2319	gi|657193827|gb|KJ686610.1|	gi|657193827|gb|KJ686610.1| Synthetic construct clone pD1K-Ars, complete sequence	5073	129	129	100.0	5.56	2.54	2.12844e-57	239.338
+SFT_seq_17	2319	gi|657193827|gb|KJ686610.1|	gi|657193827|gb|KJ686610.1| Synthetic construct clone pD1K-Ars, complete sequence	5073	78	78	100.0	3.36	1.54	4.77315e-29	145.159
+SFT_seq_17	2319	gi|657193827|gb|KJ686610.1|	gi|657193827|gb|KJ686610.1| Synthetic construct clone pD1K-Ars, complete sequence	5073	32	32	100.0	1.38	0.63	0.00177854	60.2131
+SFT_seq_17	2319	gi|1877821626|gb|MN617157.1|	gi|1877821626|gb|MN617157.1| Cloning vector pLH405, complete sequence	4730	880	866	98.41	37.95	18.6	0.0	1539.38
+SFT_seq_17	2319	gi|1877821626|gb|MN617157.1|	gi|1877821626|gb|MN617157.1| Cloning vector pLH405, complete sequence	4730	130	130	100.0	5.61	2.75	5.91785e-58	241.185
+SFT_seq_17	2319	gi|657193843|gb|KJ686614.1|	gi|657193843|gb|KJ686614.1| Synthetic construct clone pT7Z-Mer, complete sequence	5577	889	872	98.09	38.34	15.94	0.0	1537.53
+SFT_seq_17	2319	gi|657193843|gb|KJ686614.1|	gi|657193843|gb|KJ686614.1| Synthetic construct clone pT7Z-Mer, complete sequence	5577	129	129	100.0	5.56	2.31	2.12844e-57	239.338
+SFT_seq_17	2319	gi|657193843|gb|KJ686614.1|	gi|657193843|gb|KJ686614.1| Synthetic construct clone pT7Z-Mer, complete sequence	5577	78	78	100.0	3.36	1.4	4.77315e-29	145.159
+SFT_seq_17	2319	gi|657193843|gb|KJ686614.1|	gi|657193843|gb|KJ686614.1| Synthetic construct clone pT7Z-Mer, complete sequence	5577	32	32	100.0	1.38	0.57	0.00177854	60.2131
+SFT_seq_18	5119	gi|2860240406|gb|CP174135.1|	gi|2860240406|gb|CP174135.1| Cronobacter malonaticus strain NWU01 plasmid unnamed3, complete sequenc	5284	3111	3088	99.26	60.77	58.88	0.0	5603.86
+SFT_seq_18	5119	gi|2860240406|gb|CP174135.1|	gi|2860240406|gb|CP174135.1| Cronobacter malonaticus strain NWU01 plasmid unnamed3, complete sequenc	5284	384	384	100.0	7.5	7.27	0.0	710.234
+SFT_seq_18	5119	gi|2860240406|gb|CP174135.1|	gi|2860240406|gb|CP174135.1| Cronobacter malonaticus strain NWU01 plasmid unnamed3, complete sequenc	5284	59	56	94.92	1.15	1.12	1.40444e-12	91.6061
+SFT_seq_18	5119	gi|2860240406|gb|CP174135.1|	gi|2860240406|gb|CP174135.1| Cronobacter malonaticus strain NWU01 plasmid unnamed3, complete sequenc	5284	59	56	94.92	1.15	1.12	1.40444e-12	91.6061
+SFT_seq_18	5119	gi|1142721075|emb|LT727077.1|	gi|1142721075|emb|LT727077.1| Bacterial expression vector pGEXGSTp65(285-551), complete sequence	5772	2575	2572	99.88	50.3	44.61	0.0	4739.62
+SFT_seq_18	5119	gi|1142721075|emb|LT727077.1|	gi|1142721075|emb|LT727077.1| Bacterial expression vector pGEXGSTp65(285-551), complete sequence	5772	939	939	100.0	18.34	16.27	0.0	1735.12
+SFT_seq_18	5119	gi|1142721075|emb|LT727077.1|	gi|1142721075|emb|LT727077.1| Bacterial expression vector pGEXGSTp65(285-551), complete sequence	5772	59	56	94.92	1.15	1.02	1.40444e-12	91.6061
+SFT_seq_18	5119	gi|1142721075|emb|LT727077.1|	gi|1142721075|emb|LT727077.1| Bacterial expression vector pGEXGSTp65(285-551), complete sequence	5772	59	56	94.92	1.15	1.02	1.40444e-12	91.6061
+SFT_seq_18	5119	gi|1785493158|gb|MN658772.1|	gi|1785493158|gb|MN658772.1| Synthetic construct GST::BoNTA::GFPnb gene, complete cds	8007	2575	2572	99.88	50.3	32.16	0.0	4739.62
+SFT_seq_18	5119	gi|1785493158|gb|MN658772.1|	gi|1785493158|gb|MN658772.1| Synthetic construct GST::BoNTA::GFPnb gene, complete cds	8007	917	917	100.0	17.91	11.45	0.0	1694.5
+SFT_seq_18	5119	gi|1785493158|gb|MN658772.1|	gi|1785493158|gb|MN658772.1| Synthetic construct GST::BoNTA::GFPnb gene, complete cds	8007	59	56	94.92	1.15	0.74	1.40444e-12	91.6061
+SFT_seq_18	5119	gi|1785493158|gb|MN658772.1|	gi|1785493158|gb|MN658772.1| Synthetic construct GST::BoNTA::GFPnb gene, complete cds	8007	59	56	94.92	1.15	0.74	1.40444e-12	91.6061
+SFT_seq_18	5119	gi|1142721069|emb|LT727076.1|	gi|1142721069|emb|LT727076.1| Bacterial expression vector pGEXGSTp65(12-317)S276C, complete sequence	5872	2575	2572	99.88	50.3	43.85	0.0	4739.62
+SFT_seq_18	5119	gi|1142721069|emb|LT727076.1|	gi|1142721069|emb|LT727076.1| Bacterial expression vector pGEXGSTp65(12-317)S276C, complete sequence	5872	917	917	100.0	17.91	15.62	0.0	1694.5
+SFT_seq_18	5119	gi|1142721069|emb|LT727076.1|	gi|1142721069|emb|LT727076.1| Bacterial expression vector pGEXGSTp65(12-317)S276C, complete sequence	5872	59	56	94.92	1.15	1.0	1.40444e-12	91.6061
+SFT_seq_18	5119	gi|1142721069|emb|LT727076.1|	gi|1142721069|emb|LT727076.1| Bacterial expression vector pGEXGSTp65(12-317)S276C, complete sequence	5872	59	56	94.92	1.15	1.0	1.40444e-12	91.6061
+SFT_seq_18	5119	gi|1142721063|emb|LT727075.1|	gi|1142721063|emb|LT727075.1| Bacterial expression vector pGEXGSTp65(12-317), complete sequence	5872	2575	2572	99.88	50.3	43.85	0.0	4739.62
+SFT_seq_18	5119	gi|1142721063|emb|LT727075.1|	gi|1142721063|emb|LT727075.1| Bacterial expression vector pGEXGSTp65(12-317), complete sequence	5872	917	917	100.0	17.91	15.62	0.0	1694.5
+SFT_seq_18	5119	gi|1142721063|emb|LT727075.1|	gi|1142721063|emb|LT727075.1| Bacterial expression vector pGEXGSTp65(12-317), complete sequence	5872	59	56	94.92	1.15	1.0	1.40444e-12	91.6061
+SFT_seq_18	5119	gi|1142721063|emb|LT727075.1|	gi|1142721063|emb|LT727075.1| Bacterial expression vector pGEXGSTp65(12-317), complete sequence	5872	59	56	94.92	1.15	1.0	1.40444e-12	91.6061
+SFT_seq_19	4220	gi|2049107112|gb|MW879732.1|	gi|2049107112|gb|MW879732.1| Cloning vector pBAD_ELP-9xTCG, complete sequence	4582	1295	1295	100.0	30.69	28.26	0.0	2392.53
+SFT_seq_19	4220	gi|2049107112|gb|MW879732.1|	gi|2049107112|gb|MW879732.1| Cloning vector pBAD_ELP-9xTCG, complete sequence	4582	100	97	97.0	2.37	2.18	5.19098e-36	169.165
+SFT_seq_19	4220	gi|2049107112|gb|MW879732.1|	gi|2049107112|gb|MW879732.1| Cloning vector pBAD_ELP-9xTCG, complete sequence	4582	80	80	100.0	1.9	1.75	6.76263e-30	148.852
+SFT_seq_19	4220	gi|2049107095|gb|MW879728.1|	gi|2049107095|gb|MW879728.1| Cloning vector pBAD_Ub-wt, complete sequence	4145	1295	1295	100.0	30.69	31.24	0.0	2392.53
+SFT_seq_19	4220	gi|2049107095|gb|MW879728.1|	gi|2049107095|gb|MW879728.1| Cloning vector pBAD_Ub-wt, complete sequence	4145	100	100	100.0	2.37	2.41	5.15438e-41	185.785
+SFT_seq_19	4220	gi|2049107095|gb|MW879728.1|	gi|2049107095|gb|MW879728.1| Cloning vector pBAD_Ub-wt, complete sequence	4145	80	80	100.0	1.9	1.93	6.76263e-30	148.852
+SFT_seq_19	4220	gi|2049107131|gb|MW879737.1|	gi|2049107131|gb|MW879737.1| Cloning vector pBAD_SUMO-3.GS-GyrA-CBD, complete sequence	7210	1255	1255	100.0	29.74	17.41	0.0	2318.67
+SFT_seq_19	4220	gi|2049107131|gb|MW879737.1|	gi|2049107131|gb|MW879737.1| Cloning vector pBAD_SUMO-3.GS-GyrA-CBD, complete sequence	7210	100	100	100.0	2.37	1.39	5.15438e-41	185.785
+SFT_seq_19	4220	gi|2049107131|gb|MW879737.1|	gi|2049107131|gb|MW879737.1| Cloning vector pBAD_SUMO-3.GS-GyrA-CBD, complete sequence	7210	80	80	100.0	1.9	1.11	6.76263e-30	148.852
+SFT_seq_19	4220	gi|2049107131|gb|MW879737.1|	gi|2049107131|gb|MW879737.1| Cloning vector pBAD_SUMO-3.GS-GyrA-CBD, complete sequence	7210	40	40	100.0	0.95	0.55	1.16411e-07	74.9863
+SFT_seq_19	4220	gi|2049107136|gb|MW879738.1|	gi|2049107136|gb|MW879738.1| Cloning vector pBAD_SUMO-2.TCGTAG-GyrA-CBD, complete sequence	7198	1255	1255	100.0	29.74	17.44	0.0	2318.67
+SFT_seq_19	4220	gi|2049107136|gb|MW879738.1|	gi|2049107136|gb|MW879738.1| Cloning vector pBAD_SUMO-2.TCGTAG-GyrA-CBD, complete sequence	7198	100	100	100.0	2.37	1.39	5.15438e-41	185.785
+SFT_seq_19	4220	gi|2049107136|gb|MW879738.1|	gi|2049107136|gb|MW879738.1| Cloning vector pBAD_SUMO-2.TCGTAG-GyrA-CBD, complete sequence	7198	80	80	100.0	1.9	1.11	6.76263e-30	148.852
+SFT_seq_19	4220	gi|2049107136|gb|MW879738.1|	gi|2049107136|gb|MW879738.1| Cloning vector pBAD_SUMO-2.TCGTAG-GyrA-CBD, complete sequence	7198	40	40	100.0	0.95	0.56	1.16411e-07	74.9863
+SFT_seq_19	4220	gi|2049107140|gb|MW879739.1|	gi|2049107140|gb|MW879739.1| Cloning vector pBAD_SUMO-Cys-3.GS-CBD, complete sequence	7213	1255	1255	100.0	29.74	17.4	0.0	2318.67
+SFT_seq_19	4220	gi|2049107140|gb|MW879739.1|	gi|2049107140|gb|MW879739.1| Cloning vector pBAD_SUMO-Cys-3.GS-CBD, complete sequence	7213	100	100	100.0	2.37	1.39	5.15438e-41	185.785
+SFT_seq_19	4220	gi|2049107140|gb|MW879739.1|	gi|2049107140|gb|MW879739.1| Cloning vector pBAD_SUMO-Cys-3.GS-CBD, complete sequence	7213	80	80	100.0	1.9	1.11	6.76263e-30	148.852
+SFT_seq_19	4220	gi|2049107140|gb|MW879739.1|	gi|2049107140|gb|MW879739.1| Cloning vector pBAD_SUMO-Cys-3.GS-CBD, complete sequence	7213	40	40	100.0	0.95	0.55	1.16411e-07	74.9863
+SFT_seq_20	3328	gi|134105583|gb|EF456738.1|	gi|134105583|gb|EF456738.1| Expression vector pET15-MHL, complete sequence	7737	1948	1948	100.0	58.53	25.18	0.0	3598.39
+SFT_seq_20	3328	gi|134105571|gb|EF456735.1|	gi|134105571|gb|EF456735.1| Expression vector pET28-MHL, complete sequence	7325	1948	1948	100.0	58.53	26.59	0.0	3598.39
+SFT_seq_20	3328	gi|134105575|gb|EF456736.1|	gi|134105575|gb|EF456736.1| Expression vector p15TV-L, complete sequence	7746	1957	1948	99.54	58.8	25.26	0.0	3555.92
+SFT_seq_20	3328	gi|1388768765|gb|MH173316.1|	gi|1388768765|gb|MH173316.1| Expression vector pETHISglpX, complete sequence	6238	1919	1919	100.0	57.66	30.76	0.0	3544.84
+SFT_seq_20	3328	gi|1388768755|gb|MH173314.1|	gi|1388768755|gb|MH173314.1| Expression vector pETHISmdh, complete sequence	6400	1918	1918	100.0	57.63	29.97	0.0	3542.99
+SFT_seq_21	4828	gi|1229243974|gb|MF280109.1|	gi|1229243974|gb|MF280109.1| Synthetic construct clone pRedCas9, complete sequence	12517	2319	2317	99.91	48.03	18.53	0.0	4272.42
+SFT_seq_21	4828	gi|1229243974|gb|MF280109.1|	gi|1229243974|gb|MF280109.1| Synthetic construct clone pRedCas9, complete sequence	12517	352	352	100.0	7.29	2.81	0.0	651.141
+SFT_seq_21	4828	gi|1229243974|gb|MF280109.1|	gi|1229243974|gb|MF280109.1| Synthetic construct clone pRedCas9, complete sequence	12517	130	130	100.0	2.69	1.04	1.24232e-57	241.185
+SFT_seq_21	4828	gi|1229243974|gb|MF280109.1|	gi|1229243974|gb|MF280109.1| Synthetic construct clone pRedCas9, complete sequence	12517	81	80	98.77	1.68	0.65	1.00201e-28	145.159
+SFT_seq_21	4828	gi|1229243974|gb|MF280109.1|	gi|1229243974|gb|MF280109.1| Synthetic construct clone pRedCas9, complete sequence	12517	78	78	100.0	1.62	0.62	1.00201e-28	145.159
+SFT_seq_21	4828	gi|1229243974|gb|MF280109.1|	gi|1229243974|gb|MF280109.1| Synthetic construct clone pRedCas9, complete sequence	12517	87	84	96.55	1.8	0.7	3.60389e-28	143.312
+SFT_seq_21	4828	gi|1229243974|gb|MF280109.1|	gi|1229243974|gb|MF280109.1| Synthetic construct clone pRedCas9, complete sequence	12517	68	68	100.0	1.41	0.54	3.62947e-23	126.692
+SFT_seq_21	4828	gi|1229243974|gb|MF280109.1|	gi|1229243974|gb|MF280109.1| Synthetic construct clone pRedCas9, complete sequence	12517	63	62	98.41	1.3	0.5	1.01629e-18	111.919
+SFT_seq_21	4828	gi|1229243974|gb|MF280109.1|	gi|1229243974|gb|MF280109.1| Synthetic construct clone pRedCas9, complete sequence	12517	55	55	100.0	1.14	0.44	6.11651e-16	102.686
+SFT_seq_21	4828	gi|1229243974|gb|MF280109.1|	gi|1229243974|gb|MF280109.1| Synthetic construct clone pRedCas9, complete sequence	12517	55	55	100.0	1.14	0.44	6.11651e-16	102.686
+SFT_seq_21	4828	gi|1940861511|gb|MT861051.2|	gi|1940861511|gb|MT861051.2| Cloning vectors p221 LIII A-B, complete sequence	12657	2302	2301	99.96	47.68	18.19	0.0	4246.57
+SFT_seq_21	4828	gi|1940861511|gb|MT861051.2|	gi|1940861511|gb|MT861051.2| Cloning vectors p221 LIII A-B, complete sequence	12657	47	47	100.0	0.97	0.37	1.71269e-11	87.9128
+SFT_seq_21	4828	gi|378941858|gb|JQ301470.1|	gi|378941858|gb|JQ301470.1| Cloning vector PANTS-AraLambdaRED, complete sequence	5802	2319	2309	99.57	48.03	39.97	0.0	4220.71
+SFT_seq_21	4828	gi|378941858|gb|JQ301470.1|	gi|378941858|gb|JQ301470.1| Cloning vector PANTS-AraLambdaRED, complete sequence	5802	100	100	100.0	2.07	1.72	5.90393e-41	185.785
+SFT_seq_21	4828	gi|378941858|gb|JQ301470.1|	gi|378941858|gb|JQ301470.1| Cloning vector PANTS-AraLambdaRED, complete sequence	5802	56	56	100.0	1.16	0.97	1.70062e-16	104.533
+SFT_seq_21	4828	gi|378941864|gb|JQ301471.1|	gi|378941864|gb|JQ301471.1| Cloning vector pANTS-AraLambdaREDdnaAdnaN, complete sequence	8741	2319	2309	99.57	48.03	26.53	0.0	4220.71
+SFT_seq_21	4828	gi|378941864|gb|JQ301471.1|	gi|378941864|gb|JQ301471.1| Cloning vector pANTS-AraLambdaREDdnaAdnaN, complete sequence	8741	100	100	100.0	2.07	1.14	5.90393e-41	185.785
+SFT_seq_21	4828	gi|378941864|gb|JQ301471.1|	gi|378941864|gb|JQ301471.1| Cloning vector pANTS-AraLambdaREDdnaAdnaN, complete sequence	8741	56	56	100.0	1.16	0.64	1.70062e-16	104.533
+SFT_seq_21	4828	gi|2502264714|gb|OP778120.1|	gi|2502264714|gb|OP778120.1| Vector pISacRedR6K, complete sequence	8860	2255	2254	99.96	46.71	25.45	0.0	4159.78
+SFT_seq_21	4828	gi|2502264714|gb|OP778120.1|	gi|2502264714|gb|OP778120.1| Vector pISacRedR6K, complete sequence	8860	100	100	100.0	2.07	1.13	5.90393e-41	185.785
+SFT_seq_21	4828	gi|2502264714|gb|OP778120.1|	gi|2502264714|gb|OP778120.1| Vector pISacRedR6K, complete sequence	8860	100	99	99.0	2.07	1.13	2.74683e-39	180.245
+SFT_seq_21	4828	gi|2502264714|gb|OP778120.1|	gi|2502264714|gb|OP778120.1| Vector pISacRedR6K, complete sequence	8860	78	78	100.0	1.62	0.88	1.00201e-28	145.159
+SFT_seq_22	4411	gi|1790039171|gb|CP046410.1|	gi|1790039171|gb|CP046410.1| Aeromonas veronii strain A8-AHP plasmid pA8AHP3, complete sequence	5625	2813	2813	100.0	63.77	50.01	0.0	5195.75
+SFT_seq_22	4411	gi|1790039171|gb|CP046410.1|	gi|1790039171|gb|CP046410.1| Aeromonas veronii strain A8-AHP plasmid pA8AHP3, complete sequence	5625	133	132	99.25	3.02	2.36	1.13415e-57	241.185
+SFT_seq_22	4411	gi|326833923|gb|JF419126.1|	gi|326833923|gb|JF419126.1| Expression vector L189-1, complete sequence	5818	2811	2811	100.0	63.73	48.32	0.0	5192.05
+SFT_seq_22	4411	gi|326833923|gb|JF419126.1|	gi|326833923|gb|JF419126.1| Expression vector L189-1, complete sequence	5818	133	132	99.25	3.02	2.29	1.13415e-57	241.185
+SFT_seq_22	4411	gi|326833922|gb|JF419125.1|	gi|326833922|gb|JF419125.1| Expression vector L188-1, complete sequence	6235	2811	2811	100.0	63.73	45.08	0.0	5192.05
+SFT_seq_22	4411	gi|326833922|gb|JF419125.1|	gi|326833922|gb|JF419125.1| Expression vector L188-1, complete sequence	6235	133	132	99.25	3.02	2.13	1.13415e-57	241.185
+SFT_seq_22	4411	gi|2591789139|gb|OR453941.1|	gi|2591789139|gb|OR453941.1| Cloning vector pXJ1661, complete sequence	8521	2810	2810	100.0	63.7	32.98	0.0	5190.21
+SFT_seq_22	4411	gi|2591789139|gb|OR453941.1|	gi|2591789139|gb|OR453941.1| Cloning vector pXJ1661, complete sequence	8521	133	132	99.25	3.02	1.56	1.13415e-57	241.185
+SFT_seq_22	4411	gi|3024675930|gb|PV943961.1|	gi|3024675930|gb|PV943961.1| Synthetic construct clone pXJ199H-GFP1 other-genetic sequence	9448	2810	2810	100.0	63.7	29.74	0.0	5190.21
+SFT_seq_22	4411	gi|3024675930|gb|PV943961.1|	gi|3024675930|gb|PV943961.1| Synthetic construct clone pXJ199H-GFP1 other-genetic sequence	9448	133	132	99.25	3.02	1.41	1.13415e-57	241.185
+SFT_seq_23	8950	gi|2870224156|gb|CP152074.1|	gi|2870224156|gb|CP152074.1| Anaerostipes caccae strain LAHUC plasmid unnamed, complete sequence	4882	2071	2071	100.0	23.14	42.42	0.0	3825.53
+SFT_seq_23	8950	gi|2870224156|gb|CP152074.1|	gi|2870224156|gb|CP152074.1| Anaerostipes caccae strain LAHUC plasmid unnamed, complete sequence	4882	1572	1572	100.0	17.56	32.2	0.0	2904.05
+SFT_seq_23	8950	gi|2870224156|gb|CP152074.1|	gi|2870224156|gb|CP152074.1| Anaerostipes caccae strain LAHUC plasmid unnamed, complete sequence	4882	499	499	100.0	5.58	10.22	0.0	922.598
+SFT_seq_23	8950	gi|2870224156|gb|CP152074.1|	gi|2870224156|gb|CP152074.1| Anaerostipes caccae strain LAHUC plasmid unnamed, complete sequence	4882	696	545	78.3	7.78	14.26	1.68827e-98	377.837
+SFT_seq_23	8950	gi|2870224156|gb|CP152074.1|	gi|2870224156|gb|CP152074.1| Anaerostipes caccae strain LAHUC plasmid unnamed, complete sequence	4882	696	545	78.3	7.78	14.26	1.68827e-98	377.837
+SFT_seq_23	8950	gi|2870224156|gb|CP152074.1|	gi|2870224156|gb|CP152074.1| Anaerostipes caccae strain LAHUC plasmid unnamed, complete sequence	4882	133	132	99.25	1.49	2.72	8.31214e-57	239.338
+SFT_seq_23	8950	gi|2870224156|gb|CP152074.1|	gi|2870224156|gb|CP152074.1| Anaerostipes caccae strain LAHUC plasmid unnamed, complete sequence	4882	133	132	99.25	1.49	2.72	8.31214e-57	239.338
+SFT_seq_23	8950	gi|2870224156|gb|CP152074.1|	gi|2870224156|gb|CP152074.1| Anaerostipes caccae strain LAHUC plasmid unnamed, complete sequence	4882	82	82	100.0	0.92	1.68	1.11396e-30	152.546
+SFT_seq_23	8950	gi|2870224156|gb|CP152074.1|	gi|2870224156|gb|CP152074.1| Anaerostipes caccae strain LAHUC plasmid unnamed, complete sequence	4882	82	82	100.0	0.92	1.68	1.11396e-30	152.546
+SFT_seq_23	8950	gi|2870224156|gb|CP152074.1|	gi|2870224156|gb|CP152074.1| Anaerostipes caccae strain LAHUC plasmid unnamed, complete sequence	4882	78	78	100.0	0.87	1.6	1.86405e-28	145.159
+SFT_seq_23	8950	gi|2870224156|gb|CP152074.1|	gi|2870224156|gb|CP152074.1| Anaerostipes caccae strain LAHUC plasmid unnamed, complete sequence	4882	78	78	100.0	0.87	1.6	1.86405e-28	145.159
+SFT_seq_23	8950	gi|2870224156|gb|CP152074.1|	gi|2870224156|gb|CP152074.1| Anaerostipes caccae strain LAHUC plasmid unnamed, complete sequence	4882	76	76	100.0	0.85	1.56	2.4113e-27	141.466
+SFT_seq_23	8950	gi|2870224156|gb|CP152074.1|	gi|2870224156|gb|CP152074.1| Anaerostipes caccae strain LAHUC plasmid unnamed, complete sequence	4882	76	76	100.0	0.85	1.56	2.4113e-27	141.466
+SFT_seq_23	8950	gi|2870224156|gb|CP152074.1|	gi|2870224156|gb|CP152074.1| Anaerostipes caccae strain LAHUC plasmid unnamed, complete sequence	4882	71	71	100.0	0.79	1.45	1.45123e-24	132.232
+SFT_seq_23	8950	gi|2870224156|gb|CP152074.1|	gi|2870224156|gb|CP152074.1| Anaerostipes caccae strain LAHUC plasmid unnamed, complete sequence	4882	71	71	100.0	0.79	1.45	1.45123e-24	132.232
+SFT_seq_23	8950	gi|2870224156|gb|CP152074.1|	gi|2870224156|gb|CP152074.1| Anaerostipes caccae strain LAHUC plasmid unnamed, complete sequence	4882	57	56	98.25	0.64	1.17	4.09245e-15	100.839
+SFT_seq_23	8950	gi|2870224156|gb|CP152074.1|	gi|2870224156|gb|CP152074.1| Anaerostipes caccae strain LAHUC plasmid unnamed, complete sequence	4882	57	56	98.25	0.64	1.17	4.09245e-15	100.839
+SFT_seq_23	8950	gi|336455253|gb|JF796096.1|	gi|336455253|gb|JF796096.1| Reporter gene-fusion vector pFU69, complete sequence	2843	2064	2061	99.85	23.06	72.6	0.0	3794.14
+SFT_seq_23	8950	gi|336455253|gb|JF796096.1|	gi|336455253|gb|JF796096.1| Reporter gene-fusion vector pFU69, complete sequence	2843	826	809	97.94	9.23	29.05	0.0	1424.89
+SFT_seq_23	8950	gi|336455253|gb|JF796096.1|	gi|336455253|gb|JF796096.1| Reporter gene-fusion vector pFU69, complete sequence	2843	718	698	97.21	8.02	25.26	0.0	1199.6
+SFT_seq_23	8950	gi|336455253|gb|JF796096.1|	gi|336455253|gb|JF796096.1| Reporter gene-fusion vector pFU69, complete sequence	2843	696	545	78.3	7.78	24.48	1.68827e-98	377.837
+SFT_seq_23	8950	gi|336455253|gb|JF796096.1|	gi|336455253|gb|JF796096.1| Reporter gene-fusion vector pFU69, complete sequence	2843	187	186	99.47	2.09	6.58	2.21504e-87	340.904
+SFT_seq_23	8950	gi|336455253|gb|JF796096.1|	gi|336455253|gb|JF796096.1| Reporter gene-fusion vector pFU69, complete sequence	2843	133	132	99.25	1.49	4.68	8.31214e-57	239.338
+SFT_seq_23	8950	gi|336455253|gb|JF796096.1|	gi|336455253|gb|JF796096.1| Reporter gene-fusion vector pFU69, complete sequence	2843	71	71	100.0	0.79	2.5	1.45123e-24	132.232
+SFT_seq_23	8950	gi|336455253|gb|JF796096.1|	gi|336455253|gb|JF796096.1| Reporter gene-fusion vector pFU69, complete sequence	2843	57	57	100.0	0.64	2.0	8.79615e-17	106.379
+SFT_seq_23	8950	gi|2315858|gb|U66312.1|U66312	gi|2315858|gb|U66312.1|U66312 Expression vector pZE2 PLtetO-1 MCS2, complete sequence	2217	2064	2061	99.85	23.06	93.1	0.0	3794.14
+SFT_seq_23	8950	gi|2315858|gb|U66312.1|U66312	gi|2315858|gb|U66312.1|U66312 Expression vector pZE2 PLtetO-1 MCS2, complete sequence	2217	696	545	78.3	7.78	31.39	1.68827e-98	377.837
+SFT_seq_23	8950	gi|2315858|gb|U66312.1|U66312	gi|2315858|gb|U66312.1|U66312 Expression vector pZE2 PLtetO-1 MCS2, complete sequence	2217	133	132	99.25	1.49	6.0	8.31214e-57	239.338
+SFT_seq_23	8950	gi|2315858|gb|U66312.1|U66312	gi|2315858|gb|U66312.1|U66312 Expression vector pZE2 PLtetO-1 MCS2, complete sequence	2217	102	100	98.04	1.14	4.6	1.83786e-38	178.399
+SFT_seq_23	8950	gi|2315858|gb|U66312.1|U66312	gi|2315858|gb|U66312.1|U66312 Expression vector pZE2 PLtetO-1 MCS2, complete sequence	2217	78	78	100.0	0.87	3.52	1.86405e-28	145.159
+SFT_seq_23	8950	gi|2315858|gb|U66312.1|U66312	gi|2315858|gb|U66312.1|U66312 Expression vector pZE2 PLtetO-1 MCS2, complete sequence	2217	71	71	100.0	0.79	3.2	1.45123e-24	132.232
+SFT_seq_23	8950	gi|2315858|gb|U66312.1|U66312	gi|2315858|gb|U66312.1|U66312 Expression vector pZE2 PLtetO-1 MCS2, complete sequence	2217	57	57	100.0	0.64	2.57	8.79615e-17	106.379
+SFT_seq_23	8950	gi|2315858|gb|U66312.1|U66312	gi|2315858|gb|U66312.1|U66312 Expression vector pZE2 PLtetO-1 MCS2, complete sequence	2217	54	54	100.0	0.6	2.44	4.09245e-15	100.839
+SFT_seq_23	8950	gi|459258092|gb|KC202164.1|	gi|459258092|gb|KC202164.1| Cloning vector pDAL649, complete sequence	3905	1989	1989	100.0	22.22	50.93	0.0	3674.11
+SFT_seq_23	8950	gi|459258092|gb|KC202164.1|	gi|459258092|gb|KC202164.1| Cloning vector pDAL649, complete sequence	3905	696	545	78.3	7.78	17.82	1.68827e-98	377.837
+SFT_seq_23	8950	gi|459258092|gb|KC202164.1|	gi|459258092|gb|KC202164.1| Cloning vector pDAL649, complete sequence	3905	139	136	97.84	1.55	3.56	8.31214e-57	239.338
+SFT_seq_23	8950	gi|459258092|gb|KC202164.1|	gi|459258092|gb|KC202164.1| Cloning vector pDAL649, complete sequence	3905	78	78	100.0	0.87	2.0	1.86405e-28	145.159
+SFT_seq_23	8950	gi|459258092|gb|KC202164.1|	gi|459258092|gb|KC202164.1| Cloning vector pDAL649, complete sequence	3905	57	57	100.0	0.64	1.46	8.79615e-17	106.379
+SFT_seq_23	8950	gi|459258092|gb|KC202164.1|	gi|459258092|gb|KC202164.1| Cloning vector pDAL649, complete sequence	3905	37	37	100.0	0.41	0.95	1.15407e-05	69.4463
+SFT_seq_23	8950	gi|459258092|gb|KC202164.1|	gi|459258092|gb|KC202164.1| Cloning vector pDAL649, complete sequence	3905	29	29	100.0	0.32	0.74	0.323152	54.6731
+SFT_seq_23	8950	gi|2453050979|gb|OP031612.1|	gi|2453050979|gb|OP031612.1| Expression vector MGA15_pZE_mmCAR_sfp, complete sequence	7174	1977	1974	99.85	22.09	27.56	0.0	3633.48
+SFT_seq_23	8950	gi|2453050979|gb|OP031612.1|	gi|2453050979|gb|OP031612.1| Expression vector MGA15_pZE_mmCAR_sfp, complete sequence	7174	624	623	99.84	6.97	8.7	0.0	1147.89
+SFT_seq_23	8950	gi|2453050979|gb|OP031612.1|	gi|2453050979|gb|OP031612.1| Expression vector MGA15_pZE_mmCAR_sfp, complete sequence	7174	696	545	78.3	7.78	9.7	1.68827e-98	377.837
+SFT_seq_23	8950	gi|2453050979|gb|OP031612.1|	gi|2453050979|gb|OP031612.1| Expression vector MGA15_pZE_mmCAR_sfp, complete sequence	7174	133	132	99.25	1.49	1.85	8.31214e-57	239.338
+SFT_seq_23	8950	gi|2453050979|gb|OP031612.1|	gi|2453050979|gb|OP031612.1| Expression vector MGA15_pZE_mmCAR_sfp, complete sequence	7174	102	100	98.04	1.14	1.42	1.83786e-38	178.399
+SFT_seq_23	8950	gi|2453050979|gb|OP031612.1|	gi|2453050979|gb|OP031612.1| Expression vector MGA15_pZE_mmCAR_sfp, complete sequence	7174	79	79	100.0	0.88	1.1	5.18275e-29	147.006
+SFT_seq_23	8950	gi|2453050979|gb|OP031612.1|	gi|2453050979|gb|OP031612.1| Expression vector MGA15_pZE_mmCAR_sfp, complete sequence	7174	78	77	98.72	0.87	1.09	3.11921e-26	137.772
+SFT_seq_23	8950	gi|2453050979|gb|OP031612.1|	gi|2453050979|gb|OP031612.1| Expression vector MGA15_pZE_mmCAR_sfp, complete sequence	7174	78	77	98.72	0.87	1.09	3.11921e-26	137.772
+SFT_seq_23	8950	gi|2453050979|gb|OP031612.1|	gi|2453050979|gb|OP031612.1| Expression vector MGA15_pZE_mmCAR_sfp, complete sequence	7174	71	71	100.0	0.79	0.99	1.45123e-24	132.232
+SFT_seq_23	8950	gi|2453050979|gb|OP031612.1|	gi|2453050979|gb|OP031612.1| Expression vector MGA15_pZE_mmCAR_sfp, complete sequence	7174	54	54	100.0	0.6	0.75	4.09245e-15	100.839
+SFT_seq_24	7656	gi|1678415828|gb|MK720606.1|	gi|1678415828|gb|MK720606.1| Expression vector pNC-ET28, complete sequence	5979	5261	5255	99.89	68.72	87.99	0.0	9679.41
+SFT_seq_24	7656	gi|1752258068|gb|MK606524.1|	gi|1752258068|gb|MK606524.1| Cloning vector pET28AMP_MaIE_AGF20, complete sequence	6457	5234	5227	99.87	68.36	81.06	0.0	9624.01
+SFT_seq_24	7656	gi|1752258062|gb|MK606523.1|	gi|1752258062|gb|MK606523.1| Cloning vector pET28AMP_MaIE_AGF10, complete sequence	5914	5234	5227	99.87	68.36	88.5	0.0	9624.01
+SFT_seq_24	7656	gi|1756502083|gb|MK659889.1|	gi|1756502083|gb|MK659889.1| Cloning vector pET28AMP_MaIE_AGF30, complete sequence	7000	5234	5227	99.87	68.36	74.77	0.0	9624.01
+SFT_seq_24	7656	gi|1752258076|gb|MK606525.1|	gi|1752258076|gb|MK606525.1| Cloning vector pET28AMP_MaIE_AGF40, complete sequence	7543	5234	5227	99.87	68.36	69.39	0.0	9624.01

@@ -1,0 +1,9 @@
+DEFINITION  seqnum=1;seqlen=5119;seqhdr="seq_18";version=Prodigal.v2.6.3;run_type=Metagenomic;model="41|Shigella_dysenteriae_Sd197|B|51.2|11|1";gc_cont=51.20;transl_table=11;uses_sd=1
+FEATURES             Location/Qualifiers
+     CDS             1175..2266
+                     /note="ID=1_1;partial=00;start_type=GTG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.562;conf=100.00;score=125.13;cscore=127.68;sscore=-2.55;rscore=2.34;uscore=-2.16;tscore=-2.73;"
+     CDS             2389..2916
+                     /note="ID=1_2;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.549;conf=99.98;score=37.38;cscore=23.07;sscore=14.31;rscore=10.46;uscore=0.54;tscore=3.32;"
+     CDS             complement(3795..4061)
+                     /note="ID=1_3;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.652;conf=84.67;score=7.43;cscore=12.55;sscore=-5.12;rscore=-4.78;uscore=-3.66;tscore=3.32;"
+//

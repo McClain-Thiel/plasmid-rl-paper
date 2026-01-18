@@ -1,0 +1,2 @@
+sequence,symbol,name,start,end,strand,pct_identity,pct_cov
+seq_13,tet(C),tetracycline efflux MFS transporter Tet(C),2692,3312,-,100.0,52.27

@@ -1,0 +1,12 @@
+Plasmid_ID,Ori's present,Identity of each ori,Cov of each ori,ARG's present,Identity of ARGs,Cov of ARGs
+seq_14,ColE1,99.83,100.00,blaTEM-116,100.00,100.00
+seq_24,ColE1,99.83,100.00,aph(3')-Ia,100.00,100.00
+seq_32,ColE1,99.83,100.00,blaTEM-116,100.00,100.00
+seq_34,ColE1,99.83,100.00,blaTEM-1,100.00,100.00
+seq_4,ColE1,99.83,100.00,blaTEM-171,100.00,100.00
+seq_49,ColE1,99.15,100.00,blaTEM-116,100.00,100.00
+seq_56,ColE1,99.83,100.00,blaTEM-171,100.00,100.00
+seq_80,ColE1,99.83,100.00,blaTEM-171,100.00,100.00
+seq_91,ColE1,99.83,100.00,blaTEM-171,100.00,100.00
+seq_93,ColE1,99.66,100.00,blaTEM-116,100.00,100.00
+seq_98,ColE1,99.66,100.00,blaTEM-116,100.00,100.00

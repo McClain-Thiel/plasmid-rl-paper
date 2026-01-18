@@ -1,0 +1,15 @@
+DEFINITION  seqnum=1;seqlen=7662;seqhdr="seq_33";version=Prodigal.v2.6.3;run_type=Metagenomic;model="17|Desulfotomaculum_acetoxidans_DSM_771|B|41.5|11|1";gc_cont=41.60;transl_table=11;uses_sd=1
+FEATURES             Location/Qualifiers
+     CDS             62..598
+                     /note="ID=1_1;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.376;conf=100.00;score=53.40;cscore=37.84;sscore=15.57;rscore=11.61;uscore=1.13;tscore=2.83;"
+     CDS             complement(2070..2525)
+                     /note="ID=1_2;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.461;conf=65.21;score=2.73;cscore=15.55;sscore=-12.81;rscore=-10.82;uscore=-4.17;tscore=2.83;"
+     CDS             2592..2792
+                     /note="ID=1_3;partial=00;start_type=ATG;rbs_motif=AGxAGG/AGGxGG;rbs_spacer=5-10bp;gc_cont=0.483;conf=56.39;score=1.12;cscore=-6.62;sscore=7.74;rscore=8.01;uscore=-2.01;tscore=2.24;"
+     CDS             2755..3078
+                     /note="ID=1_4;partial=00;start_type=TTG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.417;conf=66.68;score=3.02;cscore=6.12;sscore=-3.10;rscore=2.89;uscore=-2.35;tscore=-3.64;"
+     CDS             3794..4603
+                     /note="ID=1_5;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.437;conf=100.00;score=55.46;cscore=53.13;sscore=2.33;rscore=-1.02;uscore=1.17;tscore=2.83;"
+     CDS             6062..6865
+                     /note="ID=1_6;partial=00;start_type=ATG;rbs_motif=4Base/6BMM;rbs_spacer=13-15bp;gc_cont=0.430;conf=100.00;score=83.60;cscore=85.81;sscore=-2.20;rscore=-2.07;uscore=-2.32;tscore=2.83;"
+//

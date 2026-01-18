@@ -1,0 +1,13 @@
+DEFINITION  seqnum=1;seqlen=6673;seqhdr="seq_59";version=Prodigal.v2.6.3;run_type=Metagenomic;model="47|Xenorhabdus_nematophila_ATCC_19061|B|44.1|11|1";gc_cont=44.20;transl_table=11;uses_sd=1
+FEATURES             Location/Qualifiers
+     CDS             62..598
+                     /note="ID=1_1;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.376;conf=100.00;score=53.65;cscore=34.19;sscore=19.46;rscore=14.77;uscore=0.70;tscore=3.99;"
+     CDS             1382..1570
+                     /note="ID=1_2;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.407;conf=91.43;score=10.30;cscore=2.70;sscore=7.60;rscore=8.19;uscore=-2.91;tscore=2.97;"
+     CDS             complement(2162..3385)
+                     /note="ID=1_3;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.600;conf=99.95;score=33.17;cscore=28.17;sscore=5.00;rscore=3.02;uscore=-1.35;tscore=3.99;"
+     CDS             3771..4631
+                     /note="ID=1_4;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.491;conf=100.00;score=85.95;cscore=69.63;sscore=16.32;rscore=9.79;uscore=2.54;tscore=3.99;"
+     CDS             5496..6155
+                     /note="ID=1_5;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.444;conf=100.00;score=49.60;cscore=34.82;sscore=14.78;rscore=9.79;uscore=1.65;tscore=3.99;"
+//

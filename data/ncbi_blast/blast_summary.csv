@@ -1,0 +1,18 @@
+model,query,length,best_hit,identity_pct,coverage_pct,classification
+Base,Base_seq_33,6279,MK910749.1 Expression vector pDEST17-AceKMs; complete sequenc,99,63.3,Novel
+Base,Base_seq_43,4805,AB124780.2 Cloning vector pGreen DNA; complete sequence,99,52.2,Novel
+Base,Base_seq_71,4248,EF372397.1 Expression vector pOPINE; complete sequence,100,58.8,Novel
+Base,Base_seq_73,5327,KC537291.1 Cloning vector pG-Sable; complete sequence,99,56.4,Novel
+Base,Base_seq_83,4101,KR232336.1 Expression vector pML1381; complete sequence,99,45.5,Novel
+Base,Base_seq_99,4347,MG252981.1 Cloning vector mUAV; complete sequence,100,45.2,Novel
+SFT,SFT_seq_14,5823,AY159365.1 Synthetic construct plasmid pSN6 alkaline phosphat,99,49.9,Novel
+SFT,SFT_seq_24,7656,MK720606.1 Expression vector pNC-ET28; complete sequence,99,68.6,Novel
+SFT,SFT_seq_32,6418,PP098729.1 Cloning vector pETDuet-1-ART; complete sequence,99,78.3,Novel
+SFT,SFT_seq_34,6278,CP174135.1 Cronobacter malonaticus strain NWU01 plasmid unnam,99,72.0,Novel
+SFT,SFT_seq_4,6770,KU974159.1 Expression vector pTEV19; complete sequence,99,76.9,Novel
+SFT,SFT_seq_49,4100,EF372397.1 Expression vector pOPINE; complete sequence,100,56.9,Novel
+SFT,SFT_seq_56,4964,KY369208.1 Expression vector pET20b(+):CsfldZ; complete seque,99,70.6,Novel
+SFT,SFT_seq_80,4954,KY369208.1 Expression vector pET20b(+):CsfldZ; complete seque,100,70.8,Novel
+SFT,SFT_seq_91,7620,KU974159.1 Expression vector pTEV19; complete sequence,99,70.7,Novel
+SFT,SFT_seq_93,4199,KR232336.1 Expression vector pML1381; complete sequence,100,44.5,Novel
+SFT,SFT_seq_98,4559,EU718182.1 Expression vector pESPBAC; complete sequence,100,58.1,Novel

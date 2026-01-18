@@ -1,0 +1,51 @@
+model,query,length,best_hit,identity_pct,coverage_pct,classification,passed_qc
+Base,Base_seq_33,6279,MK910749.1 Expression vector pDEST17-AceKMs; comple,99,63.3,Novel,yes
+Base,Base_seq_43,4805,AB124780.2 Cloning vector pGreen DNA; complete sequ,99,52.2,Novel,yes
+Base,Base_seq_71,4248,EF372397.1 Expression vector pOPINE; complete seque,100,58.8,Novel,yes
+Base,Base_seq_73,5327,KC537291.1 Cloning vector pG-Sable; complete sequen,99,56.4,Novel,yes
+Base,Base_seq_83,4101,KR232336.1 Expression vector pML1381; complete sequ,99,45.5,Novel,yes
+Base,Base_seq_99,4347,MG252981.1 Cloning vector mUAV; complete sequence,100,45.2,Novel,yes
+Base,Base_seq_17,6667,EU554316.1 Yeast selection vector pIS418; complete ,100,58.6,Novel,no
+Base,Base_seq_81,4157,KM407513.1 Cloning vector pCK911; complete sequence,99,57.7,Novel,no
+Base,Base_seq_45,6658,OL312703.1 Cloning vector pLib6.4B-Consensus; compl,99,32.6,Novel,no
+Base,Base_seq_21,10777,DQ230322.1 Shuttle vector pMQ51; complete sequence,99,35.0,Novel,no
+Base,Base_seq_80,92,EF526067.1 Cloning vector pJL-SKX; complete sequenc,100,44.6,Novel,no
+Base,Base_seq_79,2732,JQ394801.1 Cloning vector pFM46; complete sequence,98,33.0,Novel,no
+Base,Base_seq_41,4949,MK234843.1 Cloning vector pJ01; complete sequence,97,28.2,Novel,no
+Base,Base_seq_31,6126,JX171292.1 Expression indicator vector pPV238; comp,99,71.2,Novel,no
+Base,Base_seq_22,218,KX357892.1 Cloning vector pAc5.1B_FN_su(ur); comple,99,55.0,Novel,no
+Base,Base_seq_37,8126,JX559783.1 Cloning vector pTJ1; complete sequence,99,43.6,Novel,no
+Base,Base_seq_75,2354,JQ394801.1 Cloning vector pFM46; complete sequence,98,38.3,Novel,no
+Base,Base_seq_78,355,U81274.1 Expression vector pXen-2 GST-fusion prot,99,99.7,Exists,no
+Base,Base_seq_18,118,OL312703.1 Cloning vector pLib6.4B-Consensus; compl,100,60.2,Novel,no
+Base,Base_seq_53,9833,KM521210.1 Cloning vector pECJ3; complete sequence,93,24.8,Novel,no
+Base,Base_seq_13,8219,MH763823.1 Expression vector pHGT-Bio; complete seq,100,58.7,Novel,no
+Base,Base_seq_11,5195,U66311.1 Expression vector pZE1PLlacO-1 luc; comp,98,39.2,Novel,no
+SFT,SFT_seq_14,5823,AY159365.1 Synthetic construct plasmid pSN6 alkalin,99,49.9,Novel,yes
+SFT,SFT_seq_24,7656,MK720606.1 Expression vector pNC-ET28; complete seq,99,68.6,Novel,yes
+SFT,SFT_seq_32,6418,PP098729.1 Cloning vector pETDuet-1-ART; complete s,99,78.3,Novel,yes
+SFT,SFT_seq_34,6278,CP174135.1 Cronobacter malonaticus strain NWU01 pla,99,72.0,Novel,yes
+SFT,SFT_seq_4,6770,KU974159.1 Expression vector pTEV19; complete seque,99,76.9,Novel,yes
+SFT,SFT_seq_49,4100,EF372397.1 Expression vector pOPINE; complete seque,100,56.9,Novel,yes
+SFT,SFT_seq_56,4964,KY369208.1 Expression vector pET20b(+):CsfldZ; comp,99,70.6,Novel,yes
+SFT,SFT_seq_80,4954,KY369208.1 Expression vector pET20b(+):CsfldZ; comp,100,70.8,Novel,yes
+SFT,SFT_seq_91,7620,KU974159.1 Expression vector pTEV19; complete seque,99,70.7,Novel,yes
+SFT,SFT_seq_93,4199,KR232336.1 Expression vector pML1381; complete sequ,100,44.5,Novel,yes
+SFT,SFT_seq_98,4559,EU718182.1 Expression vector pESPBAC; complete sequ,100,58.1,Novel,yes
+SFT,SFT_seq_74,1424,CP014209.1 Isoptericola dokdonensis DS-3 chromosome,86,2.7,Novel,no
+SFT,SFT_seq_41,2655,JQ394801.1 Cloning vector pFM46; complete sequence,98,34.0,Novel,no
+SFT,SFT_seq_78,9749,KU974159.1 Expression vector pTEV19; complete seque,99,53.6,Novel,no
+SFT,SFT_seq_21,4828,MF280109.1 Synthetic construct clone pRedCas9; comp,99,48.0,Novel,no
+SFT,SFT_seq_38,7711,MH532953.1 Synthetic construct L-DAMP4-F-pexiganan ,99,63.3,Novel,no
+SFT,SFT_seq_79,2405,OP405362.1 Cloning vector pSEVA2323; complete seque,99,61.3,Novel,no
+SFT,SFT_seq_58,7684,LC747188.1 Cloning vector pSPIH6-LeuA DNA; complete,99,63.8,Novel,no
+SFT,SFT_seq_43,5206,EU554318.1 Yeast selection vector pIS420; complete ,99,46.0,Novel,no
+SFT,SFT_seq_90,1404,OZ377888.1 Trifolium repens genome assembly; chromo,97,2.0,Novel,no
+SFT,SFT_seq_70,6451,EU530620.1 Cloning vector pStartK; complete sequenc,99,30.7,Novel,no
+SFT,SFT_seq_67,8997,JN204880.1 Biobrick cloning vector BBa_J96011; comp,99,35.2,Novel,no
+SFT,SFT_seq_96,1421,OZ377201.1 Myrrhis odorata genome assembly; chromos,89,2.4,Novel,no
+SFT,SFT_seq_30,11710,MK720606.1 Expression vector pNC-ET28; complete seq,99,44.8,Novel,no
+SFT,SFT_seq_85,7539,KR232281.1 Expression vector pZNR0926; complete seq,100,21.9,Novel,no
+RL,RL_seq_39,7956,MH621329.1 Cloning vector pAgaL2; complete sequence,99,70.9,Novel,yes
+RL,RL_seq_78,7430,MH621329.1 Cloning vector pAgaL2; complete sequence,99,75.8,Novel,yes
+SFT_GRPO,SFT_GRPO_seq_39,8034,MH621329.1 Cloning vector pAgaL2; complete sequence,99,68.5,Novel,yes

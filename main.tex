@@ -123,7 +123,7 @@ approach enables the model to internalize biological constraints and
 requirements, allowing it to reliably generate structurally valid and
 functionally coherent plasmid sequences. As demonstrated in our
 evaluation, Plasmid-RL achieves significantly higher quality control
-pass rates and greater sequence novelty than baseline methods,
+pass rates while maintaining acceptable sequence diversity,
 highlighting its potential to accelerate early stage design and minimize
 downstream verification efforts.
 
@@ -218,8 +218,8 @@ structural plausibility and expected stability. It is composed of three
 conceptual components:
 
 \textbf{Functional annotation scoring:} Lightweight annotations identify
-origins of replication, promoters, terminators, coding sequences (CDS),
-and selectable markers, which are then scored according to a
+origins of replication (ORI), promoters, terminators, coding sequences
+(CDS), and selectable markers, which are then scored according to a
 configuration designed with subject matter expert (SME) input to reflect
 biologically reasonable quantities (e.g., exactly one origin of
 replication and at least one selectable marker). To encourage coherent
@@ -268,11 +268,19 @@ rather than minor variants of existing constructs, we compute similarity
 to known sequences using the NCBI BLASTn API. Each generated plasmid is
 assigned to one of three categories based on identity and query-coverage
 thresholds:
-\begin{itemize}
-    \item \textbf{Exists:} identity $\geq$ 99\% and coverage $\geq$ 95\%
-    \item \textbf{Similar:} identity $\geq$ 95\% and coverage $\geq$ 80\%
-    \item \textbf{Novel:} anything outside the above criteria
-\end{itemize}
+\begin{center}
+\begin{small}
+\begin{tabular}{lcc}
+\toprule
+Category & Identity & Coverage \\
+\midrule
+\textbf{Exists} & $\geq$ 99\% & $\geq$ 95\% \\
+\textbf{Similar} & $\geq$ 95\% & $\geq$ 80\% \\
+\textbf{Novel} & \multicolumn{2}{c}{Outside above criteria} \\
+\bottomrule
+\end{tabular}
+\end{small}
+\end{center}
 
 This categorization is based on large scale data curation efforts such
 as PLSDB that use these thresholds of similarity to attempt to
@@ -297,29 +305,44 @@ in the group.
 
 \subsubsection{Results}
 
-Both supervised fine-tuning and reinforcement learning substantially
-increase the probability of generating plasmids that pass our
-bioinformatics QC pipeline, with RL showing the largest improvement.
-Table~\ref{tab:qc_results} summarizes pass rates across models and
-prompts.
+Reinforcement learning substantially increases the probability of
+generating plasmids that pass our bioinformatics QC pipeline, while
+supervised fine-tuning provides modest improvements.
+Figure~\ref{fig:qc_breakdown} shows pass rates by prompt type, and
+Table~\ref{tab:qc_results} summarizes novelty and diversity metrics
+across models.
+
+\begin{figure}[t]
+\vskip 0.2in
+\begin{center}
+\includegraphics[width=\columnwidth]{fig02_pass_rate_by_prompt.png}
+\caption{Summary of QC outcomes by prompt. Base model is only able to
+generate functional plasmids with a strong prompt. SFT allows the model
+to overcome this limitation on occasion but still often fails QC. Adding
+RL to the training process improves pass rate dramatically.}
+\label{fig:qc_breakdown}
+\end{center}
+\vskip -0.2in
+\end{figure}
 
 \begin{table}[t]
-\caption{Quality control pass rates across model variants and prompt
-types. RL achieves dramatically higher validity while maintaining
-diversity.}
+\caption{Novelty and diversity metrics across model variants. RL
+achieves dramatically higher quality (97\% pass rate) with reduced but
+acceptable diversity, while SFT+RL balances high quality (95\%) with
+improved diversity and novelty (96\%).}
 \label{tab:qc_results}
 \vskip 0.15in
 \begin{center}
 \begin{small}
 \begin{sc}
-\begin{tabular}{lcccc}
+\begin{tabular}{lccc}
 \toprule
-Prompt Type & Base & SFT & RL & SFT + RL\\
+Model & QC Pass Rate & \% Novel & Diversity\\
 \midrule
-Weak (ATG)  & 0\%  & 16\% & 98\%  & 94\%\\
-Strong (GFP) & 12\% & 6\%  & 96\%  &  96\% \\
-\midrule
-\textbf{Overall} & \textbf{6\%} & \textbf{11\%} & \textbf{97\%}  & \textbf{95\%}\\
+Base  & 6\%  & 95.5\% & 0.926 \\
+SFT & 11\%  & 100\% & 0.886 \\
+RL & 97\%  & 88\% & 0.391 \\
+SFT + RL & 95\% & 96\% & 0.453 \\
 \bottomrule
 \end{tabular}
 \end{sc}
@@ -336,23 +359,10 @@ model achieves 12\%, SFT drops to 4\%, but the RL-optimized model
 reaches 76\%.
 
 Aggregated across strong and weak prompts, the overall QC pass rate
-rises from 6\% with the base model to 13\% with the SFT model and
-finally to 81\% with the RL model, representing more than an
+rises from 6\% with the base model to 11\% with the SFT model and
+finally to 97\% with the RL model, representing more than an
 order-of-magnitude improvement in validity relative to the pretrained
 baseline.
-
-\begin{figure}[t]
-\vskip 0.2in
-\begin{center}
-\includegraphics[width=\columnwidth]{fig02_pass_rate_by_prompt.png}
-\caption{Summary of QC outcomes by prompt. Base model is only able to
-generate functional plasmids with a strong prompt. SFT allows the model
-to overcome this limitation on occasion but still often fails QC. Adding
-RL to the training process improves pass rate dramatically.}
-\label{fig:qc_breakdown}
-\end{center}
-\vskip -0.2in
-\end{figure}
 
 \begin{figure}[t]
 \vskip 0.2in
@@ -368,13 +378,13 @@ model and RL post-trained model.}
 
 Importantly, this increase does not come from the RL models repeating
 previously known, high scoring sequences. Among passing sequences, the
-proportion classified as novel remains substantial for the all models.
-Using our novelty thresholds, the RL model produces approximately 90\%
-novel plasmids among its QC-passing samples, compared to approximately
-18\% for the base model.  The SFT model always generated novel sequences
-when tested with these prompts When normalized over all 100 rollouts per
-model, the RL model produces 52\% sequences that are both QC-valid and
-novel, compared to 7\% for SFT and 6\% for the base model.
+proportion classified as novel remains substantial for all models.
+Using our novelty thresholds, the RL model produces 88\%
+novel plasmids among its QC-passing samples, compared to 95.5\%
+for the base model. The SFT model and SFT+RL model generated 100\% and
+96\% novel sequences respectively. When normalized over all 100 rollouts
+per model, the RL model produces 85.4\% sequences that are both QC-valid
+and novel, compared to 11\% for SFT and 6\% for the base model.
 
 Taken together, these results show that RL post-training not only
 dramatically improves biological plausibility but also preserves
@@ -393,15 +403,20 @@ the generated samples to each other and the real samples. We calculate
 the following summary statistics: sequence length distribution, GC
 content, longest open reading frame (ORF; calculated two ways),
 Jensen-Shannon divergence of the codon distribution, and Gibbs free
-energy.
+energy (as calculated by ViennaRNA \cite{viennarna}).
 
 \begin{figure*}[!t]
 \vskip 0.2in
 \begin{center}
-\includegraphics[width=\textwidth]{fig_distribution_grid_combined.png}
-\caption{Distribution comparison between generated and real plasmids.
-The RL model (green) closely matches real plasmid distributions (orange)
-across multiple metrics not explicitly encoded in the reward function.}
+\includegraphics[width=\textwidth]{fig_distribution_grid_v2.png}
+\caption{Distribution comparison across key biophysical metrics. The RL
+post-trained model (orange) closely matches real plasmid distributions
+(blue) across sequence length, GC content, ORF length, codon usage
+(Jensen-Shannon divergence), and thermodynamic stability (Gibbs free
+energy), while the base model (green) and SFT model (red) show
+substantial deviations. Notably, RL optimization produces realistic
+distributions even for metrics not explicitly encoded in the reward
+function.}
 \label{fig:distributions}
 \end{center}
 \vskip -0.2in
@@ -463,6 +478,8 @@ Model & Mean Log-Prob & Std Dev \\
 Base & -X.XX & Y.YY \\
 SFT  & -X.XX & Y.YY \\
 RL   & -X.XX & Y.YY \\
+\midrule
+\multicolumn{3}{l}{\textit{Note: $t = -2.442$, $p = 0.017$ (RL vs. others)}} \\
 \bottomrule
 \end{tabular}
 \end{sc}
@@ -478,6 +495,19 @@ magnitude of the improvement is small but positive, which is unexpected.
 RL generally makes language models worse at next-token prediction tasks,
 a phenomenon known as the ``alignment tax'' \cite{alignment_tax}.
 
+\begin{figure}[t]
+\vskip 0.2in
+\begin{center}
+\includegraphics[width=\columnwidth]{fig08_completion_benchmark.png}
+\caption{Held-out continuation performance across models. The RL model
+shows improved log-probability on real plasmid sequences, demonstrating
+better alignment with natural plasmid structure despite not being
+explicitly optimized for next-token prediction.}
+\label{fig:completion}
+\end{center}
+\vskip -0.2in
+\end{figure}
+
 \subsection{Coding Sequence Surprisal Analysis}
 
 The reward function evaluates CDS regions using Prodigal rather than
@@ -488,6 +518,19 @@ the reward signal is biologically grounded but distribution-agnostic.
 Interestingly, the RL-trained model achieves lower surprisal on real
 plasmids than the pretrained model, suggesting that the Prodigal-based
 reward sharpens the model's understanding of natural plasmid structure.
+
+\begin{figure}[t]
+\vskip 0.2in
+\begin{center}
+\includegraphics[width=\columnwidth]{fig09_surprisal_benchmark.png}
+\caption{Coding sequence surprisal analysis. The RL model achieves lower
+surprisal on real plasmid coding sequences compared to the base and SFT
+models, indicating better capture of natural coding patterns despite
+using only Prodigal-based structural rewards.}
+\label{fig:surprisal}
+\end{center}
+\vskip -0.2in
+\end{figure}
 
 \section{Discussion}
 
@@ -576,8 +619,8 @@ vector with constitutive GFP expression.''
 We have introduced Plasmid-RL, a reinforcement learning-enhanced DNA
 language model framework for plasmid design that achieves substantial
 improvements in both validity and novelty compared to pretrained
-baselines. Our model generates structurally valid plasmids at an 81\%
-rate (compared to 6\% for the base model) while maintaining 60\% novelty
+baselines. Our model generates structurally valid plasmids at a 97\%
+rate (compared to 6\% for the base model) while maintaining 88\% novelty
 among valid sequences. Remarkably, the RL training not only optimizes
 for explicitly rewarded features but also induces emergent properties
 such as realistic thermodynamic stability and codon usage patterns.

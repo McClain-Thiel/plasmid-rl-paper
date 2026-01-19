@@ -630,13 +630,12 @@ to guide models toward broadly realistic sequence space regions.
 
 \subsection{Future Work: Conditional Generation}
 
-This work proves that modern language modeling techniques can be applied
-to DNA language models in a similar fashion to how they have been
-applied to natural language in the past. The real utility of natural
-language models came from instruction tuning them to respond to
-questions and follow directions. Even if the latent space hypothesis we
-outline is correct, navigating this latent space is far too difficult to
-be practical without explicit conditioning.
+This work further supports the ongoing hypothesis that modern language 
+modeling techniques can be applied to DNA language models in a similar 
+fashion to how they have been applied to natural language in the past. 
+The real utility of natural language models came from instruction tuning 
+them to respond to questions and follow directions. This work shows that post-
+training techniques can be applied to DNA language models to achieve similar results.
 
 We hope to build out a dataset designed for conditional generation where
 the user can prompt the model with the specifics of the plasmid they
@@ -644,6 +643,10 @@ want, and the model will develop it from there. This would enable
 practical use cases such as ``design a plasmid for expressing protein X
 in E. coli with high copy number'' or ``create a mammalian expression
 vector with constitutive GFP expression.''
+
+In addition to being far more practical than unconditional generation, the
+conditioning will promote more diveristy of sample and make evaluation of 
+the model's performance on the task of plasmid design much more understable.
 
 \section{Conclusion}
 
@@ -707,11 +710,11 @@ publicly available.
 \subsection{Supervised Fine-Tuning Hyperparameters}
 
 \begin{itemize}
-\item \textbf{Batch size:} [fill in]
-\item \textbf{Learning rate:} [fill in] with [warmup schedule]
+\item \textbf{Batch size:} 1
+\item \textbf{Learning rate:} $5 \times 10^{-5}$ with 500 warmup steps
 \item \textbf{Optimizer:} AdamW
 \item \textbf{Epochs:} 3
-\item \textbf{Gradient accumulation steps:} [fill in]
+\item \textbf{Gradient accumulation steps:} 8
 \item \textbf{Hardware:} [single/multi] NVIDIA L4 GPU(s)
 \end{itemize}
 
@@ -721,7 +724,7 @@ publicly available.
 \item \textbf{Rollout batch size:} 50
 \item \textbf{Policy learning rate:} $3.55 \times 10^{-5}$ (found via
 hyperparameter sweep)
-\item \textbf{GRPO group size:} [fill in]
+\item \textbf{GRPO group size:} 16
 \item \textbf{Training steps:} Varies between 1000-2500 (scheduled for
 2500 but rarely reached due to early convergence)
 \item \textbf{Convergence criteria:} Reward plateau or dip indicating
@@ -743,6 +746,35 @@ reward at 5kb and minimum at 15kb, zero reward beyond 15kb
 \item \textbf{Repeat penalty ($>$50bp):} $-0.1$ from total reward for
 each repeat $>$ 50bp
 \end{itemize}
+
+\subsection{Reference Plasmids for Distribution Comparison}
+
+The following common laboratory plasmids were used for distribution
+comparison and benchmarking analyses in Section 4.2:
+
+\begin{small}
+\begin{tabular}{llp{5.5cm}}
+\toprule
+Plasmid & Size (bp) & Description \\
+\midrule
+pUC19 \cite{puc19} & 2,686 & High-copy cloning vector \\
+pBluescript \cite{pbluescript} & 2,961 & Cloning vector \\
+pBR322 \cite{pbr322} & 4,361 & Classic cloning vector \\
+pACYC184 \cite{pacyc184} & 4,245 & Low-copy vector \\
+pBAD24 \cite{pbad24} & 4,542 & Arabinose-inducible expression \\
+pEGFP \cite{pegfp} & 4,733 & GFP expression vector \\
+pGEX-4T-1 \cite{pgex} & 4,969 & GST fusion expression \\
+pET-28a \cite{pet28a} & 5,369 & T7 expression vector \\
+pcDNA3 \cite{pcdna3} & 5,428 & Mammalian expression \\
+px330 \cite{px330} & 8,074 & CRISPR/Cas9 vector \\
+\bottomrule
+\end{tabular}
+\end{small}
+
+These plasmids represent widely-used vectors spanning diverse applications
+(cloning, protein expression, mammalian transfection, genome editing) and
+size ranges (2.7--8.1 kb), providing a representative benchmark for
+evaluating the biological realism of generated sequences.
 
 \bibliography{plasmid_references}
 \bibliographystyle{styles/icml2025}

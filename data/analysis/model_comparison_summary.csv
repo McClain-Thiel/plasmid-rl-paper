@@ -2,4 +2,3 @@ Model,PassRate,PassedQC,Diversity,BLASTed,Novel,Similar,Exists,Novelty_Pct,Passe
 Base,6.0,6,0.926,22,21,0,1,95.5,6.0
 SFT,11.0,11,0.886,25,25,0,0,100.0,11.0
 RL,97.0,97,0.391,25,22,0,3,88.0,85.4
-SFT_GRPO,95.0,95,0.453,25,24,0,1,96.0,91.2

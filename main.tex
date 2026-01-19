@@ -158,7 +158,7 @@ techniques to improve results significantly.
 Lab-designed plasmids are short circular DNA molecules (typically 2-15
 kb) that must contain multiple functional components arranged in precise
 configurations. At minimum, a viable plasmid requires: (i) an origin of
-replication (ORI) to enable autonomous replication, (ii) a selection
+replication to enable autonomous replication, (ii) a selection
 marker (e.g., antibiotic resistance gene) for identifying successfully
 transformed cells, and (iii) a cloning site where genes of interest can
 be inserted.
@@ -189,7 +189,7 @@ output.
 \caption{Overview of the Plasmid-RL training pipeline. Starting from the
 pretrained PlasmidGPT base model, we apply supervised fine-tuning on
 curated plasmid sequences, followed by reinforcement learning with Group
-Relative Policy Optimization (GRPO) using a biologically-motivated reward
+Relative Policy Optimization using a biologically-motivated reward
 function that evaluates functional annotations, length constraints, and
 repeat content.}
 \label{fig:methods_overview}
@@ -233,8 +233,8 @@ structural plausibility and expected stability. It is composed of three
 conceptual components:
 
 \textbf{Functional annotation scoring:} Lightweight annotations identify
-origins of replication (ORI), promoters, terminators, coding sequences
-(CDS), and selectable markers, which are then scored according to a
+origins of replication, promoters, terminators, coding sequences (CDS),
+and selectable markers, which are then scored according to a
 configuration designed with subject matter expert (SME) input to reflect
 biologically reasonable quantities (e.g., exactly one origin of
 replication and at least one selectable marker). To encourage coherent
@@ -258,13 +258,13 @@ reinforcement learning.
 
 \subsection{Plasmid Quality Control and Uniqueness}
 
-We evaluate four model variants, the base pretrained model, the
-supervised fine-tuned (SFT) model, and the RL post-trained model, and
-finally the SFT + RL model, by comparing their ability to generate
+We evaluate three model variants, the base pretrained model, the
+supervised fine-tuned (SFT) model, and the RL post-trained model, by
+comparing their ability to generate
 unique and functionally plausible plasmids. For each model, we sampled
 50 rollouts with two prompts: (i) a weak, information-poor prompt
 consisting of a single ATG codon, and (ii) a strong prompt containing an
-entire canonical GFP expression cassette.
+entire canonical green fluorescent protein (GFP) expression cassette.
 
 \subsubsection{Validity Assessment}
 
@@ -282,20 +282,10 @@ To assess whether generated plasmids represent genuinely new designs
 rather than minor variants of existing constructs, we compute similarity
 to known sequences using the NCBI BLASTn API. Each generated plasmid is
 assigned to one of three categories based on identity and query-coverage
-thresholds:
-\begin{center}
-\begin{small}
-\begin{tabular}{lcc}
-\toprule
-Category & Identity & Coverage \\
-\midrule
-\textbf{Exists} & $\geq$ 99\% & $\geq$ 95\% \\
-\textbf{Similar} & $\geq$ 95\% & $\geq$ 80\% \\
-\textbf{Novel} & \multicolumn{2}{c}{Outside above criteria} \\
-\bottomrule
-\end{tabular}
-\end{small}
-\end{center}
+thresholds: sequences with $\geq$99\% identity and $\geq$95\% coverage
+are classified as \textbf{Exists}; those with $\geq$95\% identity and
+$\geq$80\% coverage are \textbf{Similar}; and all others are classified
+as \textbf{Novel}.
 
 This categorization is based on large scale data curation efforts such
 as PLSDB that use these thresholds of similarity to attempt to
@@ -307,25 +297,16 @@ de-duplicate plasmids for not adding any additional value to a dataset
 To detect and prevent model collapse, we attempt to measure the
 diversity of the many samples of the model from the same prompt. Due to
 the lack of utility of traditional NLP metrics on this task, we use the
-mean Pairwise Jaccard distance the the 21-mers of each sequence.
-Diveristy of a group of rollouts is calculated as follows:
+mean Pairwise Jaccard distance of the 21-mers of each sequence.
+Diversity of a group of rollouts is calculated as follows:
 
-  $$D = 1 - \frac{1}{\binom{n}{2}} \sum_{i=1}^{n} \sum_{j=i+1}^{n} J(S_i, S_j)$$
+\[D = 1 - \frac{1}{\binom{n}{2}} \sum_{i=1}^{n} \sum_{j=i+1}^{n} J(S_i, S_j)\]
 
-  Where, $J(S_i, S_j)$ is the  Jaccard similarity between MinHash
-sketches of sequences $i$ and $j$, and $n$ is the  number of sequences
+where $J(S_i, S_j)$ is the Jaccard similarity between MinHash
+sketches of sequences $i$ and $j$, and $n$ is the number of sequences
 in the group.
 
-
-
 \subsubsection{Results}
-
-Reinforcement learning substantially increases the probability of
-generating plasmids that pass our bioinformatics QC pipeline, while
-supervised fine-tuning provides modest improvements.
-Figure~\ref{fig:qc_breakdown} shows pass rates by prompt type, and
-Table~\ref{tab:qc_results} summarizes novelty and diversity metrics
-across models.
 
 \begin{figure}[t]
 \vskip 0.2in
@@ -343,8 +324,7 @@ RL to the training process improves pass rate dramatically.}
 \begin{table}[t]
 \caption{Novelty and diversity metrics across model variants. RL
 achieves dramatically higher quality (97\% pass rate) with reduced but
-acceptable diversity, while SFT+RL balances high quality (95\%) with
-improved diversity and novelty (96\%).}
+acceptable diversity.}
 \label{tab:qc_results}
 \vskip 0.15in
 \begin{center}
@@ -357,7 +337,6 @@ Model & QC Pass Rate & \% Novel & Diversity\\
 Base  & 6\%  & 95.5\% & 0.926 \\
 SFT & 11\%  & 100\% & 0.886 \\
 RL & 97\%  & 88\% & 0.391 \\
-SFT + RL & 95\% & 96\% & 0.453 \\
 \bottomrule
 \end{tabular}
 \end{sc}
@@ -366,9 +345,16 @@ SFT + RL & 95\% & 96\% & 0.453 \\
 \vskip -0.1in
 \end{table}
 
+Reinforcement learning substantially increases the probability of
+generating plasmids that pass our bioinformatics quality control (QC)
+pipeline, while supervised fine-tuning provides modest improvements.
+Figure~\ref{fig:qc_breakdown} shows pass rates by prompt type, and
+Table~\ref{tab:qc_results} summarizes novelty and diversity metrics
+across models.
+
 When prompted with the weak ATG prompt, the base model never produces a
 valid plasmid (0\%), whereas SFT increases the pass rate to 16\%, and RL
-alone further increases it to 96\% and SFT+RL achieves a 94\% pass rate.
+further increases it to 96\%.
 A similar trend holds with the stronger GFP-cassette prompt: the base
 model achieves 12\%, SFT drops to 4\%, but the RL-optimized model
 reaches 76\%.
@@ -396,10 +382,10 @@ previously known, high scoring sequences. Among passing sequences, the
 proportion classified as novel remains substantial for all models.
 Using our novelty thresholds, the RL model produces 88\%
 novel plasmids among its QC-passing samples, compared to 95.5\%
-for the base model. The SFT model and SFT+RL model generated 100\% and
-96\% novel sequences respectively. When normalized over all 100 rollouts
-per model, the RL model produces 85.4\% sequences that are both QC-valid
-and novel, compared to 11\% for SFT and 6\% for the base model.
+for the base model. The SFT model generated 100\% novel sequences.
+When normalized over all 100 rollouts per model, the RL model produces
+85.4\% sequences that are both QC-valid and novel, compared to 11\% for
+SFT and 6\% for the base model.
 
 Taken together, these results show that RL post-training not only
 dramatically improves biological plausibility but also preserves
@@ -425,10 +411,10 @@ energy (as calculated by ViennaRNA \cite{viennarna}).
 \begin{center}
 \includegraphics[width=\textwidth]{fig_distribution_grid_v2.png}
 \caption{Distribution comparison across key biophysical metrics. The RL
-post-trained model (orange) closely matches real plasmid distributions
+post-trained model (yellow) closely matches real plasmid distributions
 (blue) across sequence length, GC content, ORF length, codon usage
 (Jensen-Shannon divergence), and thermodynamic stability (Gibbs free
-energy), while the base model (green) and SFT model (red) show
+energy), while the base model (green) and SFT model (orange) show
 substantial deviations. Notably, RL optimization produces realistic
 distributions even for metrics not explicitly encoded in the reward
 function.}
@@ -473,9 +459,9 @@ performance, we measure how well each model can predict future bases
 given a real plasmid prefix. For each sequence, we provide the first 400
 nucleotides as a prompt, have each model produce the next 100
 nucleotides, and then compute the average log-probability of the true
-next 100 bases under each model. This allows us to compare the Base,
-SFT, and RL models against real plasmids in terms of next-token
-prediction accuracy.
+next 100 bases under each model. This allows us to compare the Base and
+RL models against real plasmids in terms of next-token prediction
+accuracy.
 
 \begin{table}[t]
 \caption{Average log-probability on held-out continuation task. Higher
@@ -490,11 +476,8 @@ improvement despite not being optimized for this task.}
 \toprule
 Model & Mean Log-Prob & Std Dev \\
 \midrule
-Base & -X.XX & Y.YY \\
-SFT  & -X.XX & Y.YY \\
-RL   & -X.XX & Y.YY \\
-\midrule
-\multicolumn{3}{l}{\textit{Note: $t = -2.442$, $p = 0.017$ (RL vs. others)}} \\
+Base & -12.449 & 6.144 \\
+RL   & -11.148 & 2.977 \\
 \bottomrule
 \end{tabular}
 \end{sc}
@@ -503,10 +486,9 @@ RL   & -X.XX & Y.YY \\
 \vskip -0.1in
 \end{table}
 
-We observe a small but statistically significant improvement was
-observed($t = -2.442$, $p = 0.017$) for the RL model compared to the
-other models, and the standard deviation shrinks substantially. The
-magnitude of the improvement is small but positive, which is unexpected.
+The RL model shows improved log-probability compared to the base model,
+with the standard deviation shrinking substantially from 6.144 to 2.977.
+This improvement is unexpected, as
 RL generally makes language models worse at next-token prediction tasks,
 a phenomenon known as the ``alignment tax'' \cite{alignment_tax}.
 

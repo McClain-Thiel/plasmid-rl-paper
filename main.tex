@@ -72,21 +72,23 @@ Biology}
 \printAffiliationsAndNotice{\icmlEqualContribution}
 
 \begin{abstract}
-Plasmids are essential DNA molecules widely used in research and
-biomanufacturing, yet their design remains complex and iterative. We
-introduce Plasmid-RL, a reinforcement learning framework for DNA language
-models that generates structurally valid and functionally coherent
-plasmid sequences. Using Group Relative Policy Optimization with a
-reward function based on synthetic biological constraints, our model achieves 97\% quality
-control pass rate compared to 6\% for the pretrained baseline.
-Remarkably, beyond explicitly optimized features, the model exhibits
-emergent biological parallels: generated sequences match natural plasmids
-in thermodynamic stability, codon usage patterns, and ORF length
-distributions, properties not directly encoded in the reward function.
-These results suggest that RL training steers the model toward
-biologically coherent regions of sequence space, analogous to how
-evolutionary optimization produces conserved functional patterns across
-diverse organisms.
+Reinforcement learning post-training has driven the mass adoption of
+large language models by unlocking unexpected emergent capabilities, yet
+this approach remains largely unexplored for generative DNA models. We
+investigate whether similar post-training techniques can induce emergent
+biological realism in DNA language models, using plasmid generation as a
+testbed due to plasmids' relative simplicity, well-characterized
+functional constraints, and ubiquity in biotechnology. Using Group
+Relative Policy Optimization with a reward function based on synthetic
+biological constraints, our model achieves 97\% quality control pass rate
+compared to 6\% for the pretrained baseline. Remarkably, beyond
+explicitly optimized features, the model exhibits emergent biological
+parallels: generated sequences match natural plasmids in thermodynamic
+stability, codon usage patterns, and ORF length distributions, properties
+not directly encoded in the reward function. These results suggest that RL
+post-training can steer DNA language models toward biologically coherent
+regions of sequence space, analogous to how such techniques unlock
+emergent capabilities in natural language models.
 \end{abstract}
 
 \section{Introduction}
@@ -114,18 +116,20 @@ transcriptional output, and host viability while navigating the strict
 biophysical constraints of DNA folding and context dependent regulatory
 interactions \cite{gene_to_performance, clonefast}.
 
-To address these limitations, we introduce Plasmid-RL, a DNA language
-modeling framework for unconditional, end-to-end plasmid generation.
-Using PlasmidGPT as a testbed, Plasmid-RL adapts modern post-training
-techniques, including supervised fine-tuning (SFT) and reinforcement
-learning (RL), to the foundational genomic model \cite{plasmidgpt}. This
-approach enables the model to internalize biological constraints and
-requirements, allowing it to reliably generate structurally valid and
-functionally coherent plasmid sequences. As demonstrated in our
-evaluation, Plasmid-RL achieves significantly higher quality control
-pass rates while maintaining acceptable sequence diversity,
-highlighting its potential to accelerate early stage design and minimize
-downstream verification efforts.
+The dramatic success of reinforcement learning post-training in natural
+language processing---unlocking emergent reasoning, instruction following,
+and unexpected generalization---raises a compelling question: can similar
+techniques induce emergent biological realism in DNA language models? We
+investigate this using plasmid generation as a testbed, applying Group
+Relative Policy Optimization to the PlasmidGPT foundation model
+\cite{plasmidgpt}. Beyond dramatically improving quality control pass
+rates (97\% vs. 6\% baseline), we observe emergent properties not
+explicitly optimized: generated sequences match natural plasmids in
+thermodynamic stability, codon usage patterns, and ORF length
+distributions. These results suggest that RL post-training may unlock
+similar emergent capabilities in genomic models as it has in language
+models, steering generation toward biologically coherent sequence space
+regions through reward-guided optimization.
 
 \section{Background}
 
@@ -650,28 +654,35 @@ the model's performance on the task of plasmid design much more understable.
 
 \section{Conclusion}
 
-We have introduced Plasmid-RL, a reinforcement learning-enhanced DNA
-language model framework for plasmid design that achieves substantial
-improvements in both validity and novelty compared to pretrained
-baselines. Our model generates structurally valid plasmids at a 97\%
-rate (compared to 6\% for the base model) while maintaining 88\% novelty
-among valid sequences. Remarkably, the RL training not only optimizes
-for explicitly rewarded features but also induces emergent properties
-such as realistic thermodynamic stability and codon usage patterns.
+We demonstrate that reinforcement learning post-training, the technique
+that unlocked emergent capabilities in large language models, can induce
+analogous emergent biological realism in DNA language models. Our model
+generates structurally valid plasmids at a 97\% rate (compared to 6\% for
+the base model), but more significantly, exhibits emergent properties not
+directly encoded in the reward function: realistic thermodynamic
+stability, natural codon usage patterns, and appropriate ORF length
+distributions. These parallels to natural plasmids emerge from optimizing
+only functional annotations, length constraints, and repeat penalties.
 
-These results demonstrate that modern post-training techniques from
-natural language processing can be effectively adapted to biological
-sequence design, opening new avenues for accelerating synthetic biology
-workflows. The unexpected improvement in next-token prediction suggests
-that RL may be steering the model toward more biologically coherent
-regions of sequence space rather than simply memorizing solutions.
+This finding suggests that RL post-training operates similarly across
+modalities---steering models toward coherent, naturalistic regions of
+their respective sequence spaces. Just as RL unlocked reasoning and
+generalization in language models beyond their pretraining objectives, it
+guides DNA models toward biologically realistic sequences beyond their
+explicit rewards. The unexpected improvement in next-token prediction
+further supports this interpretation: the model learns general principles
+of plasmid structure rather than memorizing specific solutions.
 
-Future work will extend this framework to conditional generation,
-enabling user-directed plasmid design (e.g., ``express protein X in E.
-coli with high copy number''), at which point experimental validation of
-model-generated sequences will be critical. Additionally, we aim to apply
-these techniques to other models and biological sequence classes, further
-demonstrating the generality of RL post-training for biomolecular design.
+These findings open several directions for future work. First, extending
+to conditional generation (e.g., ``express protein X in E. coli with high
+copy number'') would enable practical applications and experimental
+validation of model-generated sequences. Second, applying RL post-training
+to other genomic sequence classes (promoters, regulatory elements, entire
+genomes) could test whether emergent biological realism generalizes across
+domains. Finally, investigating what reward function properties induce
+such emergence could provide principles for designing effective biological
+reward functions---potentially accelerating the broader application of RL
+to computational biology.
 
 \section*{Impact Statement}
 

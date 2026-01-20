@@ -73,7 +73,7 @@ Biology}
 
 \begin{abstract}
 Reinforcement learning has driven the mass adoption of
-large language models by unlocking unexpected emergent capabilities, yet
+large language models by unlocking often unexpected emergent capabilities, yet
 this approach remains largely underexplored for generative DNA models. We
 investigate whether similar post-training techniques can induce emergent
 biological realism in DNA language models, using plasmid generation as a
@@ -96,7 +96,7 @@ Plasmids are extrachromosomal DNA sequences, often found in bacteria, capable of
 independent of a host genome \cite{lederberg1952}. These genetic
 elements are ubiquitous in biotechnology, serving as the primary vectors
 for protein expression, gene editing, and emerging DNA therapeutics
-\cite{plasmid_therapeutics, plasmid_manufacturing}. Despite their
+\cite{plasmid_manufacturing, plasmid_therapeutics}. Despite their
 widespread utility, plasmid engineering remains a complex,
 high-dimensional optimization problem. Traditional workflows are cost
 intensive and heuristic driven, often requiring iterative cycles of
@@ -169,7 +169,7 @@ transformed cells, and (iii) a cloning site where genes of interest can
 be inserted.
 
 The search space of valid plasmids is massive due to combinatorial
-explosion across components. There are many types of each component on
+explosion across components \cite{combinatorial_explosion}. There are many types of each component on
 the scale of hundreds to thousands per component, and additional
 regulatory elements (promoters, terminators, enhancers) and reporters
 may be required depending on the application. Multiple instances of
@@ -178,7 +178,7 @@ these elements significantly impacts function. Beyond sheer
 combinatorics, designers must navigate complex biological constraints
 including compatibility requirements (specific ORIs only function in
 certain hosts), physical stability issues (repeat regions can fold and
-bind to each other), and other design challenges.
+bind to each other), and other design challenges \cite{plasmid_design_challenges1, plasmid_design_challenges2}.
 
 \section{Methods}
 
@@ -206,7 +206,7 @@ repeat content.}
 
 Supervised fine-tuning (SFT) was performed on a curated corpus of
 \textit{E. coli} plasmid sequences assembled from PlasmidScope and
-Addgene. After deduplication and quality filtering, approximately 15k
+Addgene \cite{addgene, angus}. After deduplication and quality filtering, approximately 15k
 circular plasmids ($\leq$30\,kb) were retained, excluding linear
 entries, fragments, and incomplete records. Sequences were tokenized
 using the original PlasmidGPT byte-pair DNA tokenizer. The pretrained
@@ -221,8 +221,8 @@ design that uses Group Relative Policy Optimization (GRPO) \cite{grpo}
 with a domain-specific reward function described below. At each training
 iteration, the model generates a batch of candidate plasmids via
 autoregressive rollouts conditioned on short nucleotide prompts. Prompts
-are either stochastic (4--25 bp random seeds, excluding "ATG", used to
-promote rollout diversity) or structured (partial "cassette" seeds
+are either stochastic (4--25 bp random seeds, excluding ''ATG'', used to
+promote rollout diversity) or structured (partial ''cassette'' seeds
 encoding canonical marker genes such as antibiotic-resistance or
 fluorescent reporters). Each candidate sequence is evaluated via our
 reward function, which captures structural plausibility, cassette
@@ -260,7 +260,7 @@ containing long exact repeats that are associated with instability or
 recombination, specifically penalizing .1 reward for each repeat of length 50 bp or greater.
 
 These terms are combined into a single scalar in $[0,1]$, yielding a
-fast and interpretable proxy for ``plasmid-likeness'' during
+fast and interpretable proxy for ''plasmid-likeness'' and validity during
 reinforcement learning.
 
 \section{Experiments}
@@ -325,8 +325,8 @@ model collapse detector rather than a biological validity measure. The
 RL model achieves 0.391 diversity compared to 0.926 for the base model,
 indicating that while the RL model concentrates probability mass on
 higher-quality regions of sequence space, it does not collapse to
-identical outputs. This is consistent with RL optimization finding
-conserved ``successful motifs'' (e.g., proven origins of replication,
+identical outputs. This is consistent with RL optimization finding and using
+conserved ''successful motifs'' (e.g., proven origins of replication,
 reliable resistance markers) while still maintaining sequence-level
 uniqueness.
 
@@ -423,7 +423,7 @@ space.
 We compute several statistics known to be relevant to the performance of
 DNA from the raw sequences of both the generated plasmids and a small
 subset of real plasmids used for protein expression, genome editing, 
-and other applications. See full details of plasmids usedin the appendix. We calculate
+and other applications. See full details of plasmids used in the appendix. We calculate
 the following summary statistics: sequence length distribution, GC
 content, longest open reading frame (ORF; calculated two ways),
 Jensen-Shannon divergence of the codon distribution, and Gibbs free
@@ -566,7 +566,7 @@ using only Prodigal-based structural rewards.}
 
 \subsection{Summary: Emergent Biological Realism in RL-Trained Models}
 
-Our key finding is that reinforcement learning post-training induces
+Our key finding is that RL post-training induces
 emergent biological realism in DNA language models. Beyond the dramatic
 improvement in quality control pass rates (97\% vs. 6\%), the RL model
 exhibits properties not explicitly encoded in the reward function:
@@ -638,7 +638,7 @@ functional diversity.
 \textbf{Assumptions about reward function design:} Our reward function
 design assumes that structural annotations (promoters, ORIs, etc.) and
 simple composition metrics can capture essential aspects of plasmid
-validity. While emergent properties suggest this assumption is partially
+validity. While QC pass rates and wet lab validation of said QC process suggest this assumption is partially
 validated, we may be missing important biological constraints not easily
 encoded in lightweight bioinformatics. The simplification is pragmatic
 for efficient training but may become limiting as we scale to more

@@ -72,7 +72,7 @@ Biology}
 \printAffiliationsAndNotice{\icmlEqualContribution}
 
 \begin{abstract}
-Reinforcement learning post-training has driven the mass adoption of
+Reinforcement learning has driven the mass adoption of
 large language models by unlocking unexpected emergent capabilities, yet
 this approach remains largely underexplored for generative DNA models. We
 investigate whether similar post-training techniques can induce emergent
@@ -117,9 +117,8 @@ biophysical constraints of DNA folding and context dependent regulatory
 interactions \cite{gene_to_performance, clonefast}.
 
 The dramatic success of reinforcement learning post-training in natural
-language processing---unlocking emergent reasoning, instruction following,
-and unexpected generalization---raises a compelling question: can similar
-techniques induce emergent biological realism in DNA language models? We
+language processing, such as improved reasoning, instruction following,
+and unexpected generalization highlights the potential of RL post training in DNA language models. We
 investigate this using plasmid generation as a testbed, applying Group
 Relative Policy Optimization to the PlasmidGPT foundation model
 \cite{plasmidgpt}. Beyond dramatically improving quality control pass
@@ -654,18 +653,17 @@ the model's performance on the task of plasmid design much more understable.
 
 \section{Conclusion}
 
-We demonstrate that reinforcement learning post-training, the technique
-that unlocked emergent capabilities in large language models, can induce
-analogous emergent biological realism in DNA language models. Our model
+We demonstrate that reinforcement learning can mimic distributions of real plasmids 
+accross several key features, even when not explicitly optimzed for  these features. Our model
 generates structurally valid plasmids at a 97\% rate (compared to 6\% for
-the base model), but more significantly, exhibits emergent properties not
+the base model), but more significantly, exhibits biological realism not
 directly encoded in the reward function: realistic thermodynamic
 stability, natural codon usage patterns, and appropriate ORF length
 distributions. These parallels to natural plasmids emerge from optimizing
 only functional annotations, length constraints, and repeat penalties.
 
 This finding suggests that RL post-training operates similarly across
-modalities---steering models toward coherent, naturalistic regions of
+modalities by steering models toward coherent, naturalistic regions of
 their respective sequence spaces. Just as RL unlocked reasoning and
 generalization in language models beyond their pretraining objectives, it
 guides DNA models toward biologically realistic sequences beyond their
@@ -677,11 +675,10 @@ These findings open several directions for future work. First, extending
 to conditional generation (e.g., ``express protein X in E. coli with high
 copy number'') would enable practical applications and experimental
 validation of model-generated sequences. Second, applying RL post-training
-to other genomic sequence classes (promoters, regulatory elements, entire
-genomes) could test whether emergent biological realism generalizes across
-domains. Finally, investigating what reward function properties induce
+to other genomic models could test whether emergent biological realism generalizes across
+applications. Finally, investigating what reward function properties induce
 such emergence could provide principles for designing effective biological
-reward functions---potentially accelerating the broader application of RL
+reward functions, potentially accelerating the broader application of RL
 to computational biology.
 
 \section*{Impact Statement}

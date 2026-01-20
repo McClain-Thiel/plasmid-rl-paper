@@ -770,6 +770,60 @@ reward at 5kb and minimum at 15kb, zero reward beyond 15kb
 each repeat $>$ 50bp
 \end{itemize}
 
+\begin{algorithm}[h]
+\caption{Plasmid Reward Scoring}
+\begin{algorithmic}[1]
+\STATE \textbf{Input:} DNA sequence $s$
+\STATE \textbf{Output:} Reward score $R \in [0,1]$
+\STATE
+\STATE Annotate features using PlasmidKit $\rightarrow A(s)$
+\STATE Merge overlapping features of same type (threshold = 0.8)
+\STATE
+\FOR{each component $i \in \{$ori, promoter, terminator, marker, cds$\}$}
+\STATE Count features $n_i$ in $A(s)$
+\IF{$n_i < \min_i$}
+\STATE $\text{score}_i \leftarrow 0.5 \times (n_i / \min_i)$
+\ELSIF{$n_i > \max_i$}
+\STATE $\text{score}_i \leftarrow \text{violation\_penalty\_factor}$ \COMMENT{$= 1.0$}
+\ELSE
+\STATE $\text{score}_i \leftarrow 1.0$
+\ENDIF
+\STATE \textit{Exception: marker is binary (present $\rightarrow 1.0$, absent $\rightarrow 0.0$)}
+\ENDFOR
+\STATE
+\STATE \textbf{Compute weighted base score:}
+\STATE base $\leftarrow \sum w_i \times \text{score}_i$
+\STATE
+\STATE \textbf{Detect repeat regions:}
+\STATE Find all $k$-mers ($k=50$) appearing $\geq 2$ times (including reverse complements)
+\STATE Merge overlapping occurrences $\rightarrow R$ regions
+\STATE repeat\_penalty $\leftarrow |R| \times 0.1$
+\STATE
+\RETURN $R \leftarrow \text{clip}(\text{base} - \text{repeat\_penalty}, 0, 1)$
+\end{algorithmic}
+\end{algorithm}
+
+\begin{algorithm}[h]
+\caption{CDS Cassette Bonus Subroutine}
+\begin{algorithmic}[1]
+\STATE \textbf{Input:} Annotated features $A(s)$, base score$_{\text{cds}}$
+\STATE \textbf{Output:} Updated score$_{\text{cds}}$
+\STATE
+\FOR{each promoter $p$}
+\STATE Find nearest downstream CDS $c$ on same strand
+\STATE Find nearest downstream terminator $t$ on same strand
+\STATE Award points for:
+\STATE \hspace{0.5cm} $p \rightarrow c$ correct order on same strand: $+5$ pts
+\STATE \hspace{0.5cm} $p \rightarrow c$ within 300bp: $+5$ pts
+\STATE \hspace{0.5cm} $c \rightarrow t$ correct order on same strand: $+5$ pts
+\STATE \hspace{0.5cm} $c \rightarrow t$ within 300bp: $+5$ pts
+\ENDFOR
+\STATE Take top $K=2$ cassettes $\rightarrow$ total cassette\_points
+\STATE cassette\_bonus $\leftarrow 0.5 \times (\text{cassette\_points} / 40)$
+\RETURN score$_{\text{cds}} \leftarrow \text{clip}(\text{score}_{\text{cds}} + \text{cassette\_bonus}, 0, 1)$
+\end{algorithmic}
+\end{algorithm}
+
 \subsection{Distribution Comparison Metrics}
 
 Table~\ref{tab:ks_stats} presents Kolmogorov-Smirnov statistics

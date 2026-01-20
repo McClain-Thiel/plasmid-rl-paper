@@ -14,10 +14,10 @@
 \newcommand{\theHalgorithm}{\arabic{algorithm}}
 
 % Use the following line for initial blind review:
-\usepackage{styles/icml2025}
+% \usepackage{styles/icml2025}
 
 % If accepted, use:
-% \usepackage[accepted]{styles/icml2025}
+\usepackage[accepted]{styles/icml2025}
 
 % For theorems and such
 \usepackage{amsmath}
@@ -52,15 +52,15 @@ Models}
 \icmltitle{Emergent Biological Realism in RL-Trained DNA Language Models}
 
 \begin{icmlauthorlist}
-\icmlauthor{Anonymous Author 1}{anon}
-\icmlauthor{Anonymous Author 2}{anon}
-\icmlauthor{Anonymous Author 3}{anon}
-\icmlauthor{Anonymous Author 4}{anon}
+\icmlauthor{McClain Thiel}{ucl}
+\icmlauthor{Angus Cunningham}{ucl}
+\icmlauthor{Linda Dekker}{ucl}
+\icmlauthor{Chris Barnes}{ucl}
 \end{icmlauthorlist}
 
-\icmlaffiliation{anon}{Anonymous Institution}
+\icmlaffiliation{ucl}{University College London, London, United Kingdom}
 
-\icmlcorrespondingauthor{Anonymous}{anonymous@email.com}
+\icmlcorrespondingauthor{Chris Barnes}{christopher.barnes@ucl.ac.uk}
 
 \icmlkeywords{Machine Learning, DNA Language Models, Plasmid Design,
 Reinforcement Learning, Group Relative Policy Optimization, Synthetic
@@ -462,7 +462,7 @@ reward determined by a parameter sweep for training stability. GC
 content is not directly encoded, but regions selected for by the reward
 function likely have GC content distributed similarly to real plasmids. 
 Despite generally making up a smaller percentage of the whole sequence, GC
-content is partally encoded by the reward function, as regions with higher GC content are more likely to be rewarded.
+content is partially encoded by the reward function, as regions with higher GC content are more likely to be rewarded.
 
 ORF length and codon distribution are not factored into the reward
 function directly. We calculate ORF length two ways: (1) maximum length

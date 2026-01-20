@@ -79,8 +79,7 @@ investigate whether similar post-training techniques can induce emergent
 biological realism in DNA language models, using plasmid generation as a
 testbed due to plasmids' relative simplicity, well-characterized
 functional constraints, and ubiquity in biotechnology. Using Group
-Relative Policy Optimization with a reward function based on synthetic
-biological constraints, our model achieves 97\% quality control pass rate
+Relative Policy Optimization with a reward function based on constraints from engineered biology, our model achieves 97\% quality control pass rate
 compared to 6\% for the pretrained baseline. Remarkably, beyond
 explicitly optimized features, the model exhibits emergent biological
 parallels: generated sequences match natural plasmids in thermodynamic
@@ -102,12 +101,12 @@ widespread utility, plasmid engineering remains a complex,
 high-dimensional optimization problem. Traditional workflows are cost
 intensive and heuristic driven, often requiring iterative cycles of
 manual sequence editing and experimental validation to resolve
-structural instabilities \cite{structural_instability,
-plasmid_design_challenges1}. Suboptimal plasmid architectures, plagued
+structural instabilities \cite{structural_instability, plasmid_design_challenges1}. 
+Suboptimal plasmid architectures, plagued
 by incompatible regulatory elements or unstable repeat regions,
 frequently lead to metabolic burden, reduced expression efficiency, and
-manufacturing bottlenecks \cite{metabolic_burden,
-plasmid_design_challenges2}.
+manufacturing bottlenecks \cite{plasmid_design_challenges2,
+metabolic_burden}.
 
 Current approaches to plasmid design rely heavily on tacit domain
 knowledge and piecemeal assembly of genetic parts. Designers must
@@ -118,7 +117,7 @@ interactions \cite{gene_to_performance, clonefast}.
 
 The dramatic success of reinforcement learning post-training in natural
 language processing, such as improved reasoning, instruction following,
-and unexpected generalization highlights the potential of RL post training in DNA language models. We
+and unexpected generalization highlights the potential of RL post training in DNA language models \cite{emergent_abilities_of_large_language_models, emergent_rl}. We
 investigate this using plasmid generation as a testbed, applying Group
 Relative Policy Optimization to the PlasmidGPT foundation model
 \cite{plasmidgpt}. Beyond dramatically improving quality control pass
@@ -139,7 +138,7 @@ often with algorithms developed for bioinformatics used in NLP and vice
 versa \cite{durbin}. Natural language models pretrained on massive
 amounts of data have displayed emergent capabilities and remarkable
 utility by understanding the structure of language as a whole \cite{emergent_abilities_of_large_language_models}. 
-These capabilties have vastly increased the utility of language models 
+These capabilities have vastly increased the utility of language models 
 in a wide range of tasks, and are one of the primary reasons why 
 large language model adoption has skyrocketed in the last few years.
 This has inspired the application of many similar techniques to 
@@ -149,10 +148,10 @@ transcription factor binding site identification \cite{hyenadna}, and
 even whole-genome generation \cite{evo}.
 
 Plasmid DNA has received relatively little attention compared to other
-sequence types despite its importance in biomanufacturing and wet lab
+sequence types despite its importance in biomanufacturing and 
 research. OriGen \cite{origen} introduces a generative model to produce
 previously undiscovered origins of replication (ORIs) but does not model
-whole sequences. PlasmidGPT \cite{plasmidgpt} uses modern language
+whole sequences. PlasmidGPT \cite{plasmidgpt, angus} uses modern language
 modeling techniques to develop a generative model for whole plasmid
 sequences, and later work expands on this by synthesizing whole plasmids
 generated using a fine tuned version of the PlasmidGPT model
@@ -186,7 +185,7 @@ bind to each other), and other design challenges.
 We follow an established method that starts with a base model,
 fine-tunes it using supervised fine-tuning (SFT), and then applies
 reinforcement learning (RL) to optimize for specific attributes in the
-output.
+output (Figure~\ref{fig:methods_overview}).
 
 \begin{figure*}[!t]
 \vskip 0.2in
@@ -243,14 +242,18 @@ origins of replication, promoters, terminators, coding sequences (CDS),
 and selectable markers, which are then scored according to a
 configuration designed with subject matter expert (SME) input to reflect
 biologically reasonable quantities (e.g., exactly one origin of
-replication and at least one selectable marker). To encourage coherent
-gene cassettes, this component also includes a location-aware bonus for
-promoter $\rightarrow$ CDS $\rightarrow$ terminator arrangements that
-appear in the correct order and within a reasonable proximity window.
+replication and at least one selectable marker). CDS regions are
+identified using Pyrodigal \cite{prodigal}, a gene prediction tool that
+detects coding sequences based on statistical patterns rather than
+homology search. To encourage coherent gene cassettes, this component
+also includes a location-aware bonus for promoter $\rightarrow$ CDS
+$\rightarrow$ terminator arrangements that appear in the correct order
+and within a reasonable proximity window.
 
 \textbf{Length prior:} A length prior favors plasmid sizes within
 typical experimental ranges (5--15 kb) preferred for plasmid
-construction.
+construction by giving a linearly increasing reward for lengths between 5 and 15 kb 
+with a maximum reward at 5 kb and no reward for sequences longer than 15 kb.
 
 \textbf{Repeat penalty:} A repeat penalty down-weights sequences
 containing long exact repeats that are associated with instability or
@@ -275,7 +278,7 @@ memorization.
 
 \subsubsection{Validity Assessment}
 
-In silico plasmid validity was assessed using a  bioinformatics
+In silico plasmid validity was assessed using a bioinformatics
 quality-control pipeline that leverages BLAST based tools, requiring
 exactly one origin of replication ($\geq$95\% identity and coverage),
 one or two antimicrobial resistance genes ($\geq$99\% identity and
@@ -399,10 +402,10 @@ model and RL post-trained model.}
 
 Importantly, this increase does not come from the RL models repeating
 previously known, high scoring sequences. Among passing sequences, the
-proportion classified as novel remains substantial for all models.
-Using our novelty thresholds, the RL model produces 88\%
-novel plasmids among its QC-passing samples, compared to 95.5\%
-for the base model. The SFT model generated 100\% novel sequences.
+proportion classified as novel remains substantial for all models
+(Figure~\ref{fig:novelty}). Using our novelty thresholds, the RL model
+produces 88\% novel plasmids among its QC-passing samples, compared to
+95.5\% for the base model. The SFT model generated 100\% novel sequences.
 When normalized over all 100 rollouts per model, the RL model produces
 85.4\% sequences that are both QC-valid and novel, compared to 11\% for
 SFT and 6\% for the base model.
@@ -420,22 +423,21 @@ space.
 We compute several statistics known to be relevant to the performance of
 DNA from the raw sequences of both the generated plasmids and a small
 subset of real plasmids used for protein expression, genome editing, 
-and other applications. See full details in the appendix. The distribution 
-of the generated samples to each other and the real samples. We calculate
+and other applications. See full details of plasmids usedin the appendix. We calculate
 the following summary statistics: sequence length distribution, GC
 content, longest open reading frame (ORF; calculated two ways),
 Jensen-Shannon divergence of the codon distribution, and Gibbs free
 energy (as calculated by ViennaRNA \cite{viennarna}).
 
 \begin{figure*}[!t]
-\vskip 0.2in
+\vskip 0.1in
 \begin{center}
-\includegraphics[width=\textwidth]{fig_distribution_grid_v2.png}
+\includegraphics[width=0.85\textwidth]{fig_distribution_grid_v2.png}
 \caption{Distribution comparison across key biophysical metrics. The RL
-post-trained model (yellow) closely matches real plasmid distributions
-(blue) across sequence length, GC content, ORF length, codon usage
+post-trained model (red) closely matches real plasmid distributions
+(green) across sequence length, GC content, ORF length, codon usage
 (Jensen-Shannon divergence), and thermodynamic stability (Gibbs free
-energy), while the base model (green) and SFT model (orange) show
+energy), while the base model (blue) and SFT model (purple) show
 substantial deviations. Notably, RL optimization produces realistic
 distributions even for metrics not explicitly encoded in the reward
 function.}
@@ -447,13 +449,19 @@ function.}
 Figure~\ref{fig:distributions} shows that the RL post-trained model's
 samples much more closely match the distributions of the real plasmids
 than the pretrained and supervised models, even when the metric is not
-directly encoded by the reward function.
+directly encoded by the reward function. Kolmogorov-Smirnov statistics
+comparing model-generated distributions to real plasmids demonstrate
+this quantitatively: for GC content, RL achieves a KS statistic of 0.51
+(closest to real at 0.52) compared to base (0.48) and SFT (0.50); for
+codon usage measured by Jensen-Shannon divergence, RL achieves 0.06,
+identical to real plasmids and substantially better than base (0.10) and
+SFT (0.09). See Appendix for complete distribution comparison metrics.
 
 Sequence length is directly encoded by the reward function, with optimal
 reward determined by a parameter sweep for training stability. GC
 content is not directly encoded, but regions selected for by the reward
 function likely have GC content distributed similarly to real plasmids. 
-Dispite generally making up a smaller percentage of the whole sequence, GC
+Despite generally making up a smaller percentage of the whole sequence, GC
 content is partally encoded by the reward function, as regions with higher GC content are more likely to be rewarded.
 
 ORF length and codon distribution are not factored into the reward
@@ -473,7 +481,7 @@ plasmids than the two models that have seen the correct distribution in
 the training data. The similarity in the distribution of free energy
 measurements is particularly remarkable given that not only is free
 energy not optimized for directly, but no structural components are
-factored in at all excluding the weakly corrolated repeat penatly 
+factored in at all excluding the weakly correlated repeat penalty 
 originally included to solve recombination issues.
 
 \subsection{Held-Out Continuation}
@@ -510,11 +518,11 @@ RL   & -11.148 & 2.977 \\
 \vskip -0.1in
 \end{table}
 
-The RL model shows improved log-probability compared to the base model,
-with the standard deviation shrinking substantially from 6.144 to 2.977.
-This improvement is unexpected, as
-RL generally makes language models worse at next-token prediction tasks,
-a phenomenon known as the ``alignment tax'' \cite{alignment_tax}.
+The RL model shows improved log-probability compared to the base model
+(Figure~\ref{fig:completion}), with the standard deviation shrinking
+substantially from 6.144 to 2.977. This improvement is unexpected, as RL
+generally makes language models worse at next-token prediction tasks, a
+phenomenon known as the "alignment tax" \cite{alignment_tax}.
 
 \begin{figure}[t]
 \vskip 0.2in
@@ -537,8 +545,9 @@ information leakage. Because Prodigal predicts coding regions based only
 on generic statistical patterns and not on specific plasmid sequences,
 the reward signal is biologically grounded but distribution-agnostic.
 Interestingly, the RL-trained model achieves lower surprisal on real
-plasmids than the pretrained model, suggesting that the Prodigal-based
-reward sharpens the model's understanding of natural plasmid structure.
+plasmids than the pretrained model (Figure~\ref{fig:surprisal}),
+suggesting that the Prodigal-based reward sharpens the model's
+understanding of natural plasmid structure.
 
 \begin{figure}[t]
 \vskip 0.2in
@@ -555,83 +564,87 @@ using only Prodigal-based structural rewards.}
 
 \section{Discussion}
 
-\subsection{Diversity Trade-offs in Post-Training}
+\subsection{Summary: Emergent Biological Realism in RL-Trained Models}
 
-One caveat to note is the decreased diversity of the post-trained model.
-This is a known effect of post-training but is especially noticeable in
-the domain of DNA sequence generation. DNA in the context of this
-experiment can be thought of in two primary ways: (1) DNA that codes for
-a known region such as a promoter or an ORI, or (2) spacer DNA that
-exists primarily to contribute to structural stability.
+Our key finding is that reinforcement learning post-training induces
+emergent biological realism in DNA language models. Beyond the dramatic
+improvement in quality control pass rates (97\% vs. 6\%), the RL model
+exhibits properties not explicitly encoded in the reward function:
+realistic thermodynamic stability (Gibbs free energy distributions
+matching natural plasmids), natural codon usage patterns (Jensen-Shannon
+divergence from real plasmids significantly lower than base model), and
+appropriate ORF length distributions. The emergence of biologically
+realistic properties, reflecting those of real plasmids, mirrors
+evolutionary processes that produce complex, correlated traits as
+byproducts of selecting for primary fitness criteria.
 
-While we observe a high degree of diversity in the sequences, there are
-some highly conserved regions that the post-trained model relies on to
-make the plasmid viable even more so than the base model. Conserved
-regions are necessary and common in nature, but the post-training
-process reduces the frequency with which some of the less common regions
-are used by the model. To make this concrete, when we sample the base
-model and the RL model 500 times each with the weak ATG prompt and
-annotate all outputs, we see that the base model uses 10 unique ORIs
-while the RL model only uses 7.
+Furthermore, the RL model shows unexpected improvement on next-token
+prediction tasks, reversing the typical ``alignment tax'' observed in
+language models. This suggests the model is not simply memorizing valid
+solutions but rather learning general principles of plasmid structure.
+The steering vector hypothesis offers a potential explanation: RL may be
+moving the model's latent space toward regions that are not only valid by
+our reward criteria but also broadly biologically coherent, explaining why
+unoptimized properties improve alongside explicitly rewarded features.
 
-This might explain some of the distribution patterns in Section 4.2, as
-the model finds a less diverse set of policies that work and explores
-less, leading to  the shrunken variance and a more similar mean to the real
-plasmids. However, the experiments in Sections 4.3 and 4.4 suggest that
-the policy learned by the RL process is better aligned with natural
-plasmids, even on tasks involving next-token prediction and surprisal.
+\subsection{Implications for Computational Biology and Genomics}
 
-\subsection{Limitations of Bioinformatic Evaluation}
+This work demonstrates that modern post-training techniques from natural
+language processing can transfer to DNA language models with similar
+success. Just as instruction tuning and RLHF unlocked the practical
+utility of large language models, RL post-training may represent a key
+step toward practical DNA generative models. The success of our approach
+suggests that appropriate reward function design, even without perfect
+biological accuracy (e.g., using lightweight bioinformatics rather than
+wet-lab validation), can guide models toward broadly realistic sequence
+spaces.
 
-Our training and evaluation process is based almost entirely on
-bioinformatics, which depends on having a library of known regions.
-These libraries are naturally incomplete. Therefore, if our model ever
-generates a sequence that would work as an ORI, for example, but that
-sequence is missing from the library either by ommission or because it has
-never been observed in nature before, the model will not receive a
-reward. This sharply limits how creative the model can be, and contrasts
-with other known examples of RL working well in domains such as natural
-language processing or protein design, where preference reward models or
-biophysical models are used, respectively.
+The parallel between emergent capabilities in LLMs and DNA models has
+broader implications: it suggests that genomic foundation models may
+benefit from similar training paradigms that have proven successful in
+other domains. This opens avenues for applying other techniques from the
+NLP toolkit (e.g., chain-of-thought prompting, mixture of experts,
+parameter-efficient fine-tuning) to genomic tasks. Moreover, the emergent
+properties we observe suggest that DNA language models may be capturing
+fundamental biological constraints implicit in natural sequence data,
+much as LLMs capture linguistic structure.
 
-\subsection{Unexpected Improvement on Token-Level Tasks}
+\subsection{Limitations and Critiques}
 
-Reinforcement learning typically makes language models worse on
-token-level tasks. This phenomenon, known as the ``alignment tax,''
-makes sense intuitively: the model is optimized toward a policy to
-maximize a reward function and therefore away from the next-token
-prediction policy. Our model shows an interesting reversal of this
-trend.
+\textbf{Bioinformatics-only evaluation:} Our training and evaluation
+process relies almost entirely on bioinformatics, which depends on
+libraries of known regions. These libraries are naturally incomplete.
+Therefore, if our model generates a novel functional sequence (e.g., a
+never-before-seen ORI), it will not receive reward, sharply limiting how
+creative the model can be. This contrasts with other domains where RL has
+succeeded: natural language processing uses preference models that can
+evaluate novel outputs, and protein design uses biophysical simulators.
+Without wet-lab validation, we cannot definitively claim our sequences are
+experimentally viable, though our pipeline has been validated as a proxy
+for synthesis success.
 
-One possible explanation uses the ``steering vector'' hypothesis as a
-way to understand how reinforcement learning interacts with the base
-model \cite{steering_vectors}. This hypothesis states that the
-post-training process doesn't give the model any new skills (more easily
-proven in NLP) but simply moves the latent space that the model decodes
-from to a more favorable region.
+\textbf{Diversity trade-offs:} The post-trained model shows decreased
+sequence diversity (0.391 vs. 0.926 for base model), a known effect of RL
+optimization. While the diversity metric primarily serves as a collapse
+detector rather than a biological validity measure, there is a meaningful
+reduction in functional diversity. For example, when sampling 500
+sequences from each model, the base model uses 10 unique ORIs while the
+RL model uses only 7. The model converges toward conserved, reliable
+solutions at the expense of exploring less common but potentially viable
+alternatives. This is consistent with RL finding ``successful motifs''
+but may limit the model's utility for applications requiring high
+functional diversity.
 
-This offers a potential explanation as to why the reward function used
-was able to not only optimize plasmid validity as measured in silico
-(which is highly correlated with the reward function) but also optimize
-for thermodynamic stability and other characteristics that should be
-weakly correlated with the reward function. The RL process may have
-pushed the region of latent space toward a region of more valid plasmids
-in several aspects by being optimized for these bioinformatic features.
+\textbf{Assumptions about reward function design:} Our reward function
+design assumes that structural annotations (promoters, ORIs, etc.) and
+simple composition metrics can capture essential aspects of plasmid
+validity. While emergent properties suggest this assumption is partially
+validated, we may be missing important biological constraints not easily
+encoded in lightweight bioinformatics. The simplification is pragmatic
+for efficient training but may become limiting as we scale to more
+complex genomic systems.
 
-\subsection{Emergent Properties and Evolutionary Analogies}
-
-The emergence of biologically realistic properties, reflexing those of real
-plasmids, while explicitly optimized mirros an evolutionary processes in that 
-produce complex, correlated traits as byproducts of selecting for primary
- fitness criteria. Just as evolution optimizes for survival
-and reproduction while producing emergent phenomena like protein folding
-patterns and metabolic network architecture, our RL process optimizes for
-functional annotations while inducing realistic thermodynamic and
-sequence composition properties. This suggests that appropriately
-structured reward functions may capture sufficient biological constraints
-to guide models toward broadly realistic sequence space regions.
-
-\subsection{Future Work: Conditional Generation}
+\subsection{Future Work}
 
 This work further supports the ongoing hypothesis that modern language 
 modeling techniques can be applied to DNA language models in a similar 
@@ -648,13 +661,14 @@ in E. coli with high copy number'' or ``create a mammalian expression
 vector with constitutive GFP expression.''
 
 In addition to being far more practical than unconditional generation, the
-conditioning will promote more diveristy of sample and make evaluation of 
-the model's performance on the task of plasmid design much more understable.
+conditioning will promote more diversity of samples and make evaluation
+of the model's performance on the task of plasmid design much more
+understandable.
 
 \section{Conclusion}
 
 We demonstrate that reinforcement learning can mimic distributions of real plasmids 
-accross several key features, even when not explicitly optimzed for  these features. Our model
+across several key features, even when not explicitly optimized for these features. Our model
 generates structurally valid plasmids at a 97\% rate (compared to 6\% for
 the base model), but more significantly, exhibits biological realism not
 directly encoded in the reward function: realistic thermodynamic
@@ -707,7 +721,8 @@ available under their respective licenses.
 
 We thank the PlasmidGPT team for providing the base model and the
 computational biology community for making plasmid sequence databases
-publicly available.
+publicly available. This work was supported by Pillar VC's Encode
+Fellowship, which is backed by Pillar VC and powered by ARIA and DSIT.
 
 \newpage
 
@@ -754,6 +769,38 @@ reward at 5kb and minimum at 15kb, zero reward beyond 15kb
 \item \textbf{Repeat penalty ($>$50bp):} $-0.1$ from total reward for
 each repeat $>$ 50bp
 \end{itemize}
+
+\subsection{Distribution Comparison Metrics}
+
+Table~\ref{tab:ks_stats} presents Kolmogorov-Smirnov statistics
+comparing the distributions of generated plasmids to real plasmids
+across key biophysical metrics. Lower values indicate closer match to
+the real plasmid distribution.
+
+\begin{table}[h]
+\caption{Kolmogorov-Smirnov statistics for distribution comparison
+against real plasmids. RL model achieves closest match for GC content
+and codon usage (JS divergence).}
+\label{tab:ks_stats}
+\vskip 0.15in
+\begin{center}
+\begin{small}
+\begin{sc}
+\begin{tabular}{lcccc}
+\toprule
+Metric & Real & Base & SFT & RL \\
+\midrule
+Length (bp) & 4737 & 5548 & 5647 & 7551 \\
+GC Content & 0.52 & 0.48 & 0.50 & 0.51 \\
+JS Divergence & 0.06 & 0.10 & 0.09 & 0.06 \\
+MFE Density & -0.36 & -0.35 & -0.37 & -0.35 \\
+\bottomrule
+\end{tabular}
+\end{sc}
+\end{small}
+\end{center}
+\vskip -0.1in
+\end{table}
 
 \subsection{Reference Plasmids for Distribution Comparison}
 

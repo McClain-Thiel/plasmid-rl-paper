@@ -1,7 +1,3 @@
-DEFINITION  seqnum=1;seqlen=2670;seqhdr="seq_24";version=Prodigal.v2.6.3;run_type=Metagenomic;model="40|Rothia_dentocariosa_ATCC_17931|B|53.7|11|1";gc_cont=53.70;transl_table=11;uses_sd=1
+DEFINITION  seqnum=1;seqlen=7;seqhdr="seq_24";version=Prodigal.v2.6.3;run_type=Metagenomic;model="13|Catenulispora_acidiphila_DSM_44928|B|69.8|11|1";gc_cont=69.80;transl_table=11;uses_sd=1
 FEATURES             Location/Qualifiers
-     CDS             1..435
-                     /note="ID=1_1;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.520;conf=95.40;score=13.19;cscore=15.55;sscore=-2.36;rscore=-5.94;uscore=0.00;tscore=3.58;"
-     CDS             complement(1920..2600)
-                     /note="ID=1_2;partial=00;start_type=GTG;rbs_motif=AGxAGG/AGGxGG;rbs_spacer=5-10bp;gc_cont=0.612;conf=100.00;score=109.27;cscore=108.25;sscore=1.02;rscore=4.52;uscore=-0.72;tscore=-2.78;"
 //

@@ -1,2 +1,3 @@
 sequence,symbol,name,start,end,strand,pct_identity,pct_cov
-seq_23,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,2250,3062,-,100.0,100.0
+seq_23,aph(3')-IIa,aminoglycoside O-phosphotransferase APH(3')-IIa,2417,3031,+,99.51,77.65
+seq_23,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,3959,4816,+,100.0,100.0

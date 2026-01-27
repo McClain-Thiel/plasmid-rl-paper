@@ -1,2 +1,2 @@
 sequence,symbol,name,start,end,strand,pct_identity,pct_cov
-seq_63,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,1108,1920,+,99.26,100.0
+seq_63,catA1,type A-1 chloramphenicol O-acetyltransferase,2492,3148,-,99.09,100.0

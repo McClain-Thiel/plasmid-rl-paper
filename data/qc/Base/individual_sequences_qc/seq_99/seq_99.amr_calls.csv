@@ -1,2 +1,2 @@
 sequence,symbol,name,start,end,strand,pct_identity,pct_cov
-seq_99,catA1,type A-1 chloramphenicol O-acetyltransferase,2023,2679,-,100.0,100.0
+seq_99,aac(3)-Ia,aminoglycoside N-acetyltransferase AAC(3)-Ia,2588,3049,-,100.0,100.0

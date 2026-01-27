@@ -1,13 +1,7 @@
-DEFINITION  seqnum=1;seqlen=4923;seqhdr="seq_95";version=Prodigal.v2.6.3;run_type=Metagenomic;model="20|Escherichia_coli_UMN026|B|50.7|11|1";gc_cont=50.70;transl_table=11;uses_sd=1
+DEFINITION  seqnum=1;seqlen=2404;seqhdr="seq_95";version=Prodigal.v2.6.3;run_type=Metagenomic;model="21|Haloquadratum_walsbyi_DSM_16790|A|47.9|11|0";gc_cont=47.90;transl_table=11;uses_sd=0
 FEATURES             Location/Qualifiers
      CDS             62..598
-                     /note="ID=1_1;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.376;conf=99.99;score=42.18;cscore=22.53;sscore=19.65;rscore=14.84;uscore=0.86;tscore=3.95;"
-     CDS             1279..1995
-                     /note="ID=1_2;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.484;conf=100.00;score=116.72;cscore=98.84;sscore=17.88;rscore=14.84;uscore=-0.26;tscore=3.95;"
-     CDS             complement(2654..3532)
-                     /note="ID=1_3;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.529;conf=100.00;score=90.63;cscore=76.30;sscore=14.33;rscore=11.19;uscore=-0.15;tscore=3.95;"
-     CDS             3873..4373
-                     /note="ID=1_4;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.623;conf=100.00;score=72.62;cscore=52.24;sscore=20.38;rscore=14.84;uscore=1.59;tscore=3.95;"
-     CDS             complement(4426..4863)
-                     /note="ID=1_5;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.484;conf=71.05;score=3.91;cscore=4.67;sscore=-0.77;rscore=-8.50;uscore=3.78;tscore=3.95;"
+                     /note="ID=1_1;partial=00;start_type=ATG;rbs_motif=ATA;rbs_spacer=4bp;gc_cont=0.376;conf=100.00;score=59.76;cscore=49.46;sscore=10.31;rscore=7.06;uscore=-1.02;tscore=4.27;"
+     CDS             complement(1732..2247)
+                     /note="ID=1_2;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.612;conf=79.44;score=5.88;cscore=5.97;sscore=-0.09;rscore=-0.25;uscore=-4.11;tscore=4.27;"
 //

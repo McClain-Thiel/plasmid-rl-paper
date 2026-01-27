@@ -16,7 +16,7 @@ import warnings
 warnings.filterwarnings('ignore')
 
 # Setup paths
-BASE_DIR = Path('/Users/mcclainthiel/Downloads/results_Exp14_Aggressive')
+BASE_DIR = Path(__file__).resolve().parent.parent.parent / 'data'
 PUB_DIR = BASE_DIR / 'publication'
 PUB_DIR.mkdir(exist_ok=True)
 
@@ -177,6 +177,7 @@ def plot_diversity_overall():
 
     # Load diversity from summary and filter to 3 models
     summary = pd.read_csv(BASE_DIR / 'analysis' / 'model_comparison_summary.csv')
+    summary['Model'] = summary['Model'].replace('GRPO', 'RL')
     summary = summary[summary['Model'].isin(['Base', 'SFT', 'RL'])]
     summary = summary.set_index('Model').reindex(MODEL_ORDER)
 
@@ -208,6 +209,7 @@ def plot_pass_rate_vs_diversity():
 
     # Load summary data and filter to 3 models
     summary = pd.read_csv(BASE_DIR / 'analysis' / 'model_comparison_summary.csv')
+    summary['Model'] = summary['Model'].replace('GRPO', 'RL')
     summary = summary[summary['Model'].isin(['Base', 'SFT', 'RL'])]
 
     for _, row in summary.iterrows():
@@ -389,12 +391,17 @@ def plot_surprisal_benchmark():
 
 def plot_novelty_chart():
     """Plot BLAST novelty results."""
-    fig, ax = plt.subplots(figsize=(7, 5))
-
     # Load summary and filter
     summary = pd.read_csv(BASE_DIR / 'analysis' / 'model_comparison_summary.csv')
+    summary['Model'] = summary['Model'].replace('GRPO', 'RL')
     summary = summary[summary['Model'].isin(['Base', 'SFT', 'RL'])]
     summary = summary.set_index('Model').reindex(MODEL_ORDER)
+
+    if 'Novelty_Pct' not in summary.columns:
+        print("Skipping plot_novelty_chart: 'Novelty_Pct' column missing.")
+        return
+
+    fig, ax = plt.subplots(figsize=(7, 5))
 
     bars = ax.bar(MODEL_ORDER, summary['Novelty_Pct'].values,
                   color=[MODEL_COLORS[m] for m in MODEL_ORDER],
@@ -460,6 +467,7 @@ def plot_combined_summary():
 
     # Load summary data
     summary = pd.read_csv(BASE_DIR / 'analysis' / 'model_comparison_summary.csv')
+    summary['Model'] = summary['Model'].replace('GRPO', 'RL')
     summary = summary[summary['Model'].isin(['Base', 'SFT', 'RL'])]
     summary = summary.set_index('Model').reindex(MODEL_ORDER)
 
@@ -511,15 +519,20 @@ def plot_combined_summary():
 
     # Panel D: Novelty Rate
     ax = axes[1, 1]
-    bars = ax.bar(MODEL_ORDER, summary['Novelty_Pct'].values,
-                  color=[MODEL_COLORS[m] for m in MODEL_ORDER],
-                  edgecolor='black', linewidth=1, width=0.6)
-    for bar, val in zip(bars, summary['Novelty_Pct'].values):
-        ax.text(bar.get_x() + bar.get_width()/2, bar.get_height() + 2,
-                f'{val:.0f}%', ha='center', va='bottom', fontsize=11, fontweight='bold')
-    ax.set_ylabel('BLAST Novelty Rate (%)', fontsize=11)
-    ax.set_title('D) Novelty Rate', fontsize=12, fontweight='bold', loc='left')
-    ax.set_ylim(0, 110)
+    if 'Novelty_Pct' in summary.columns:
+        bars = ax.bar(MODEL_ORDER, summary['Novelty_Pct'].values,
+                      color=[MODEL_COLORS[m] for m in MODEL_ORDER],
+                      edgecolor='black', linewidth=1, width=0.6)
+        for bar, val in zip(bars, summary['Novelty_Pct'].values):
+            ax.text(bar.get_x() + bar.get_width()/2, bar.get_height() + 2,
+                    f'{val:.0f}%', ha='center', va='bottom', fontsize=11, fontweight='bold')
+        ax.set_ylabel('BLAST Novelty Rate (%)', fontsize=11)
+        ax.set_title('D) Novelty Rate', fontsize=12, fontweight='bold', loc='left')
+        ax.set_ylim(0, 110)
+    else:
+        ax.text(0.5, 0.5, 'Novelty Data Missing', ha='center', va='center')
+        ax.set_title('D) Novelty Rate (Missing)', fontsize=12, fontweight='bold', loc='left')
+        
     ax.spines['top'].set_visible(False)
     ax.spines['right'].set_visible(False)
 

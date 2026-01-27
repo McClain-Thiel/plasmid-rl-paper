@@ -1,9 +1,17 @@
-DEFINITION  seqnum=1;seqlen=6618;seqhdr="seq_13";version=Prodigal.v2.6.3;run_type=Metagenomic;model="20|Escherichia_coli_UMN026|B|50.7|11|1";gc_cont=50.70;transl_table=11;uses_sd=1
+DEFINITION  seqnum=1;seqlen=8867;seqhdr="seq_13";version=Prodigal.v2.6.3;run_type=Metagenomic;model="20|Escherichia_coli_UMN026|B|50.7|11|1";gc_cont=50.70;transl_table=11;uses_sd=1
 FEATURES             Location/Qualifiers
      CDS             62..598
                      /note="ID=1_1;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.376;conf=99.99;score=42.18;cscore=22.53;sscore=19.65;rscore=14.84;uscore=0.86;tscore=3.95;"
-     CDS             4059..4544
-                     /note="ID=1_2;partial=00;start_type=GTG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.508;conf=99.00;score=20.01;cscore=27.86;sscore=-7.85;rscore=2.79;uscore=-3.36;tscore=-6.63;"
-     CDS             complement(4531..5409)
-                     /note="ID=1_3;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.529;conf=100.00;score=91.29;cscore=76.30;sscore=14.99;rscore=11.19;uscore=-0.15;tscore=3.95;"
+     CDS             1067..1744
+                     /note="ID=1_2;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.503;conf=100.00;score=128.31;cscore=112.69;sscore=15.61;rscore=14.84;uscore=-2.52;tscore=3.95;"
+     CDS             complement(2927..3787)
+                     /note="ID=1_3;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.490;conf=100.00;score=65.80;cscore=48.55;sscore=17.25;rscore=10.71;uscore=3.25;tscore=3.95;"
+     CDS             complement(4114..4992)
+                     /note="ID=1_4;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.529;conf=100.00;score=90.63;cscore=76.30;sscore=14.33;rscore=11.19;uscore=-0.15;tscore=3.95;"
+     CDS             5350..6066
+                     /note="ID=1_5;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.391;conf=100.00;score=43.70;cscore=24.99;sscore=18.71;rscore=14.84;uscore=-0.07;tscore=3.95;"
+     CDS             complement(6574..7365)
+                     /note="ID=1_6;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.532;conf=100.00;score=76.48;cscore=59.23;sscore=17.25;rscore=10.71;uscore=3.25;tscore=3.95;"
+     CDS             8007..8684
+                     /note="ID=1_7;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.503;conf=100.00;score=112.23;cscore=113.53;sscore=-1.30;rscore=-8.50;uscore=3.25;tscore=3.95;"
 //

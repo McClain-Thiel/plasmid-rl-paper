@@ -1,3 +1,2 @@
 sequence,symbol,name,start,end,strand,pct_identity,pct_cov
-seq_85,aph(4)-Ia,aminoglycoside O-phosphotransferase APH(4)-Ia,975,1751,-,100.0,75.95
-seq_85,catA1,type A-1 chloramphenicol O-acetyltransferase,5750,6406,-,100.0,100.0
+seq_85,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,4981,5793,-,100.0,100.0

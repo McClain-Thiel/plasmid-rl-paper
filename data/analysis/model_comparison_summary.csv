@@ -1,4 +1,4 @@
-Model,PassRate,PassedQC,Diversity,BLASTed,Novel,Similar,Exists,Novelty_Pct,PassedQC_and_Novel_Pct
-Base,6.0,6,0.926,22,21,0,1,95.5,6.0
-SFT,11.0,11,0.886,25,25,0,0,100.0,11.0
-RL,97.0,97,0.391,25,22,0,3,88.0,85.4
+Model,PassRate,Diversity
+Base,5.0,0.8597329824561404
+SFT,11.0,0.8779329292929293
+RL,62.0,0.6329929292929293

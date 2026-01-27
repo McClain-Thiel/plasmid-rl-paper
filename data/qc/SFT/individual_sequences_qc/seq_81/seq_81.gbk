@@ -1,15 +1,7 @@
-DEFINITION  seqnum=1;seqlen=7751;seqhdr="seq_81";version=Prodigal.v2.6.3;run_type=Metagenomic;model="47|Xenorhabdus_nematophila_ATCC_19061|B|44.1|11|1";gc_cont=44.20;transl_table=11;uses_sd=1
+DEFINITION  seqnum=1;seqlen=2404;seqhdr="seq_81";version=Prodigal.v2.6.3;run_type=Metagenomic;model="21|Haloquadratum_walsbyi_DSM_16790|A|47.9|11|0";gc_cont=47.90;transl_table=11;uses_sd=0
 FEATURES             Location/Qualifiers
      CDS             62..598
-                     /note="ID=1_1;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.376;conf=100.00;score=53.65;cscore=34.19;sscore=19.46;rscore=14.77;uscore=0.70;tscore=3.99;"
-     CDS             1674..2534
-                     /note="ID=1_2;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.494;conf=100.00;score=84.96;cscore=69.29;sscore=15.67;rscore=9.79;uscore=2.54;tscore=3.99;"
-     CDS             4078..4440
-                     /note="ID=1_3;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.570;conf=80.05;score=6.04;cscore=3.95;sscore=2.09;rscore=3.02;uscore=-4.26;tscore=3.99;"
-     CDS             complement(4427..5305)
-                     /note="ID=1_4;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.529;conf=100.00;score=66.95;cscore=54.56;sscore=12.38;rscore=11.01;uscore=-1.96;tscore=3.99;"
-     CDS             5936..6559
-                     /note="ID=1_5;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.405;conf=99.99;score=40.88;cscore=47.68;sscore=-6.80;rscore=-7.00;uscore=-3.79;tscore=3.99;"
-     CDS             complement(7179..7379)
-                     /note="ID=1_6;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.552;conf=70.63;score=3.82;cscore=2.84;sscore=0.97;rscore=2.39;uscore=-4.58;tscore=3.16;"
+                     /note="ID=1_1;partial=00;start_type=ATG;rbs_motif=ATA;rbs_spacer=4bp;gc_cont=0.376;conf=100.00;score=59.76;cscore=49.46;sscore=10.31;rscore=7.06;uscore=-1.02;tscore=4.27;"
+     CDS             complement(1732..2247)
+                     /note="ID=1_2;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.612;conf=79.44;score=5.88;cscore=5.97;sscore=-0.09;rscore=-0.25;uscore=-4.11;tscore=4.27;"
 //

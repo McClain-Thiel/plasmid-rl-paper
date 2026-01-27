@@ -1,3 +1,4 @@
 sequence,symbol,name,start,end,strand,pct_identity,pct_cov
-seq_57,tet(C),tetracycline efflux MFS transporter Tet(C),1079,1708,+,100.0,53.71
-seq_57,catA1,type A-1 chloramphenicol O-acetyltransferase,3987,4643,-,100.0,100.0
+seq_57,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,2162,2974,-,100.0,100.0
+seq_57,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,3132,3989,-,100.0,100.0
+seq_57,blaTEM,TEM family class A beta-lactamase,7527,8384,-,99.65,100.0

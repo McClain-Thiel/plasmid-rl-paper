@@ -1,0 +1,12 @@
+##gff-version  3
+# Sequence Data: seqnum=1;seqlen=8950;seqhdr="seq_23"
+# Model Data: version=Prodigal.v2.6.3;run_type=Metagenomic;model="47|Xenorhabdus_nematophila_ATCC_19061|B|44.1|11|1";gc_cont=44.20;transl_table=11;uses_sd=1
+seq_23	Prodigal_v2.6.3	CDS	62	598	53.7	+	0	ID=1_1;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.376;conf=100.00;score=53.65;cscore=34.19;sscore=19.46;rscore=14.77;uscore=0.70;tscore=3.99;
+seq_23	Prodigal_v2.6.3	CDS	1016	1693	107.3	+	0	ID=1_2;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.503;conf=100.00;score=106.68;cscore=92.59;sscore=14.09;rscore=14.77;uscore=-4.02;tscore=3.99;
+seq_23	Prodigal_v2.6.3	CDS	2790	3584	75.2	-	0	ID=1_3;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.597;conf=100.00;score=74.59;cscore=61.38;sscore=13.21;rscore=11.01;uscore=-1.13;tscore=3.99;
+seq_23	Prodigal_v2.6.3	CDS	3992	4585	44.3	+	0	ID=1_4;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.389;conf=100.00;score=44.34;cscore=30.99;sscore=13.34;rscore=11.01;uscore=-1.65;tscore=3.99;
+seq_23	Prodigal_v2.6.3	CDS	4609	5232	76.5	+	0	ID=1_5;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.404;conf=100.00;score=77.54;cscore=55.03;sscore=22.50;rscore=14.77;uscore=2.72;tscore=3.99;
+seq_23	Prodigal_v2.6.3	CDS	5911	6207	4.0	+	0	ID=1_6;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.562;conf=68.24;score=3.33;cscore=0.56;sscore=2.76;rscore=3.02;uscore=-3.59;tscore=3.99;
+seq_23	Prodigal_v2.6.3	CDS	6732	7592	85.9	-	0	ID=1_7;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.490;conf=100.00;score=85.30;cscore=69.63;sscore=15.67;rscore=9.79;uscore=2.54;tscore=3.99;
+seq_23	Prodigal_v2.6.3	CDS	8084	8302	14.4	+	0	ID=1_8;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.393;conf=96.48;score=14.40;cscore=10.21;sscore=4.19;rscore=2.61;uscore=-1.87;tscore=3.45;
+seq_23	Prodigal_v2.6.3	CDS	8711	8857	5.2	+	0	ID=1_9;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.415;conf=73.77;score=4.50;cscore=1.11;sscore=3.39;rscore=1.74;uscore=0.00;tscore=2.30;

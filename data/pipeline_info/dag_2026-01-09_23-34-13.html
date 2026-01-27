@@ -1,0 +1,150 @@
+<!--
+  ~ Copyright 2013-2024, Seqera Labs
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~     http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+<html>
+<head>
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1">
+</head>
+<body>
+<pre class="mermaid" style="text-align: center;">
+%%{
+  init: {
+    'theme': 'base',
+    'themeVariables': {
+      'primaryColor': '#B6ECE2',
+      'primaryTextColor': '#160F26',
+      'primaryBorderColor': '#065647',
+      'lineColor': '#545555',
+      'clusterBkg': '#BABCBD22',
+      'clusterBorder': '#DDDEDE',
+      'fontFamily': 'arial'
+    }
+  }
+}%%
+flowchart TB
+    subgraph " "
+    v0["Channel.fromList"]
+    v1["Channel.fromList"]
+    v2["Channel.fromPath"]
+    end
+    subgraph " "
+    v13["csv"]
+    v17["genes"]
+    v18[" "]
+    v19["proteins"]
+    v21[" "]
+    v22["replicons"]
+    v42["kmer"]
+    v45["mfe"]
+    v52["summary"]
+    v53["pairwise"]
+    v54["pass_rates"]
+    v55["comparison"]
+    v59["similarity"]
+    end
+    subgraph "GENERATE [GENERATE]"
+    v9(["PREPARE_PROMPTS"])
+    v12(["SAMPLE_MODEL"])
+    v8(( ))
+    v10(( ))
+    v14(( ))
+    end
+    subgraph "QC [QC]"
+    v16(["PRODIGAL"])
+    v20(["MOB_TYPER"])
+    v23(["MAKE_BLAST_DB"])
+    v24(["BLAST_ORI"])
+    v25(["AMRFINDER"])
+    v26(["FIND_REPEATS"])
+    v33(["AGGREGATE_ORI"])
+    v34(["AGGREGATE_AMR"])
+    v35(["AGGREGATE_REPEATS"])
+    v37(["FILTER_QC"])
+    v15(( ))
+    v27(( ))
+    v29(( ))
+    v31(( ))
+    v36(( ))
+    end
+    subgraph "EVAL [EVAL]"
+    v40(["COMPUTE_METRICS"])
+    v41(["KMER_DIVERGENCE"])
+    v44(["MFE_CIRCULAR"])
+    v47(["BLAST_SIMILARITY"])
+    v50(["AGGREGATE_METRICS"])
+    v51(["COMPARE_MODELS"])
+    v46(( ))
+    v48(( ))
+    v58(( ))
+    end
+    v38(( ))
+    v39(( ))
+    v0 --> v10
+    v1 --> v8
+    v2 --> v23
+    v8 --> v9
+    v9 --> v10
+    v10 --> v12
+    v12 --> v13
+    v12 --> v14
+    v15 --> v16
+    v16 --> v19
+    v16 --> v18
+    v16 --> v17
+    v15 --> v20
+    v20 --> v22
+    v20 --> v21
+    v23 --> v24
+    v15 --> v24
+    v24 --> v27
+    v15 --> v25
+    v25 --> v29
+    v15 --> v26
+    v26 --> v31
+    v27 --> v33
+    v33 --> v37
+    v29 --> v34
+    v34 --> v37
+    v31 --> v35
+    v35 --> v36
+    v36 --> v37
+    v37 --> v51
+    v14 --> v40
+    v40 --> v48
+    v14 --> v41
+    v38 --> v41
+    v41 --> v42
+    v14 --> v44
+    v44 --> v45
+    v14 --> v47
+    v46 --> v47
+    v47 --> v58
+    v48 --> v50
+    v50 --> v51
+    v51 --> v55
+    v51 --> v54
+    v51 --> v53
+    v51 --> v52
+    v58 --> v59
+    v14 --> v15
+    v39 --> v46
+
+</pre>
+<script type="module">
+  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
+  mermaid.initialize({ startOnLoad: true, maxTextSize: Number.MAX_SAFE_INTEGER, maxEdges: Number.MAX_SAFE_INTEGER });
+</script>
+</body>
+</html>

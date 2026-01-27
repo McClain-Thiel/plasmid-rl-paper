@@ -1,0 +1,4 @@
+##gff-version  3
+# Sequence Data: seqnum=1;seqlen=2046;seqhdr="seq_64"
+# Model Data: version=Prodigal.v2.6.3;run_type=Metagenomic;model="17|Desulfotomaculum_acetoxidans_DSM_771|B|41.5|11|1";gc_cont=41.60;transl_table=11;uses_sd=1
+seq_64	Prodigal_v2.6.3	CDS	313	447	8.6	-	0	ID=1_1;partial=00;start_type=ATG;rbs_motif=AGGA/GGAG/GAGG;rbs_spacer=11-12bp;gc_cont=0.519;conf=87.81;score=8.59;cscore=8.70;sscore=-0.11;rscore=1.85;uscore=-3.46;tscore=1.50;

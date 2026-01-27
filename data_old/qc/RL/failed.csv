@@ -1,0 +1,4 @@
+Plasmid_ID,reason failed
+seq_0,"ARG low-threshold count 2 outside [1,1]"
+seq_13,"ARG low-threshold count 0 outside [1,1]"
+seq_71,"ORI low-threshold count 0 outside [1,1]; ARG low-threshold count 0 outside [1,1]; repeat ≥ 50"

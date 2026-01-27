@@ -1,0 +1,7 @@
+Plasmid_ID,Ori's present,Identity of each ori,Cov of each ori,ARG's present,Identity of ARGs,Cov of ARGs
+seq_33,ColE1,99.83,100.00,blaTEM-1,100.00,100.00
+seq_43,ColE1,99.83,100.00,blaTEM-116,100.00,100.00
+seq_71,ColE1,99.15,100.00,blaTEM-116,100.00,100.00
+seq_73,ColE1,99.66,100.00,blaTEM-116,100.00,100.00
+seq_83,ColE1,99.66,100.00,blaTEM-116,100.00,100.00
+seq_99,ColE1,99.49,100.00,catA1,100.00,100.00

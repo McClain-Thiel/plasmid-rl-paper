@@ -15,7 +15,7 @@ import warnings
 warnings.filterwarnings('ignore')
 
 # Setup paths
-BASE_DIR = Path('/Users/mcclainthiel/Downloads/results_Exp14_Aggressive')
+BASE_DIR = Path(__file__).resolve().parent.parent.parent / 'data'
 PUB_DIR = BASE_DIR / 'publication'
 PUB_DIR.mkdir(exist_ok=True)
 
@@ -497,18 +497,23 @@ def plot_combined_summary():
 
     # Panel D: NCBI Diversity
     ax = axes[1, 1]
-    ncbi = pd.read_csv(BASE_DIR / 'ncbi_blast' / 'ncbi_diversity_summary.csv')
-    ncbi['model'] = ncbi['model'].replace({'SFT_GRPO': 'SFT+RL'})
-    ncbi = ncbi.set_index('model').reindex(MODEL_ORDER)
-    bars = ax.bar(MODEL_ORDER, ncbi['diversity_ratio'].values,
-                  color=[MODEL_COLORS[m] for m in MODEL_ORDER],
-                  edgecolor='black', linewidth=1)
-    for bar, val in zip(bars, ncbi['diversity_ratio'].values):
-        ax.text(bar.get_x() + bar.get_width()/2, bar.get_height() + 0.02,
-                f'{val:.2f}', ha='center', va='bottom', fontsize=10, fontweight='bold')
-    ax.set_ylabel('NCBI Diversity Ratio', fontsize=11)
-    ax.set_title('D) NCBI BLAST Uniqueness', fontsize=12, fontweight='bold', loc='left')
-    ax.set_ylim(0, 1.1)
+    if (BASE_DIR / 'ncbi_blast' / 'ncbi_diversity_summary.csv').exists():
+        ncbi = pd.read_csv(BASE_DIR / 'ncbi_blast' / 'ncbi_diversity_summary.csv')
+        ncbi['model'] = ncbi['model'].replace({'SFT_GRPO': 'SFT+RL'})
+        ncbi = ncbi.set_index('model').reindex(MODEL_ORDER)
+        bars = ax.bar(MODEL_ORDER, ncbi['diversity_ratio'].values,
+                      color=[MODEL_COLORS[m] for m in MODEL_ORDER],
+                      edgecolor='black', linewidth=1)
+        for bar, val in zip(bars, ncbi['diversity_ratio'].values):
+            ax.text(bar.get_x() + bar.get_width()/2, bar.get_height() + 0.02,
+                    f'{val:.2f}', ha='center', va='bottom', fontsize=10, fontweight='bold')
+        ax.set_ylabel('NCBI Diversity Ratio', fontsize=11)
+        ax.set_title('D) NCBI BLAST Uniqueness', fontsize=12, fontweight='bold', loc='left')
+        ax.set_ylim(0, 1.1)
+    else:
+        ax.text(0.5, 0.5, 'NCBI Diversity Data Missing', ha='center', va='center')
+        ax.set_title('D) NCBI BLAST Uniqueness (Missing)', fontsize=12, fontweight='bold', loc='left')
+
     ax.spines['top'].set_visible(False)
     ax.spines['right'].set_visible(False)
 
@@ -623,7 +628,7 @@ def main():
     plot_repeat_fraction(df)
     plot_completion_benchmark(df)
     plot_surprisal_benchmark()
-    plot_ncbi_diversity()
+    # plot_ncbi_diversity()
     plot_completion_by_plasmid()
     plot_ori_amr_counts(df)
 

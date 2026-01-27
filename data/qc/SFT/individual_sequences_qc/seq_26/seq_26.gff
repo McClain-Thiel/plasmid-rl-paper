@@ -1,3 +1,4 @@
 ##gff-version  3
-# Sequence Data: seqnum=1;seqlen=1412;seqhdr="seq_26"
-# Model Data: version=Prodigal.v2.6.3;run_type=Metagenomic;model="1|Mycoplasma_pneumoniae_M129|B|40.0|4|0";gc_cont=40.00;transl_table=4;uses_sd=0
+# Sequence Data: seqnum=1;seqlen=1807;seqhdr="seq_26"
+# Model Data: version=Prodigal.v2.6.3;run_type=Metagenomic;model="42|Synechococcus_CC9605|B|59.2|11|0";gc_cont=59.20;transl_table=11;uses_sd=0
+seq_26	Prodigal_v2.6.3	CDS	1056	1358	18.4	-	0	ID=1_1;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.545;conf=98.57;score=18.41;cscore=14.49;sscore=3.91;rscore=0.00;uscore=-0.57;tscore=4.48;

@@ -1,11 +1,3 @@
-DEFINITION  seqnum=1;seqlen=7815;seqhdr="seq_8";version=Prodigal.v2.6.3;run_type=Metagenomic;model="47|Xenorhabdus_nematophila_ATCC_19061|B|44.1|11|1";gc_cont=44.20;transl_table=11;uses_sd=1
+DEFINITION  seqnum=1;seqlen=9;seqhdr="seq_8";version=Prodigal.v2.6.3;run_type=Metagenomic;model="0|Mycoplasma_bovis_PG45|B|29.3|4|1";gc_cont=29.30;transl_table=4;uses_sd=1
 FEATURES             Location/Qualifiers
-     CDS             420..2087
-                     /note="ID=1_1;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.469;conf=100.00;score=125.38;cscore=113.62;sscore=11.76;rscore=11.01;uscore=-3.23;tscore=3.99;"
-     CDS             complement(2730..4019)
-                     /note="ID=1_2;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.512;conf=100.00;score=102.67;cscore=90.50;sscore=12.17;rscore=9.79;uscore=-1.61;tscore=3.99;"
-     CDS             complement(4169..4354)
-                     /note="ID=1_3;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.489;conf=62.08;score=2.15;cscore=-7.46;sscore=9.60;rscore=7.17;uscore=0.67;tscore=2.92;"
-     CDS             complement(5511..6371)
-                     /note="ID=1_4;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.491;conf=100.00;score=85.23;cscore=68.91;sscore=16.32;rscore=9.79;uscore=2.54;tscore=3.99;"
 //

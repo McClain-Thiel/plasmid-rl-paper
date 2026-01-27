@@ -1,5 +1,17 @@
-DEFINITION  seqnum=1;seqlen=2354;seqhdr="seq_75";version=Prodigal.v2.6.3;run_type=Metagenomic;model="0|Mycoplasma_bovis_PG45|B|29.3|4|1";gc_cont=29.30;transl_table=4;uses_sd=1
+DEFINITION  seqnum=1;seqlen=10240;seqhdr="seq_75";version=Prodigal.v2.6.3;run_type=Metagenomic;model="47|Xenorhabdus_nematophila_ATCC_19061|B|44.1|11|1";gc_cont=44.20;transl_table=11;uses_sd=1
 FEATURES             Location/Qualifiers
      CDS             62..598
-                     /note="ID=1_1;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.376;conf=100.00;score=72.39;cscore=55.45;sscore=16.95;rscore=13.71;uscore=-0.71;tscore=3.94;"
+                     /note="ID=1_1;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.376;conf=100.00;score=53.65;cscore=34.19;sscore=19.46;rscore=14.77;uscore=0.70;tscore=3.99;"
+     CDS             complement(1884..2744)
+                     /note="ID=1_2;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.491;conf=100.00;score=84.58;cscore=68.91;sscore=15.67;rscore=9.79;uscore=2.54;tscore=3.99;"
+     CDS             complement(4193..4630)
+                     /note="ID=1_3;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.466;conf=98.64;score=18.65;cscore=12.79;sscore=5.86;rscore=3.02;uscore=-0.49;tscore=3.99;"
+     CDS             complement(4993..5439)
+                     /note="ID=1_4;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.570;conf=89.64;score=9.39;cscore=5.99;sscore=3.40;rscore=3.02;uscore=-2.96;tscore=3.99;"
+     CDS             6415..7275
+                     /note="ID=1_5;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.494;conf=100.00;score=85.61;cscore=69.29;sscore=16.32;rscore=9.79;uscore=2.54;tscore=3.99;"
+     CDS             8356..9438
+                     /note="ID=1_6;partial=00;start_type=GTG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.563;conf=100.00;score=102.35;cscore=107.16;sscore=-4.81;rscore=3.02;uscore=-1.18;tscore=-5.99;"
+     CDS             9890..10123
+                     /note="ID=1_7;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.491;conf=99.63;score=24.32;cscore=4.04;sscore=20.28;rscore=13.65;uscore=3.60;tscore=3.69;"
 //

@@ -1,5 +1,3 @@
-DEFINITION  seqnum=1;seqlen=1113;seqhdr="seq_56";version=Prodigal.v2.6.3;run_type=Metagenomic;model="48|Xylella_fastidiosa_Temecula1|B|51.8|11|1";gc_cont=51.80;transl_table=11;uses_sd=1
+DEFINITION  seqnum=1;seqlen=51;seqhdr="seq_56";version=Prodigal.v2.6.3;run_type=Metagenomic;model="5|Anaplasma_marginale_Maries|B|49.8|11|1";gc_cont=49.80;transl_table=11;uses_sd=1
 FEATURES             Location/Qualifiers
-     CDS             complement(23..1084)
-                     /note="ID=1_1;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.517;conf=100.00;score=77.81;cscore=64.92;sscore=12.90;rscore=7.25;uscore=0.88;tscore=4.77;"
 //

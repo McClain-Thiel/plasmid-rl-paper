@@ -1,15 +1,8 @@
 ##gff-version  3
-# Sequence Data: seqnum=1;seqlen=8141;seqhdr="seq_37"
-# Model Data: version=Prodigal.v2.6.3;run_type=Metagenomic;model="47|Xenorhabdus_nematophila_ATCC_19061|B|44.1|11|1";gc_cont=44.20;transl_table=11;uses_sd=1
-seq_37	Prodigal_v2.6.3	CDS	62	598	53.7	+	0	ID=1_1;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.376;conf=100.00;score=53.65;cscore=34.19;sscore=19.46;rscore=14.77;uscore=0.70;tscore=3.99;
-seq_37	Prodigal_v2.6.3	CDS	978	1343	16.5	-	0	ID=1_2;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.557;conf=97.42;score=15.80;cscore=8.86;sscore=6.94;rscore=3.02;uscore=0.58;tscore=3.99;
-seq_37	Prodigal_v2.6.3	CDS	1637	2497	85.6	+	0	ID=1_3;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.494;conf=100.00;score=85.61;cscore=69.29;sscore=16.32;rscore=9.79;uscore=2.54;tscore=3.99;
-seq_37	Prodigal_v2.6.3	CDS	3683	3874	8.3	-	0	ID=1_4;partial=00;start_type=GTG;rbs_motif=GGAGG;rbs_spacer=5-10bp;gc_cont=0.526;conf=85.23;score=7.63;cscore=9.18;sscore=-1.55;rscore=9.41;uscore=-2.38;tscore=-7.93;
-seq_37	Prodigal_v2.6.3	CDS	3906	4274	16.5	+	0	ID=1_5;partial=00;start_type=ATG;rbs_motif=AGxAGG/AGGxGG;rbs_spacer=5-10bp;gc_cont=0.515;conf=97.82;score=16.55;cscore=10.01;sscore=6.54;rscore=3.64;uscore=-1.09;tscore=3.99;
-seq_37	Prodigal_v2.6.3	CDS	4329	4457	-0.7	+	0	ID=1_6;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.612;conf=50.02;score=0.00;cscore=-2.79;sscore=2.79;rscore=7.45;uscore=-6.85;tscore=2.01;
-seq_37	Prodigal_v2.6.3	CDS	4513	5130	24.6	-	0	ID=1_7;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.617;conf=99.70;score=25.28;cscore=18.49;sscore=6.78;rscore=3.02;uscore=-0.90;tscore=3.99;
-seq_37	Prodigal_v2.6.3	CDS	5186	6268	103.0	-	0	ID=1_8;partial=00;start_type=GTG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.562;conf=100.00;score=102.35;cscore=107.16;sscore=-4.81;rscore=3.02;uscore=-1.18;tscore=-5.99;
-seq_37	Prodigal_v2.6.3	CDS	6444	6683	14.7	+	0	ID=1_9;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.617;conf=96.72;score=14.73;cscore=8.23;sscore=6.50;rscore=9.28;uscore=-6.57;tscore=3.78;
-seq_37	Prodigal_v2.6.3	CDS	6742	6972	13.0	+	0	ID=1_10;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.506;conf=95.24;score=13.04;cscore=-6.64;sscore=19.68;rscore=13.47;uscore=3.07;tscore=3.64;
-seq_37	Prodigal_v2.6.3	CDS	7569	7826	14.3	+	0	ID=1_11;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.492;conf=95.86;score=13.67;cscore=6.52;sscore=7.15;rscore=3.02;uscore=0.80;tscore=3.99;
-seq_37	Prodigal_v2.6.3	CDS	7832	8020	5.1	-	0	ID=1_12;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.471;conf=76.50;score=5.14;cscore=-4.64;sscore=9.78;rscore=10.99;uscore=-3.68;tscore=2.97;
+# Sequence Data: seqnum=1;seqlen=9183;seqhdr="seq_37"
+# Model Data: version=Prodigal.v2.6.3;run_type=Metagenomic;model="21|Haloquadratum_walsbyi_DSM_16790|A|47.9|11|0";gc_cont=47.90;transl_table=11;uses_sd=0
+seq_37	Prodigal_v2.6.3	CDS	62	598	59.8	+	0	ID=1_1;partial=00;start_type=ATG;rbs_motif=ATA;rbs_spacer=4bp;gc_cont=0.376;conf=100.00;score=59.76;cscore=49.46;sscore=10.31;rscore=7.06;uscore=-1.02;tscore=4.27;
+seq_37	Prodigal_v2.6.3	CDS	1305	2114	65.7	+	0	ID=1_2;partial=00;start_type=ATG;rbs_motif=ATA;rbs_spacer=7bp;gc_cont=0.437;conf=100.00;score=65.03;cscore=57.64;sscore=7.39;rscore=4.35;uscore=-0.58;tscore=4.27;
+seq_37	Prodigal_v2.6.3	CDS	3457	4317	64.1	-	0	ID=1_3;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.490;conf=100.00;score=63.45;cscore=56.39;sscore=7.06;rscore=-0.25;uscore=3.69;tscore=4.27;
+seq_37	Prodigal_v2.6.3	CDS	5127	5579	8.8	+	0	ID=1_4;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.448;conf=88.34;score=8.81;cscore=5.51;sscore=3.30;rscore=-0.25;uscore=-0.72;tscore=4.27;
+seq_37	Prodigal_v2.6.3	CDS	5612	6019	11.4	+	0	ID=1_5;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.485;conf=94.42;score=12.30;cscore=8.40;sscore=3.90;rscore=-0.25;uscore=-1.04;tscore=4.27;

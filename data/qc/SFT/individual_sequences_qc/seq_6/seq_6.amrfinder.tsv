@@ -1,5 +1,2 @@
 Protein id	Contig id	Start	Stop	Strand	Element symbol	Element name	Scope	Type	Subtype	Class	Subclass	Method	Target length	Reference sequence length	% Coverage of reference	% Identity to reference	Alignment length	Closest reference accession	Closest reference name	HMM accession	HMM description
-NA	seq_6	135	791	-	catA1	type A-1 chloramphenicol O-acetyltransferase	core	AMR	AMR	PHENICOL	CHLORAMPHENICOL	EXACTX	219	219	100.00	100.00	219	WP_000412211.1	type A-1 chloramphenicol O-acetyltransferase	NA	NA
-NA	seq_6	2514	3170	-	catA1	type A-1 chloramphenicol O-acetyltransferase	core	AMR	AMR	PHENICOL	CHLORAMPHENICOL	EXACTX	219	219	100.00	100.00	219	WP_000412211.1	type A-1 chloramphenicol O-acetyltransferase	NA	NA
-NA	seq_6	5700	6719	+	aph(4)-Ia	aminoglycoside O-phosphotransferase APH(4)-Ia	core	AMR	AMR	AMINOGLYCOSIDE	HYGROMYCIN	BLASTX	340	341	99.71	100.00	340	WP_000742814.1	aminoglycoside O-phosphotransferase APH(4)-Ia	NA	NA
-NA	seq_6	8070	8927	-	blaTEM-116	broad-spectrum class A beta-lactamase TEM-116	core	AMR	AMR	BETA-LACTAM	BETA-LACTAM	ALLELEX	286	286	100.00	100.00	286	WP_000027050.1	broad-spectrum class A beta-lactamase TEM-116	NA	NA
+NA	seq_6	1167	2024	+	blaTEM-1	broad-spectrum class A beta-lactamase TEM-1	core	AMR	AMR	BETA-LACTAM	BETA-LACTAM	ALLELEX	286	286	100.00	100.00	286	WP_000027057.1	broad-spectrum class A beta-lactamase TEM-1	NA	NA

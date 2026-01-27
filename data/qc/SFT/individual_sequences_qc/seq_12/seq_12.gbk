@@ -1,3 +1,19 @@
-DEFINITION  seqnum=1;seqlen=1372;seqhdr="seq_12";version=Prodigal.v2.6.3;run_type=Metagenomic;model="5|Anaplasma_marginale_Maries|B|49.8|11|1";gc_cont=49.80;transl_table=11;uses_sd=1
+DEFINITION  seqnum=1;seqlen=10430;seqhdr="seq_12";version=Prodigal.v2.6.3;run_type=Metagenomic;model="25|Marinobacter_aquaeolei_VT8|B|57.3|11|1";gc_cont=57.30;transl_table=11;uses_sd=1
 FEATURES             Location/Qualifiers
+     CDS             309..1103
+                     /note="ID=1_1;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.597;conf=100.00;score=60.69;cscore=46.94;sscore=13.75;rscore=8.92;uscore=1.00;tscore=3.83;"
+     CDS             1121..1981
+                     /note="ID=1_2;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.491;conf=99.70;score=25.28;cscore=11.99;sscore=13.29;rscore=8.62;uscore=-0.25;tscore=3.83;"
+     CDS             3253..3972
+                     /note="ID=1_3;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.622;conf=100.00;score=162.33;cscore=164.93;sscore=-2.61;rscore=-6.26;uscore=0.47;tscore=3.83;"
+     CDS             4195..4518
+                     /note="ID=1_4;partial=00;start_type=TTG;rbs_motif=None;rbs_spacer=None;gc_cont=0.509;conf=97.64;score=16.20;cscore=31.51;sscore=-15.32;rscore=-6.26;uscore=-1.16;tscore=-7.25;"
+     CDS             4867..5661
+                     /note="ID=1_5;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.594;conf=100.00;score=55.90;cscore=43.11;sscore=12.79;rscore=8.92;uscore=0.69;tscore=3.83;"
+     CDS             5868..6242
+                     /note="ID=1_6;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.699;conf=100.00;score=83.04;cscore=61.22;sscore=21.82;rscore=14.12;uscore=4.51;tscore=3.83;"
+     CDS             7554..8243
+                     /note="ID=1_7;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.622;conf=100.00;score=149.50;cscore=152.91;sscore=-3.41;rscore=-6.26;uscore=-0.33;tscore=3.83;"
+     CDS             8950..9987
+                     /note="ID=1_8;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.583;conf=100.00;score=69.76;cscore=53.62;sscore=16.14;rscore=8.92;uscore=4.04;tscore=3.83;"
 //

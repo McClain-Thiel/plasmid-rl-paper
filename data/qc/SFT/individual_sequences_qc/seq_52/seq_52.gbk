@@ -1,9 +1,3 @@
-DEFINITION  seqnum=1;seqlen=1380;seqhdr="seq_52";version=Prodigal.v2.6.3;run_type=Metagenomic;model="30|Mycobacterium_leprae_TN|B|57.8|11|1";gc_cont=57.80;transl_table=11;uses_sd=1
+DEFINITION  seqnum=1;seqlen=1333;seqhdr="seq_52";version=Prodigal.v2.6.3;run_type=Metagenomic;model="0|Mycoplasma_bovis_PG45|B|29.3|4|1";gc_cont=29.30;transl_table=4;uses_sd=1
 FEATURES             Location/Qualifiers
-     CDS             17..514
-                     /note="ID=1_1;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.629;conf=52.44;score=0.42;cscore=0.20;sscore=0.23;rscore=-4.20;uscore=0.78;tscore=3.65;"
-     CDS             634..993
-                     /note="ID=1_2;partial=00;start_type=ATG;rbs_motif=GGxGG;rbs_spacer=3-4bp;gc_cont=0.661;conf=95.81;score=13.62;cscore=7.28;sscore=6.34;rscore=2.91;uscore=-0.22;tscore=3.65;"
-     CDS             complement(907..1302)
-                     /note="ID=1_3;partial=00;start_type=GTG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.667;conf=91.81;score=10.51;cscore=-2.83;sscore=13.34;rscore=14.19;uscore=0.17;tscore=-0.51;"
 //

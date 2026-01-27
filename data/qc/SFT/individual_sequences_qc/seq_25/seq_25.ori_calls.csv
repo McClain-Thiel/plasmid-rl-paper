@@ -1,1 +1,2 @@
-sequence,ori_type,pct_identity,pct_cov_subject,q_start,q_end,strand,qlen,sstart,send,slen,length,bitscore,evalue
+sequence,qseqid,ori_type,pct_identity,pct_cov_subject,q_start,q_end,strand,qlen,sstart,send,slen,length,bitscore,evalue
+seq_25,seq_25,pBBR1,99.926,94.07252440725244,1058,2406,+,2406,1,1348,1434,1349,2425,0.0

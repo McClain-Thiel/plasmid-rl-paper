@@ -1,5 +1,3 @@
-DEFINITION  seqnum=1;seqlen=2046;seqhdr="seq_64";version=Prodigal.v2.6.3;run_type=Metagenomic;model="17|Desulfotomaculum_acetoxidans_DSM_771|B|41.5|11|1";gc_cont=41.60;transl_table=11;uses_sd=1
+DEFINITION  seqnum=1;seqlen=8;seqhdr="seq_64";version=Prodigal.v2.6.3;run_type=Metagenomic;model="1|Mycoplasma_pneumoniae_M129|B|40.0|4|0";gc_cont=40.00;transl_table=4;uses_sd=0
 FEATURES             Location/Qualifiers
-     CDS             complement(313..447)
-                     /note="ID=1_1;partial=00;start_type=ATG;rbs_motif=AGGA/GGAG/GAGG;rbs_spacer=11-12bp;gc_cont=0.519;conf=87.81;score=8.59;cscore=8.70;sscore=-0.11;rscore=1.85;uscore=-3.46;tscore=1.50;"
 //

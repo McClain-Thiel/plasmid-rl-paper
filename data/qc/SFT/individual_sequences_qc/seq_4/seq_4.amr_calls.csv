@@ -1,2 +1,2 @@
 sequence,symbol,name,start,end,strand,pct_identity,pct_cov
-seq_4,blaTEM-171,class A beta-lactamase TEM-171,883,1740,+,100.0,100.0
+seq_4,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,4510,5322,-,100.0,100.0

@@ -1,0 +1,66 @@
+sequence,symbol,name,start,end,strand,pct_identity,pct_cov
+seq_1,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,2024,2881,-,100.0,100.0
+seq_11,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,2025,2882,-,100.0,100.0
+seq_13,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,2099,2911,-,100.0,100.0
+seq_15,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,1890,2747,-,100.0,100.0
+seq_15,catA1,type A-1 chloramphenicol O-acetyltransferase,2956,3612,+,100.0,100.0
+seq_15,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,3961,4773,-,100.0,100.0
+seq_15,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,7894,8706,-,100.0,100.0
+seq_17,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,1305,2111,+,100.0,100.0
+seq_17,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,3460,4317,-,100.0,100.0
+seq_21,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,2024,2881,-,100.0,100.0
+seq_21,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,6408,7265,-,100.0,100.0
+seq_23,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,2250,3062,-,100.0,100.0
+seq_27,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,2627,3484,-,100.0,100.0
+seq_29,catA1,type A-1 chloramphenicol O-acetyltransferase,1970,2626,-,100.0,100.0
+seq_29,blaTEM-1,broad-spectrum class A beta-lactamase TEM-1,3778,4635,-,100.0,100.0
+seq_3,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,1259,2065,+,99.26,100.0
+seq_31,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,3651,4508,+,100.0,100.0
+seq_33,blaTEM-1,broad-spectrum class A beta-lactamase TEM-1,1139,1996,+,100.0,100.0
+seq_33,tet(C),tetracycline efflux MFS transporter Tet(C),4019,4639,-,100.0,52.27
+seq_37,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,2514,3371,-,100.0,100.0
+seq_37,aac(3)-Ia,aminoglycoside N-acetyltransferase AAC(3)-Ia,4709,5170,-,100.0,100.0
+seq_37,blaTEM,TEM family class A beta-lactamase,5938,6486,-,100.0,63.99
+seq_39,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,2646,3452,+,100.0,100.0
+seq_39,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,4801,5658,-,100.0,100.0
+seq_41,catA1,type A-1 chloramphenicol O-acetyltransferase,2259,2699,-,100.0,67.12
+seq_43,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,2194,3051,-,100.0,100.0
+seq_45,blaTEM,TEM family class A beta-lactamase,1480,2205,-,100.0,84.62
+seq_49,catA1,type A-1 chloramphenicol O-acetyltransferase,1606,2259,-,100.0,99.54
+seq_49,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,2909,3715,+,99.26,100.0
+seq_51,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,3683,4540,+,100.0,100.0
+seq_51,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,6575,7432,+,100.0,100.0
+seq_51,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,7727,8539,+,100.0,100.0
+seq_53,aph(3')-IIa,aminoglycoside O-phosphotransferase APH(3')-IIa,5031,5822,-,100.0,100.0
+seq_53,blaTEM,TEM family class A beta-lactamase,8391,9191,+,100.0,93.36
+seq_55,aph(3')-IIa,aminoglycoside O-phosphotransferase APH(3')-IIa,1872,2663,-,100.0,100.0
+seq_56,blaTEM,TEM family class A beta-lactamase,230,1084,-,100.0,99.65
+seq_57,tet(C),tetracycline efflux MFS transporter Tet(C),1079,1708,+,100.0,53.71
+seq_57,catA1,type A-1 chloramphenicol O-acetyltransferase,3987,4643,-,100.0,100.0
+seq_59,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,3771,4628,+,100.0,100.0
+seq_59,catA1,type A-1 chloramphenicol O-acetyltransferase,5496,6152,+,100.0,100.0
+seq_61,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,1894,2751,-,100.0,100.0
+seq_67,blaTEM,TEM family class A beta-lactamase,2590,3297,-,98.31,82.52
+seq_71,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,2644,3501,-,100.0,100.0
+seq_73,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,3308,4165,-,100.0,100.0
+seq_77,aph(4)-Ia,aminoglycoside O-phosphotransferase APH(4)-Ia,2766,3785,+,100.0,99.71
+seq_77,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,5137,5994,-,100.0,100.0
+seq_8,blaTEM,TEM family class A beta-lactamase,3279,3992,-,99.16,83.22
+seq_8,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,5514,6371,-,100.0,100.0
+seq_83,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,1857,2714,-,100.0,100.0
+seq_85,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,3128,3985,-,100.0,100.0
+seq_85,catA1,type A-1 chloramphenicol O-acetyltransferase,4555,4995,-,100.0,67.12
+seq_85,blaTEM,TEM family class A beta-lactamase,6307,7029,-,100.0,84.27
+seq_87,aadA1,ANT(3'')-Ia family aminoglycoside nucleotidyltransferase AadA1,2786,3574,-,100.0,100.0
+seq_89,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,1305,2111,+,100.0,100.0
+seq_89,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,3460,4317,-,100.0,100.0
+seq_89,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,5900,6757,+,100.0,100.0
+seq_89,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,7956,8762,-,100.0,100.0
+seq_9,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,2208,2984,-,100.0,96.28
+seq_9,aph(3')-IIa,aminoglycoside O-phosphotransferase APH(3')-IIa,3267,4058,+,100.0,100.0
+seq_93,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,2630,3487,-,100.0,100.0
+seq_95,catA1,type A-1 chloramphenicol O-acetyltransferase,2147,2803,+,100.0,100.0
+seq_96,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,1441,2247,+,99.26,100.0
+seq_97,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,1062,1919,+,100.0,100.0
+seq_97,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,4824,5681,-,100.0,100.0
+seq_99,catA1,type A-1 chloramphenicol O-acetyltransferase,2023,2679,-,100.0,100.0

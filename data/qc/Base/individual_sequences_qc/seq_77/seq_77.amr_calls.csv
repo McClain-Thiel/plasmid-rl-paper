@@ -1,3 +1,2 @@
 sequence,symbol,name,start,end,strand,pct_identity,pct_cov
-seq_77,aph(4)-Ia,aminoglycoside O-phosphotransferase APH(4)-Ia,2766,3785,+,100.0,99.71
-seq_77,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,5137,5994,-,100.0,100.0
+seq_77,blaTEM,TEM family class A beta-lactamase,1953,2729,-,99.61,90.56

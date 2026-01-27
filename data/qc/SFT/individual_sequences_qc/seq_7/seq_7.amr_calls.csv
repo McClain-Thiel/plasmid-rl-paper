@@ -1,3 +1,1 @@
 sequence,symbol,name,start,end,strand,pct_identity,pct_cov
-seq_7,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,2148,3005,-,100.0,100.0
-seq_7,aac(3)-Ia,aminoglycoside N-acetyltransferase AAC(3)-Ia,6247,6681,+,100.0,94.16

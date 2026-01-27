@@ -1,7 +1,16 @@
 ##gff-version  3
-# Sequence Data: seqnum=1;seqlen=5823;seqhdr="seq_14"
-# Model Data: version=Prodigal.v2.6.3;run_type=Metagenomic;model="41|Shigella_dysenteriae_Sd197|B|51.2|11|1";gc_cont=51.20;transl_table=11;uses_sd=1
-seq_14	Prodigal_v2.6.3	CDS	688	951	9.5	+	0	ID=1_1;partial=00;start_type=GTG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.523;conf=89.78;score=9.45;cscore=9.36;sscore=0.10;rscore=2.34;uscore=0.49;tscore=-2.73;
-seq_14	Prodigal_v2.6.3	CDS	1055	1246	15.3	+	0	ID=1_2;partial=00;start_type=GTG;rbs_motif=GGAGG;rbs_spacer=5-10bp;gc_cont=0.526;conf=97.11;score=15.28;cscore=9.16;sscore=6.12;rscore=9.19;uscore=0.55;tscore=-3.61;
-seq_14	Prodigal_v2.6.3	CDS	2433	3293	65.1	-	0	ID=1_3;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.490;conf=100.00;score=64.46;cscore=49.79;sscore=14.67;rscore=10.46;uscore=1.54;tscore=3.32;
-seq_14	Prodigal_v2.6.3	CDS	3613	4995	207.1	+	0	ID=1_4;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.503;conf=99.99;score=207.13;cscore=186.45;sscore=20.68;rscore=14.75;uscore=2.62;tscore=3.32;
+# Sequence Data: seqnum=1;seqlen=11774;seqhdr="seq_14"
+# Model Data: version=Prodigal.v2.6.3;run_type=Metagenomic;model="20|Escherichia_coli_UMN026|B|50.7|11|1";gc_cont=50.70;transl_table=11;uses_sd=1
+seq_14	Prodigal_v2.6.3	CDS	180	293	6.1	-	0	ID=1_1;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.553;conf=77.74;score=5.44;cscore=2.50;sscore=2.94;rscore=1.24;uscore=0.60;tscore=1.75;
+seq_14	Prodigal_v2.6.3	CDS	587	1447	64.9	+	0	ID=1_2;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.494;conf=100.00;score=64.87;cscore=46.96;sscore=17.91;rscore=10.71;uscore=3.25;tscore=3.95;
+seq_14	Prodigal_v2.6.3	CDS	2633	2824	9.3	-	0	ID=1_3;partial=00;start_type=GTG;rbs_motif=GGAGG;rbs_spacer=5-10bp;gc_cont=0.526;conf=87.87;score=8.61;cscore=9.15;sscore=-0.54;rscore=9.59;uscore=-0.71;tscore=-8.77;
+seq_14	Prodigal_v2.6.3	CDS	2856	3224	7.4	+	0	ID=1_4;partial=00;start_type=ATG;rbs_motif=AGxAGG/AGGxGG;rbs_spacer=5-10bp;gc_cont=0.515;conf=84.70;score=7.45;cscore=-0.04;sscore=7.49;rscore=3.78;uscore=0.25;tscore=3.95;
+seq_14	Prodigal_v2.6.3	CDS	3279	3407	6.8	+	0	ID=1_5;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.612;conf=84.89;score=7.51;cscore=1.05;sscore=6.46;rscore=7.48;uscore=-3.69;tscore=1.99;
+seq_14	Prodigal_v2.6.3	CDS	3463	4080	33.3	-	0	ID=1_6;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.617;conf=99.96;score=33.97;cscore=26.45;sscore=7.51;rscore=2.79;uscore=0.10;tscore=3.95;
+seq_14	Prodigal_v2.6.3	CDS	4136	5227	125.6	-	0	ID=1_7;partial=00;start_type=GTG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.563;conf=100.00;score=124.90;cscore=132.75;sscore=-7.85;rscore=2.79;uscore=-3.36;tscore=-6.63;
+seq_14	Prodigal_v2.6.3	CDS	5394	5633	13.8	+	0	ID=1_8;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.617;conf=95.96;score=13.78;cscore=4.63;sscore=9.16;rscore=10.15;uscore=-4.74;tscore=3.74;
+seq_14	Prodigal_v2.6.3	CDS	6523	7383	64.9	+	0	ID=1_9;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.494;conf=100.00;score=64.22;cscore=46.96;sscore=17.25;rscore=10.71;uscore=3.25;tscore=3.95;
+seq_14	Prodigal_v2.6.3	CDS	8455	9546	125.6	+	0	ID=1_10;partial=00;start_type=GTG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.562;conf=100.00;score=124.90;cscore=132.75;sscore=-7.85;rscore=2.79;uscore=-3.36;tscore=-6.63;
+seq_14	Prodigal_v2.6.3	CDS	9669	10196	40.3	+	0	ID=1_11;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.549;conf=99.99;score=40.34;cscore=23.39;sscore=16.95;rscore=10.71;uscore=2.29;tscore=3.95;
+seq_14	Prodigal_v2.6.3	CDS	10373	11077	58.4	+	0	ID=1_12;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.400;conf=100.00;score=58.40;cscore=42.15;sscore=16.25;rscore=10.71;uscore=1.59;tscore=3.95;
+seq_14	Prodigal_v2.6.3	CDS	11288	11647	5.0	+	0	ID=1_13;partial=00;start_type=GTG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.675;conf=73.10;score=4.35;cscore=0.76;sscore=3.58;rscore=11.19;uscore=-0.32;tscore=-6.63;

@@ -1,2 +1,4 @@
 sequence,symbol,name,start,end,strand,pct_identity,pct_cov
-seq_59,catA1,type A-1 chloramphenicol O-acetyltransferase,3833,4489,+,100.0,100.0
+seq_59,aph(4)-Ia,aminoglycoside O-phosphotransferase APH(4)-Ia,975,1748,-,100.0,75.66
+seq_59,blaTEM-1,broad-spectrum class A beta-lactamase TEM-1,3249,4106,+,100.0,100.0
+seq_59,tet(C),tetracycline efflux MFS transporter Tet(C),6128,7024,-,100.0,75.51

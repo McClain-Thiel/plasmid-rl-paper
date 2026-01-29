@@ -1,9 +1,7 @@
-DEFINITION  seqnum=1;seqlen=4899;seqhdr="seq_24";version=Prodigal.v2.6.3;run_type=Metagenomic;model="33|Pelotomaculum_thermopropionicum_SI|B|53.0|11|1";gc_cont=53.00;transl_table=11;uses_sd=1
+DEFINITION  seqnum=1;seqlen=6118;seqhdr="seq_24";version=Prodigal.v2.6.3;run_type=Metagenomic;model="16|Chlorobium_tepidum_TLS|B|56.5|11|1";gc_cont=56.50;transl_table=11;uses_sd=1
 FEATURES             Location/Qualifiers
      CDS             64..2094
-                     /note="ID=1_1;partial=00;start_type=ATG;rbs_motif=GGxGG;rbs_spacer=5-10bp;gc_cont=0.560;conf=99.99;score=373.42;cscore=364.72;sscore=8.70;rscore=3.91;uscore=2.09;tscore=2.70;"
+                     /note="ID=1_1;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.560;conf=99.99;score=373.22;cscore=368.28;sscore=4.95;rscore=-0.18;uscore=1.14;tscore=3.98;"
      CDS             2949..3572
-                     /note="ID=1_2;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.466;conf=96.19;score=14.04;cscore=8.34;sscore=5.71;rscore=0.52;uscore=3.14;tscore=2.70;"
-     CDS             3589..3720
-                     /note="ID=1_3;partial=00;start_type=TTG;rbs_motif=GGAGG;rbs_spacer=5-10bp;gc_cont=0.591;conf=60.70;score=1.89;cscore=-2.38;sscore=4.27;rscore=6.27;uscore=1.06;tscore=-3.65;"
+                     /note="ID=1_2;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.466;conf=99.52;score=23.22;cscore=7.32;sscore=15.90;rscore=6.39;uscore=6.18;tscore=3.98;"
 //

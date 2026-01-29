@@ -1,3 +1,1 @@
 sequence,symbol,name,start,end,strand,pct_identity,pct_cov
-seq_83,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,3415,4221,+,99.26,100.0
-seq_83,aadA1,ANT(3'')-Ia family aminoglycoside nucleotidyltransferase AadA1,6158,6946,-,100.0,100.0

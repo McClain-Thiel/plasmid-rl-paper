@@ -1,13 +1,12 @@
 ##gff-version  3
-# Sequence Data: seqnum=1;seqlen=14230;seqhdr="seq_67"
+# Sequence Data: seqnum=1;seqlen=9795;seqhdr="seq_67"
 # Model Data: version=Prodigal.v2.6.3;run_type=Metagenomic;model="20|Escherichia_coli_UMN026|B|50.7|11|1";gc_cont=50.70;transl_table=11;uses_sd=1
 seq_67	Prodigal_v2.6.3	CDS	62	598	42.2	+	0	ID=1_1;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.376;conf=99.99;score=42.18;cscore=22.53;sscore=19.65;rscore=14.84;uscore=0.86;tscore=3.95;
-seq_67	Prodigal_v2.6.3	CDS	1883	2743	66.2	-	0	ID=1_2;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.491;conf=100.00;score=65.53;cscore=48.28;sscore=17.25;rscore=10.71;uscore=3.25;tscore=3.95;
-seq_67	Prodigal_v2.6.3	CDS	3021	3698	110.3	+	0	ID=1_3;partial=00;start_type=ATG;rbs_motif=3Base/5BMM;rbs_spacer=13-15bp;gc_cont=0.503;conf=100.00;score=110.27;cscore=112.69;sscore=-2.42;rscore=-6.58;uscore=0.21;tscore=3.95;
-seq_67	Prodigal_v2.6.3	CDS	4804	5664	66.5	-	0	ID=1_4;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.490;conf=100.00;score=65.80;cscore=48.55;sscore=17.25;rscore=10.71;uscore=3.25;tscore=3.95;
-seq_67	Prodigal_v2.6.3	CDS	5881	6558	136.0	+	0	ID=1_5;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.503;conf=100.00;score=135.99;cscore=113.53;sscore=22.45;rscore=14.84;uscore=3.67;tscore=3.95;
-seq_67	Prodigal_v2.6.3	CDS	7654	8313	66.1	-	0	ID=1_6;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.442;conf=100.00;score=65.44;cscore=49.92;sscore=15.53;rscore=10.71;uscore=1.52;tscore=3.95;
-seq_67	Prodigal_v2.6.3	CDS	8526	9203	136.0	+	0	ID=1_7;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.503;conf=100.00;score=135.99;cscore=113.53;sscore=22.45;rscore=14.84;uscore=3.67;tscore=3.95;
-seq_67	Prodigal_v2.6.3	CDS	10308	11168	66.5	-	0	ID=1_8;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.490;conf=100.00;score=65.80;cscore=48.55;sscore=17.25;rscore=10.71;uscore=3.25;tscore=3.95;
-seq_67	Prodigal_v2.6.3	CDS	11385	12062	136.0	+	0	ID=1_9;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.503;conf=100.00;score=135.99;cscore=113.53;sscore=22.45;rscore=14.84;uscore=3.67;tscore=3.95;
-seq_67	Prodigal_v2.6.3	CDS	13158	13817	66.1	-	0	ID=1_10;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.442;conf=100.00;score=66.10;cscore=49.92;sscore=16.18;rscore=10.71;uscore=1.52;tscore=3.95;
+seq_67	Prodigal_v2.6.3	CDS	1244	1903	65.6	+	0	ID=1_2;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.448;conf=100.00;score=64.94;cscore=50.98;sscore=13.96;rscore=10.71;uscore=-0.05;tscore=3.95;
+seq_67	Prodigal_v2.6.3	CDS	2245	2550	36.8	+	0	ID=1_3;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.503;conf=99.98;score=36.17;cscore=30.16;sscore=6.00;rscore=2.79;uscore=-0.09;tscore=3.95;
+seq_67	Prodigal_v2.6.3	CDS	2752	3435	93.6	+	0	ID=1_4;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.629;conf=100.00;score=92.98;cscore=75.33;sscore=17.65;rscore=14.84;uscore=-0.49;tscore=3.95;
+seq_67	Prodigal_v2.6.3	CDS	4212	5072	64.2	+	0	ID=1_5;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.494;conf=100.00;score=63.60;cscore=46.96;sscore=16.63;rscore=10.71;uscore=2.63;tscore=3.95;
+seq_67	Prodigal_v2.6.3	CDS	6258	6449	9.3	-	0	ID=1_6;partial=00;start_type=GTG;rbs_motif=GGAGG;rbs_spacer=5-10bp;gc_cont=0.526;conf=89.38;score=9.26;cscore=9.15;sscore=0.11;rscore=9.59;uscore=-0.71;tscore=-8.77;
+seq_67	Prodigal_v2.6.3	CDS	6553	6816	6.5	-	0	ID=1_7;partial=00;start_type=GTG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.523;conf=84.61;score=7.41;cscore=10.41;sscore=-2.99;rscore=2.79;uscore=-0.11;tscore=-6.63;
+seq_67	Prodigal_v2.6.3	CDS	6846	7202	14.0	-	0	ID=1_8;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.616;conf=96.69;score=14.69;cscore=7.17;sscore=7.51;rscore=2.79;uscore=0.10;tscore=3.95;
+seq_67	Prodigal_v2.6.3	CDS	7258	8349	125.6	-	0	ID=1_9;partial=00;start_type=GTG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.563;conf=100.00;score=125.55;cscore=132.75;sscore=-7.20;rscore=2.79;uscore=-3.36;tscore=-6.63;

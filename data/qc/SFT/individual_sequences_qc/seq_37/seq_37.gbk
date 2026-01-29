@@ -1,9 +1,7 @@
-DEFINITION  seqnum=1;seqlen=4083;seqhdr="seq_37";version=Prodigal.v2.6.3;run_type=Metagenomic;model="20|Escherichia_coli_UMN026|B|50.7|11|1";gc_cont=50.70;transl_table=11;uses_sd=1
+DEFINITION  seqnum=1;seqlen=3026;seqhdr="seq_37";version=Prodigal.v2.6.3;run_type=Metagenomic;model="15|Chlorobium_phaeobacteroides_BS1|B|48.9|11|0";gc_cont=48.90;transl_table=11;uses_sd=0
 FEATURES             Location/Qualifiers
      CDS             62..598
-                     /note="ID=1_1;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.376;conf=99.99;score=42.18;cscore=22.53;sscore=19.65;rscore=14.84;uscore=0.86;tscore=3.95;"
-     CDS             complement(927..1397)
-                     /note="ID=1_2;partial=00;start_type=ATG;rbs_motif=GGAGG;rbs_spacer=5-10bp;gc_cont=0.597;conf=99.97;score=35.34;cscore=16.97;sscore=18.38;rscore=12.68;uscore=2.39;tscore=3.95;"
-     CDS             1565..2425
-                     /note="ID=1_3;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.555;conf=99.99;score=189.00;cscore=171.10;sscore=17.91;rscore=10.71;uscore=3.25;tscore=3.95;"
+                     /note="ID=1_1;partial=00;start_type=ATG;rbs_motif=AAA;rbs_spacer=15bp;gc_cont=0.376;conf=99.99;score=42.94;cscore=35.56;sscore=7.37;rscore=3.71;uscore=0.37;tscore=3.30;"
+     CDS             complement(927..1445)
+                     /note="ID=1_2;partial=00;start_type=ATG;rbs_motif=AAA;rbs_spacer=13bp;gc_cont=0.592;conf=99.99;score=39.76;cscore=26.62;sscore=13.14;rscore=3.71;uscore=6.13;tscore=3.30;"
 //

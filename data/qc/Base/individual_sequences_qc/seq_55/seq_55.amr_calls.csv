@@ -1,3 +1,4 @@
 sequence,symbol,name,start,end,strand,pct_identity,pct_cov
-seq_55,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,1724,2581,+,100.0,100.0
-seq_55,blaTEM,TEM family class A beta-lactamase,5201,6058,+,99.65,100.0
+seq_55,catA1,type A-1 chloramphenicol O-acetyltransferase,1059,1715,+,100.0,100.0
+seq_55,catA1,type A-1 chloramphenicol O-acetyltransferase,2008,2664,-,100.0,100.0
+seq_55,aadA1,ANT(3'')-Ia family aminoglycoside nucleotidyltransferase AadA1,2770,3558,-,100.0,100.0

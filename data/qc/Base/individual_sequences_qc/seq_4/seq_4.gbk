@@ -1,3 +1,5 @@
-DEFINITION  seqnum=1;seqlen=191;seqhdr="seq_4";version=Prodigal.v2.6.3;run_type=Metagenomic;model="5|Anaplasma_marginale_Maries|B|49.8|11|1";gc_cont=49.80;transl_table=11;uses_sd=1
+DEFINITION  seqnum=1;seqlen=2187;seqhdr="seq_4";version=Prodigal.v2.6.3;run_type=Metagenomic;model="1|Mycoplasma_pneumoniae_M129|B|40.0|4|0";gc_cont=40.00;transl_table=4;uses_sd=0
 FEATURES             Location/Qualifiers
+     CDS             1037..1207
+                     /note="ID=1_1;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.468;conf=92.42;score=10.88;cscore=7.32;sscore=3.56;rscore=0.01;uscore=-0.08;tscore=3.63;"
 //

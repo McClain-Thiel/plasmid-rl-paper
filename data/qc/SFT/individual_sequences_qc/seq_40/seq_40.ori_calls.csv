@@ -1,1 +1,2 @@
-sequence,ori_type,pct_identity,pct_cov_subject,q_start,q_end,strand,qlen,sstart,send,slen,length,bitscore,evalue
+sequence,qseqid,ori_type,pct_identity,pct_cov_subject,q_start,q_end,strand,qlen,sstart,send,slen,length,bitscore,evalue
+seq_40,seq_40,Col(pHAD28)_1__KU674895,89.908,83.20610687022901,912,1020,-,1903,123,15,131,109,148,3.22e-36

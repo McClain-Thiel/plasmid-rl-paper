@@ -1,11 +1,5 @@
-DEFINITION  seqnum=1;seqlen=4306;seqhdr="seq_62";version=Prodigal.v2.6.3;run_type=Metagenomic;model="34|Prochlorococcus_marinus_MIT_9313|B|50.7|11|0";gc_cont=50.70;transl_table=11;uses_sd=0
+DEFINITION  seqnum=1;seqlen=1542;seqhdr="seq_62";version=Prodigal.v2.6.3;run_type=Metagenomic;model="21|Haloquadratum_walsbyi_DSM_16790|A|47.9|11|0";gc_cont=47.90;transl_table=11;uses_sd=0
 FEATURES             Location/Qualifiers
-     CDS             171..1121
-                     /note="ID=1_1;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.507;conf=100.00;score=56.95;cscore=52.84;sscore=4.10;rscore=0.00;uscore=-0.50;tscore=4.60;"
-     CDS             complement(1425..1634)
-                     /note="ID=1_2;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.571;conf=91.97;score=10.61;cscore=6.17;sscore=4.44;rscore=0.00;uscore=1.28;tscore=3.81;"
-     CDS             1669..2574
-                     /note="ID=1_3;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.529;conf=100.00;score=63.81;cscore=58.84;sscore=4.97;rscore=0.00;uscore=0.37;tscore=4.60;"
-     CDS             complement(3711..3917)
-                     /note="ID=1_4;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.512;conf=65.73;score=2.83;cscore=-1.92;sscore=4.76;rscore=0.00;uscore=1.50;tscore=3.76;"
+     CDS             1039..1185
+                     /note="ID=1_1;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.558;conf=75.20;score=4.83;cscore=6.47;sscore=-1.64;rscore=-0.43;uscore=-3.67;tscore=2.46;"
 //

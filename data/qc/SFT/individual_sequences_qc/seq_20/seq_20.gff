@@ -1,3 +1,4 @@
 ##gff-version  3
-# Sequence Data: seqnum=1;seqlen=1272;seqhdr="seq_20"
-# Model Data: version=Prodigal.v2.6.3;run_type=Metagenomic;model="9|Brucella_canis_ATCC_23365|B|57.2|11|1";gc_cont=57.20;transl_table=11;uses_sd=1
+# Sequence Data: seqnum=1;seqlen=1347;seqhdr="seq_20"
+# Model Data: version=Prodigal.v2.6.3;run_type=Metagenomic;model="22|Halorubrum_lacusprofundi_ATCC_49239|A|57.1|11|0";gc_cont=57.10;transl_table=11;uses_sd=0
+seq_20	Prodigal_v2.6.3	CDS	806	991	9.1	+	0	ID=1_1;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.565;conf=88.90;score=9.05;cscore=5.48;sscore=3.57;rscore=0.00;uscore=0.20;tscore=3.37;

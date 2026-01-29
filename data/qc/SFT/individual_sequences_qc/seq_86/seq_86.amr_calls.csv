@@ -1,2 +1,2 @@
 sequence,symbol,name,start,end,strand,pct_identity,pct_cov
-seq_86,blaTEM-181,class A beta-lactamase TEM-181,2640,3497,+,100.0,100.0
+seq_86,blaTEM-181,class A beta-lactamase TEM-181,1491,2348,+,100.0,100.0

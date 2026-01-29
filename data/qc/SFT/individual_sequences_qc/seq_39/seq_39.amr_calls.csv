@@ -1,3 +1,2 @@
 sequence,symbol,name,start,end,strand,pct_identity,pct_cov
-seq_39,aph(3')-IIa,aminoglycoside O-phosphotransferase APH(3')-IIa,3415,4206,-,100.0,100.0
-seq_39,aph(3')-IIa,aminoglycoside O-phosphotransferase APH(3')-IIa,4620,5411,-,100.0,100.0
+seq_39,aph(3')-IIa,aminoglycoside O-phosphotransferase APH(3')-IIa,3420,4211,-,100.0,100.0

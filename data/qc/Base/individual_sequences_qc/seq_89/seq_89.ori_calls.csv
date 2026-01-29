@@ -1,2 +1,2 @@
 sequence,qseqid,ori_type,pct_identity,pct_cov_subject,q_start,q_end,strand,qlen,sstart,send,slen,length,bitscore,evalue
-seq_89,seq_89,pBBR1,99.851,93.72384937238493,1058,2401,+,2401,1,1343,1434,1344,2412,0.0
+seq_89,seq_89,pBBR1,99.436,86.54114365411436,2026,3266,-,4483,1434,199,1434,1241,2203,0.0

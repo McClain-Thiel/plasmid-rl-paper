@@ -1,1 +1,4 @@
 sequence,symbol,name,start,end,strand,pct_identity,pct_cov
+seq_7,catA1,type A-1 chloramphenicol O-acetyltransferase,2052,2708,-,100.0,100.0
+seq_7,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,4901,5758,-,100.0,100.0
+seq_7,aph(3')-IIa,aminoglycoside O-phosphotransferase APH(3')-IIa,7364,8155,+,100.0,100.0

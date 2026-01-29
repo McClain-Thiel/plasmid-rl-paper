@@ -1,5 +1,5 @@
-DEFINITION  seqnum=1;seqlen=1569;seqhdr="seq_40";version=Prodigal.v2.6.3;run_type=Metagenomic;model="17|Desulfotomaculum_acetoxidans_DSM_771|B|41.5|11|1";gc_cont=41.60;transl_table=11;uses_sd=1
+DEFINITION  seqnum=1;seqlen=1903;seqhdr="seq_40";version=Prodigal.v2.6.3;run_type=Metagenomic;model="7|Archaeoglobus_fulgidus_DSM_4304|A|48.6|11|0";gc_cont=48.60;transl_table=11;uses_sd=0
 FEATURES             Location/Qualifiers
-     CDS             638..853
-                     /note="ID=1_1;partial=00;start_type=TTG;rbs_motif=AGxAGG/AGGxGG;rbs_spacer=5-10bp;gc_cont=0.384;conf=98.59;score=18.46;cscore=12.64;sscore=5.82;rscore=8.62;uscore=1.47;tscore=-4.27;"
+     CDS             complement(840..1085)
+                     /note="ID=1_1;partial=00;start_type=ATG;rbs_motif=AGGTG;rbs_spacer=9bp;gc_cont=0.528;conf=64.47;score=2.59;cscore=-5.11;sscore=7.70;rscore=11.64;uscore=-7.02;tscore=3.58;"
 //

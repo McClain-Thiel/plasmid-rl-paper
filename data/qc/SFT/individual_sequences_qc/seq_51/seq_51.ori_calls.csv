@@ -1,2 +1,4 @@
 sequence,qseqid,ori_type,pct_identity,pct_cov_subject,q_start,q_end,strand,qlen,sstart,send,slen,length,bitscore,evalue
-seq_51,seq_51,pBBR1,100.0,94.00278940027894,1058,2405,+,2405,1,1348,1434,1348,2432,0.0
+seq_51,seq_51,ColE1,99.83,100.0,2595,3183,+,14558,1,589,589,589,1058,0.0
+seq_51,seq_51,ColE1,99.83,100.0,5407,5995,+,14558,1,589,589,589,1058,0.0
+seq_51,seq_51,ColE1,99.83,100.0,10760,11348,+,14558,1,589,589,589,1058,0.0

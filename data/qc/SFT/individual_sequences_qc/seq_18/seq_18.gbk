@@ -1,5 +1,5 @@
-DEFINITION  seqnum=1;seqlen=1594;seqhdr="seq_18";version=Prodigal.v2.6.3;run_type=Metagenomic;model="6|Anaplasma_phagocytophilum_HZ|B|41.6|11|1";gc_cont=41.60;transl_table=11;uses_sd=1
+DEFINITION  seqnum=1;seqlen=1689;seqhdr="seq_18";version=Prodigal.v2.6.3;run_type=Metagenomic;model="6|Anaplasma_phagocytophilum_HZ|B|41.6|11|1";gc_cont=41.60;transl_table=11;uses_sd=1
 FEATURES             Location/Qualifiers
      CDS             74..1423
-                     /note="ID=1_1;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.475;conf=100.00;score=116.11;cscore=104.10;sscore=12.01;rscore=7.65;uscore=1.58;tscore=2.78;"
+                     /note="ID=1_1;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.474;conf=100.00;score=116.11;cscore=104.10;sscore=12.01;rscore=7.65;uscore=1.58;tscore=2.78;"
 //

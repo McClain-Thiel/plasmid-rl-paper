@@ -1,6 +1,4 @@
 ##gff-version  3
-# Sequence Data: seqnum=1;seqlen=5079;seqhdr="seq_65"
-# Model Data: version=Prodigal.v2.6.3;run_type=Metagenomic;model="40|Rothia_dentocariosa_ATCC_17931|B|53.7|11|1";gc_cont=53.70;transl_table=11;uses_sd=1
-seq_65	Prodigal_v2.6.3	CDS	62	598	52.3	+	0	ID=1_1;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.376;conf=100.00;score=52.30;cscore=33.68;sscore=18.62;rscore=14.32;uscore=0.72;tscore=3.58;
-seq_65	Prodigal_v2.6.3	CDS	2266	3126	73.6	+	0	ID=1_2;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.491;conf=100.00;score=72.96;cscore=56.04;sscore=16.92;rscore=10.64;uscore=3.35;tscore=3.58;
-seq_65	Prodigal_v2.6.3	CDS	4587	4949	18.7	-	0	ID=1_3;partial=00;start_type=GTG;rbs_motif=None;rbs_spacer=None;gc_cont=0.689;conf=98.67;score=18.73;cscore=31.09;sscore=-12.36;rscore=-5.94;uscore=-3.65;tscore=-2.78;
+# Sequence Data: seqnum=1;seqlen=2469;seqhdr="seq_65"
+# Model Data: version=Prodigal.v2.6.3;run_type=Metagenomic;model="44|Thermoplasma_volcanium_GSS1|A|39.9|11|1";gc_cont=39.90;transl_table=11;uses_sd=1
+seq_65	Prodigal_v2.6.3	CDS	62	598	54.1	+	0	ID=1_1;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.376;conf=100.00;score=54.12;cscore=49.04;sscore=5.08;rscore=4.93;uscore=-2.51;tscore=2.66;

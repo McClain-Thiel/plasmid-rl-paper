@@ -1,1 +1,5 @@
-sequence,ori_type,pct_identity,pct_cov_subject,q_start,q_end,strand,qlen,sstart,send,slen,length,bitscore,evalue
+sequence,qseqid,ori_type,pct_identity,pct_cov_subject,q_start,q_end,strand,qlen,sstart,send,slen,length,bitscore,evalue
+seq_69,seq_69,ColE1,99.83,100.0,10234,10822,-,14110,589,1,589,589,1058,0.0
+seq_69,seq_69,ColE1,99.83,100.0,7205,7793,-,14110,589,1,589,589,1058,0.0
+seq_69,seq_69,ColE1,99.83,100.0,4217,4805,-,14110,589,1,589,589,1058,0.0
+seq_69,seq_69,ColE1,99.83,100.0,1229,1817,-,14110,589,1,589,589,1058,0.0

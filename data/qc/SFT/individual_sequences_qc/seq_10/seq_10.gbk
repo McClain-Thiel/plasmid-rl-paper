@@ -1,5 +1,5 @@
-DEFINITION  seqnum=1;seqlen=1341;seqhdr="seq_10";version=Prodigal.v2.6.3;run_type=Metagenomic;model="1|Mycoplasma_pneumoniae_M129|B|40.0|4|0";gc_cont=40.00;transl_table=4;uses_sd=0
+DEFINITION  seqnum=1;seqlen=1387;seqhdr="seq_10";version=Prodigal.v2.6.3;run_type=Metagenomic;model="21|Haloquadratum_walsbyi_DSM_16790|A|47.9|11|0";gc_cont=47.90;transl_table=11;uses_sd=0
 FEATURES             Location/Qualifiers
-     CDS             complement(131..613)
-                     /note="ID=1_1;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.406;conf=92.48;score=10.91;cscore=5.49;sscore=5.42;rscore=0.02;uscore=0.00;tscore=5.40;"
+     CDS             331..858
+                     /note="ID=1_1;partial=00;start_type=ATG;rbs_motif=ATA;rbs_spacer=10bp;gc_cont=0.557;conf=97.06;score=15.21;cscore=7.44;sscore=7.77;rscore=4.35;uscore=-0.85;tscore=4.27;"
 //

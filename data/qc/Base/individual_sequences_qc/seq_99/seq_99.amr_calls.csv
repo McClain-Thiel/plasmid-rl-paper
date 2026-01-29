@@ -1,2 +1,6 @@
 sequence,symbol,name,start,end,strand,pct_identity,pct_cov
-seq_99,aac(3)-Ia,aminoglycoside N-acetyltransferase AAC(3)-Ia,2588,3049,-,100.0,100.0
+seq_99,catA1,type A-1 chloramphenicol O-acetyltransferase,2077,2733,-,100.0,100.0
+seq_99,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,4786,5598,-,99.63,100.0
+seq_99,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,7028,7840,-,100.0,100.0
+seq_99,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,9896,10753,-,100.0,100.0
+seq_99,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,12800,13657,-,100.0,100.0

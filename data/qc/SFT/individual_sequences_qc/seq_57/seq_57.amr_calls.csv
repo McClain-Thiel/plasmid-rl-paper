@@ -3,5 +3,7 @@ seq_57,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,2164,2976,-,100
 seq_57,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,3134,3991,-,100.0,100.0
 seq_57,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,6206,7018,-,100.0,100.0
 seq_57,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,7176,8033,-,100.0,100.0
-seq_57,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,10281,11093,-,100.0,100.0
-seq_57,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,11251,12108,-,100.0,100.0
+seq_57,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,10369,11181,-,100.0,100.0
+seq_57,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,11339,12196,-,100.0,100.0
+seq_57,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,13697,14509,-,100.0,100.0
+seq_57,blaTEM,TEM family class A beta-lactamase,14667,15392,-,100.0,84.62

@@ -1,1 +1,2 @@
 sequence,symbol,name,start,end,strand,pct_identity,pct_cov
+seq_35,blaTEM,TEM family class A beta-lactamase,4218,4961,+,100.0,86.71

@@ -1,3 +1,4 @@
 ##gff-version  3
-# Sequence Data: seqnum=1;seqlen=1333;seqhdr="seq_52"
-# Model Data: version=Prodigal.v2.6.3;run_type=Metagenomic;model="0|Mycoplasma_bovis_PG45|B|29.3|4|1";gc_cont=29.30;transl_table=4;uses_sd=1
+# Sequence Data: seqnum=1;seqlen=1378;seqhdr="seq_52"
+# Model Data: version=Prodigal.v2.6.3;run_type=Metagenomic;model="11|Candidatus_Amoebophilus_asiaticus_5a2|B|35.0|11|0";gc_cont=35.00;transl_table=11;uses_sd=0
+seq_52	Prodigal_v2.6.3	CDS	901	1152	22.5	+	0	ID=1_1;partial=00;start_type=ATG;rbs_motif=TATAA;rbs_spacer=12bp;gc_cont=0.433;conf=99.43;score=22.48;cscore=11.40;sscore=11.08;rscore=7.98;uscore=-0.35;tscore=3.45;
